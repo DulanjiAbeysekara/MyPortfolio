@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+    main>div:nth-child(2){
+        width: 22vw;
+        height: 22vw;
+        border-radius: 100%;
+        border: 20px solid grey;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    main>div:last-child{
+        width: 20vw;
+        height: 20vw;
+        border-radius: 100%;
+        border: 20px solid red;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    body>main>section>section{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    body>main>section>section>div{
+        width: 20vw;
+        height: 20vw;
+        border-radius: 100%;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    body>main>section>section>div>h1{
+        text-align: center;
+        color: deeppink;
+        position: relative;
+        top: 15vh;
+    }
+    body>main>section>section:first-child>div{
+       background-color: darkorange;
+    }
+    body>main>section>section:nth-child(2)>div{
+        background-color: darkcyan;
+    }
+    body>main>section>section:last-child>div{
+     background-color: darksalmon;
+    }
+
+    </style>
+</head>
+<body>
+<main>
+    <section>
+        <section>
+            <div>
+                <h1>Hello</h1>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h1>Welcome To</h1>
+            </div>
+        </section>
+        <section>
+            <div>
+                <h1>institute of software engineering</h1>
+            </div>
+        </section>
+    </section>
+   <div></div>
+   <div></div>
+</main>
+</body>
+</html>
