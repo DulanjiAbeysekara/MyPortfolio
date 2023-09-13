@@ -23,7 +23,7 @@
             left: 5px;
             margin:0;
             border-radius: 25px;
-            background: gray;
+            background: black;
             z-index: 3;
 
         }
@@ -35,7 +35,7 @@
             right: 0;
             top:5px;
             margin:auto;
-            box-shadow:1px 2px 9px 1px #6b5a5a;
+            box-shadow:1px 2px 9px 1px  ;
             z-index: 3;
             background: gray;
             border-radius:15px ;
@@ -46,6 +46,31 @@
             text-decoration:none;
             color: white;
             padding-right:2px;
+        }
+        main{
+            position: relative;
+            top:10px;
+            z-index:1;
+            padding-left:50px;
+            padding-right:50px;
+        }
+        main>section{
+            background: white;
+            border-radius: 10px;
+            box-shadow :0px 0px 3px 0px #6b5a5a;
+            filter: saturate(1.4);
+        }
+        main>section>hgroup>h1{
+            background: white;
+        }
+
+        main>section:nth-child(1){
+           background:url("assets/image/home.png" );
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+
+
         }
 
 
