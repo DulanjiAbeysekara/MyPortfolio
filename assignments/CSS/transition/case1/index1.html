@@ -3,8 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        body>section{
+            display: flex;
+            flex-direction: column;
+
+        }
+       body> section>div{
+           position: relative;
+            width:200px;
+            height: 100px;
+            background-color: darkorchid;
+            margin: 10px 0 0 10px;
+           right:200px;
+
+        }
+      body>section>div:hover{
+           transition-duration: 12s;
+           transition-property:all;
+           right: 10px;
+           background-color: white;
+       }
+      section>div>img{
+          height:40px;
+          width: 40px;
+          padding-right: 10px;
+          padding-top: 10px;
+
+      }
+
+
+    </style>
 </head>
 <body>
-
+<section>
+    <div><img src="assests/At sign.png"alt="png"><h2>Menu One</h2></i></div>
+    <div><img src="assests/Facebook.png"alt="png"><h2>Menu Two</h2></div>
+    <div><img src="assests/GitHub (2).png"alt="png"><h2>Menu Three</h2></div>
+    <div><img src="assests/LinkedIn Circled.png"alt="png"><h2>Menu Four</h2></div>
+    <div><img src="assests/Location.png"alt="png"><h2>Menu Five</h2></div>
+</section>
 </body>
 </html>
