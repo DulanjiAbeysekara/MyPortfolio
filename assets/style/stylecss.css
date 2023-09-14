@@ -24,6 +24,7 @@ header{
     border-radius:10px;
     z-index: 3;
     justify-content: space-between;
+    padding-left: 200px;
 }
 header>nav>menu>pre>a{
     display: inline-block;
@@ -59,9 +60,13 @@ main>section:nth-child(1){
     background-position: center;
 
 }
-main>section:nth-child(1)>aside{
+
+main>section:nth-child(1)>aside:nth-child(1){
         padding-left: 950px;
         padding-top: 200px;
+}
+main>section:nth-child(1)>aside:nth-child(2){
+    padding-left:50%;
 }
 main>section:nth-child(1)>section>hgroup>h1:nth-child(1){
     color: white;
