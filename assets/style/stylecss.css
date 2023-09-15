@@ -1,5 +1,11 @@
-*{
+* {
     scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
 }
 
 body{
@@ -11,28 +17,29 @@ body{
     border-radius: 25px;
     background: gray;
     z-index: 3;
-
 }
 header{
-    height: 50px;
-    width: 50vw;
     position: fixed;
     left: 0;
-    right: 0;
-    top:30px;
+    top:0;
+    width:100%;
+    display: flex;
     margin:auto;
-    border-radius:10px;
-    z-index: 3;
     justify-content: space-between;
-    padding-left: 200px;
+    z-index: 100; align-items: center;
+    padding-left:45%;
+    padding-top: 5%;
 }
 header>nav>menu>pre>a{
     display: inline-block;
     padding: 8px;
     text-decoration:none;
     color: white;
-    padding-right:6px;
     font-size:15px ;
+    transition:2s;
+}
+header>nav>menu>pre>a:hover{
+    color: #D31A38;
 }
 main{
     position: relative;
@@ -66,7 +73,8 @@ main>section:nth-child(1)>aside:nth-child(1){
         padding-top: 200px;
 }
 main>section:nth-child(1)>aside:nth-child(2){
-    padding-left:50%;
+    padding-left: 600px;
+    padding-top: 200px;
 }
 main>section:nth-child(1)>section>hgroup>h1:nth-child(1){
     color: white;
