@@ -201,7 +201,23 @@ main>section:nth-child(3)>div:nth-child(1){
     font-size: 20px;
     right: 60px;
 }
-main>section:nth-child(3)>div:nth-child(2)>pre>a{
+main>section:nth-child(3)>div:nth-child(3)>a>h4{
     color: #D31A38;
+    position: relative;
+}
+main>section:nth-child(3)>div:nth-child(2){
+    margin-left: 75px;
+    margin-bottom: 100px;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+main>section:nth-child(3)>div:nth-child(3){
+    margin-left: 75px;
+    margin-bottom: 100px;
+    position: relative;
+}
+main>section:nth-child(3)>div:nth-child(3)>a:nth-child(1)>h4{
+    padding-bottom: 70px;
 }
 
