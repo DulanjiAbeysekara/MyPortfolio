@@ -27,7 +27,6 @@ header{
     position: fixed;
     left: 0;
     top:0;
-    width:100%;
     display: flex;
     margin:auto;
     justify-content: space-between;
@@ -35,14 +34,30 @@ header{
     padding-left:45%;
     padding-top: 5%;
     font-family: "Corbel Light";
+    background-color: #373030;
+    width:99vw;
+    height:59px;
+
 }
-header>nav>menu>pre>a{
-    display: inline-block;
-    padding: 8px;
-    text-decoration:none;
+header nav>div>menu{
+    position: relative;
+    bottom:6vh;
+}
+
+header nav>div>menu>li{
+    display: inline-flex;
+    margin-left: 10px;
+}
+
+header nav>div>menu>li>a{
     color: white;
-    font-size:15px ;
-    transition:2s;
+    font-family: Libre Baskerville;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 8px;
+    padding: 1vh;
 }
 header>nav>menu>pre>a:hover,header>nav>menu>pre>a:active{
     color: #D31A38;
@@ -234,5 +249,33 @@ main>section:nth-child(5){
     background-attachment: fixed;
     height:130vh;
 }
-
-
+main>section:nth-child(6) {
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+main>section:nth-child(7) {
+    background-color: #373030;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+main>section:nth-child(8) {
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+main>section:nth-child(9) {
+    background-color: #373030;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+main>section:nth-child(10) {
+    background-color: black;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
