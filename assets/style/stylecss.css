@@ -175,13 +175,20 @@ main>section:nth-child(2)>div:nth-child(2)>address{
 }
 
 main>section:nth-child(3){
-    position: absolute;
+    position: relative;
     background-color:#000000;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
     font-size:20px;
     color: white;
-
+}
+main>section:nth-child(3)>div:nth-child(1){
+    position: absolute;
+    top:50px;
+    color: white;
+    text-decoration: underline white;
+    font-size: 20px;
+    right: 60px;
 }
 
