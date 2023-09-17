@@ -9,7 +9,7 @@
 }
 
 body{
-    position: absolute;
+    position: relative;
     padding: 16px;
     top:5px;
     left: 5px;
@@ -71,6 +71,7 @@ main>section:nth-child(1){
     justify-content: space-between;
     align-items: center;
     margin: auto;
+    position: relative;
 }
 
 main>section:nth-child(1)>div:nth-child(1)>h1:nth-child(1){
@@ -133,7 +134,6 @@ main>section:nth-child(1){
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-
 }
 
 main>section:nth-child(2){
@@ -141,43 +141,41 @@ main>section:nth-child(2){
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    justify-content: center;
     display: flex;
     align-items: center;
     gap: 2rem;
-
+    position: relative;
+    box-shadow: #D31A38;
 
 }
 main>section:nth-child(2)>div:nth-child(3){
-width: 35vw;
+    position: absolute;
+    width: 35vw;
 }
 main>section:nth-child(2)>div:nth-child(1){
     text-align: right;
     font-size: 20px;
     color: white;
     padding-bottom: 60%;
-    padding-left:7%;
+    padding-left:10%;
+    text-decoration:underline white;
 }
+
+
 main>section:nth-child(2)>div:nth-child(2){
     text-align: right;
     font-size: 20px;
     color: white;
-    padding-bottom: 60%;
-    padding-left:7%;
+    padding-left: 100px;
+    padding-bottom: 150px;
+}
+main>section:nth-child(2)>div:nth-child(2)>address{
+    font-size: 18px;
+    padding-left:15%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 main>section:nth-child(3){
+    position: absolute;
     background-color:#000000;
     background-attachment: fixed;
     background-size: cover;
