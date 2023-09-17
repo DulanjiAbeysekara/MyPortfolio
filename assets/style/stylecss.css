@@ -222,5 +222,17 @@ main>section:nth-child(3)>div:nth-child(3)>a:nth-child(1)>h4{
 }
 main>section:nth-child(4){
     background-color: #373030;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
 }
+main>section:nth-child(5){
+    background:url("../../assets/image/WhatsApp Image 2023-06-28 at 02.07 5.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:130vh;
+}
+
 
