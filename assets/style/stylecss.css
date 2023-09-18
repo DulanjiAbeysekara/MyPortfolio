@@ -350,6 +350,7 @@ main>section:nth-child(4){
     display: flex;
     align-items: center;
     justify-content: center;
+    height:120vh ;
 }
 main>section:nth-child(4)>h3{
     text-decoration: underline white;
@@ -407,13 +408,41 @@ main>section:nth-child(4)>h3{
 
 }
 .leter1{
-    position: relative;
+    position: absolute;
     left: 43%;
     font-size: 18px;
 }
+.leter3{
+    position: absolute;
+    top:60%;
+    right: 20%;
+    color:white;
+}
+.leter2{
+    position: absolute;
+    top: 65%;
+    right: 1046px;
+    color: white;
+}
+.pic{
+    position: absolute;
+    right: 45%;
+    bottom: 15%;
+}
 
-
-
+.pic1{
+    position: absolute;
+    right: 15%;
+    bottom: 15%;
+}
+.php{
+    position: relative;
+    right:41px;
+}
+.mysql{
+    position: relative;
+    right: 20px;
+}
 
 
 
