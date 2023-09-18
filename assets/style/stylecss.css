@@ -396,6 +396,21 @@ main>section:nth-child(4)>h3{
     font-size: 18px;
 }
 
+.design2{
+    position: absolute;
+    left: 35%;
+}
+.text1{
+    position:relative;
+    top: 40%;
+    right: 9%;
+
+}
+.leter1{
+    position: relative;
+    left: 43%;
+    font-size: 18px;
+}
 
 
 
