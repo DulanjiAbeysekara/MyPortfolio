@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../../../assets/css/necolas.github.io_normalize.css_8.0.1_normalize.css">
+    <style>
+      section{
+          width: 400px;
+          height: 300px;
+          position: absolute;
+          margin: auto;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          left: 0;
+          overflow: hidden;
+          box-shadow: 2px 10px 20px 10px rgba(51, 38, 46, 0.5);
+      }
+      section>div:nth-child(1){
+          width: 400px;
+          height: 300px;
+          background: url("assets/download (15).jpeg");
+          background-size: cover;
+      }
+      section>div:last-child{
+          width: 400px;
+          height: 300px;
+          background-color: black;
+          opacity: 0%;
+          position: relative;
+          top: 0;
+          transition-duration: 2s;
+      }
+      section>div:nth-child(1)>img{
+          width: max-content;
+          height: max-content;
+          position: relative;
+          top: -191px;
+          left: 170px;
+          color: white;
+          transition-duration: 2s;
+      }
+      section:hover>div:last-child {
+          transition-duration: 2s;
+          top: -300px;
+          opacity: 30%;
+      }
+      section:hover div:first-child>img{
+          transition-duration: 2s;
+          top: 120px;
+          z-index: 10;
+      }
+
+
+    </style>
+
+</head>
+<body>
+<section>
+    <div>
+        <img src="assets/download (29).png" height="96" width="96"/></div>
+    <div></div>
+</section>
+
+</body>
+</html>
