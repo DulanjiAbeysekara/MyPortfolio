@@ -638,16 +638,34 @@ main>section:nth-child(6)>h3{
     bottom: 10%;
 
 }
+.arrow5 {
+    color: white;
+    position: absolute;
+    top: 78%;
+    right:10%;
 
+}
+.assignment{
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-color: darkgrey;
+    top: 95%;
+    height: 80vh;
+}
+.ass{
+    color: #D31A38;
+    text-decoration: underline #D31A38;
+    font-family: "Times New Roman";
+    font-size: 25px;
+    position: absolute;
+    bottom: 85%;
+    right: 80%;
 
-/*.nibm{*/
-/*    background-color: #D31A38;*/
-/*    border:2px solid grey;*/
-/*    position: absolute;*/
-/*    box-shadow: 2px 4px 10px gray;*/
-/*    width: 550px;*/
-/*    height: 60px;*/
-/*}*/
+}
 
 
 
