@@ -345,7 +345,6 @@ main>section:nth-child(4){
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
-    height: 110vh;
     position: relative;
     display: flex;
     align-items: center;
@@ -443,6 +442,7 @@ main>section:nth-child(4)>h3{
     position: relative;
     right: 20px;
 }
+/*-------------------------------------------Gallery-----------------------------------------*/
 main>section:nth-child(5){
     background:url("../../assets/image/WhatsApp Image 2023-06-28 at 02.07 5.png");
     background-size: cover;
@@ -450,33 +450,212 @@ main>section:nth-child(5){
     background-attachment: fixed;
     height:120vh;
 }
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------Education-----------------------------------------*/
+
+
 main>section:nth-child(6) {
-    background-color: black;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-}
-main>section:nth-child(7) {
     background-color: #373030;
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 130vh;
 }
-main>section:nth-child(8) {
-    background-color: black;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+main>section:nth-child(6)>h3{
+    text-decoration: underline white;
+    font-size: 30px;
+    color: white;
+    bottom: 90%;
+    position: absolute;
+    right: 85%;
+    font-family: "Times New Roman";
+    left:8%;
 }
-main>section:nth-child(9) {
-    background-color: #373030;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+.shape{
+    position: absolute;
+    height:625px;
+    width:5px;
+    background-color:white;
+    bottom: 8%;
 }
-main>section:nth-child(10) {
-    background-color: black;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
+.arrow1{
+    color:white;
+    right: 25%;
+    position: absolute;
+    top: 10%;
 }
+.school{
+  background-color: #D31A38;
+    width: 350px;
+    height: 60px;
+    font-size:16px;
+    border:2px solid grey;
+    box-shadow: 2px 4px 10px gray;
+    right: 675px;
+    bottom: 70%;
+    position: absolute;
+
+}
+.leter9{
+    position: relative;
+    left:5%;
+    top:10%;
+    color:white;
+    font-family: "Lucida Sans";
+}
+.leter10{
+    position: relative;
+    left:15%;
+    bottom:20%;
+    color: white;
+    font-family: "Lucida Sans";
+}
+.ol{
+    background-color: #D31A38;
+    width: 400px;
+    height:60px;
+    border:2px solid grey;
+    box-shadow: 2px 4px 10px gray;
+    position: absolute;
+    right:218px;
+    top :34%
+}
+.leter11{
+    position: relative;
+    font-family: "Lucida Sans";
+    color: white;
+    left: 10%;
+    top:20%
+}
+.leter12{
+    position: relative;
+    font-family: "Lucida Sans";
+    color: white;
+    bottom: 5%;
+    left: 15%;
+}
+.arrow2{
+    color:white;
+    position: absolute;
+    top:25%
+}
+.al{
+    background-color: #D31A38;
+    border:2px solid grey;
+    box-shadow: 2px 4px 10px gray;
+    position: absolute;
+    height:60px;
+    width: 480px;
+    right: 52%;
+    top: 45%;
+
+}
+.leter13{
+    color: white;
+    position: relative;
+    font-family: "Lucida Sans";
+    top:18%;
+    left: 3%;
+}
+.leter14{
+    color: white;
+    position: relative;
+    font-family: "Lucida Sans";
+    left: 12%;
+    bottom:5%;
+}
+.arrow3{
+    color:white;
+    position: absolute;
+    top: 41%;
+    right:5%;
+}
+.nibm{
+    background-color: #D31A38;
+    border:2px solid grey;
+    box-shadow: 2px 4px 10px gray;
+    position: absolute;
+    height:60px;
+    width: 430px;
+    left:680px;
+    top: 500px;
+}
+.leter15{
+    color: white;
+    position: relative;
+    font-family: "Lucida Sans";
+    left: 5%;
+    top:15%;
+}
+.leter16{
+    color: white;
+    position: relative;
+    font-family: "Lucida Sans";
+    left: 25%;
+    bottom: 10%;
+}
+.arrow4{
+    color:white;
+    position: absolute;
+    top:60%;
+}
+.ijse{
+    background-color: #D31A38;
+    border:2px solid grey;
+    box-shadow: 2px 4px 10px gray;
+    position: absolute;
+    right: 675px;
+    top:72%;
+    height: 60px;
+    width: 480px;
+
+}
+.leter17{
+    color: white;
+    position: relative;
+    font-family: "Lucida Sans";
+    left: 3%;
+    top: 10%;
+
+}
+.leter18{
+    color: white;
+    position: relative;
+    font-family: "Lucida Sans";
+    left: 35%;
+    bottom: 10%;
+
+}
+
+
+/*.nibm{*/
+/*    background-color: #D31A38;*/
+/*    border:2px solid grey;*/
+/*    position: absolute;*/
+/*    box-shadow: 2px 4px 10px gray;*/
+/*    width: 550px;*/
+/*    height: 60px;*/
+/*}*/
+
+
+
+
+
+
+
+
+
+
+
