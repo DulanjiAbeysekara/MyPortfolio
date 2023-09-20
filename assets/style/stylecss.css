@@ -370,6 +370,16 @@ main>section:nth-child(4)>h3{
     right:15%;
     left: 1%;
     color:white;
+    transition-duration: 3s;
+    transition-property:all;
+    transition: 3s;
+}
+.ui:hover{
+    transition-duration: 3s;
+    transition-property:all;
+    background-color:  #D31A38;
+    transform: scale(1.25, 1.25);
+    z-index: 2;
 }
 .web{
     position: relative;
@@ -379,6 +389,16 @@ main>section:nth-child(4)>h3{
     bottom: 30%;
     left: 10%;
     color:white;
+    transition-duration: 3s;
+    transition-property:all;
+    transition: 3s;
+}
+.web:hover{
+    transition-duration: 3s;
+    transition-property:all;
+    background-color:  #D31A38;
+    transform: scale(1.25, 1.25);
+    z-index: 2;
 }
 .design1{
     position: absolute;
@@ -394,6 +414,7 @@ main>section:nth-child(4)>h3{
     position: relative;
     left: 43%;
     font-size: 18px;
+
 }
 
 .design2{
@@ -437,10 +458,60 @@ main>section:nth-child(4)>h3{
 .php{
     position: relative;
     right:41px;
+    transition: 3s;
+}
+.php:hover{
+    transform: scale(0.5, 0.5);
+    z-index: 2;
 }
 .mysql{
     position: relative;
     right: 20px;
+    transition: 3s;
+}
+.mysql:hover{
+    transform: scale(0.5, 0.5);
+    z-index: 2;
+}
+.scnebuilder{
+    position: relative;
+    transition: 3s;
+}
+.scnebuilder:hover{
+    transform: scale(0.5, 0.5);
+    z-index: 2;
+}
+.intellj{
+    position: relative;
+    transition: 3s;
+}
+.intellj:hover{
+    transform: scale(0.5, 0.5);
+    z-index: 2;
+}
+.figma{
+    position: relative;
+    transition: 3s;
+}
+.figma:hover{
+    transform: scale(0.5, 0.5);
+    z-index: 2;
+}
+.java{
+    position: relative;
+    transition: 3s;
+}
+.java:hover{
+    transform: scale(0.5, 0.5);
+    z-index: 2;
+}
+.js{
+    position: relative;
+    transition: 3s;
+}
+.js:hover{
+    transform: scale(0.5, 0.5);
+    z-index: 2;
 }
 /*-------------------------------------------Gallery-----------------------------------------*/
 main>section:nth-child(5){
@@ -469,12 +540,6 @@ main>section:nth-child(5){
     transform: scale(0.5, 0.5);
     z-index: 2;
 }
-
-
-
-
-
-
 
 
 
