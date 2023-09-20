@@ -681,9 +681,7 @@ main>section:nth-child(6)>h3{
     transition-property:all;
 }
 .assignment01:hover{
-    transition-duration: 3s;
-    transition-property:all;
-    background-color:  #D31A38;
+
 }
 .img5{
     position: absolute;
@@ -1209,12 +1207,19 @@ main>section:last-child{
     right:800px;
     bottom: 170px;
     border-radius: 15px;
+    transition-duration: 1s;
+    transition-property:all;
+}
+.pic10:hover{
+    transition-duration: 6s;
+    transition-property:all;
+    border:2px solid white;
 }
 .picture1{
     left: 8px;
     top: 20px;
     position: absolute;
-    transition: 1s;
+    transition: 3s;
 }
 .picture1:hover {
     transform: scale(1.5, 1.5);
@@ -1228,6 +1233,13 @@ main>section:last-child{
     border-radius: 15px;
     left: 48%;
     top: 170px;
+    transition-duration: 6s;
+    transition-property:all;
+}
+.pic11:hover{
+    transition-duration: 6s;
+    transition-property:all;
+    border:2px solid white;
 }
 .picture2{
     position: relative;
@@ -1265,3 +1277,9 @@ main>section:last-child{
     top: 35%;
     left: 12%;
 }
+/*!*--------------------------------------last-------------------------------*!*/
+/*.last{*/
+/*    width: 95vw;*/
+/*    height: 200px;*/
+/*    background-color: #D31A38;*/
+/*}*/
