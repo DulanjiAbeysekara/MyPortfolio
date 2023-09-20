@@ -506,7 +506,12 @@ main>section:nth-child(6)>h3{
     right: 675px;
     bottom: 70%;
     position: absolute;
+    transition: 3s;
 
+}
+.school:hover{
+    transform: scale(1.08, 1.08);
+    z-index: 2;
 }
 .leter9{
     position: relative;
@@ -530,7 +535,13 @@ main>section:nth-child(6)>h3{
     box-shadow: 2px 4px 10px gray;
     position: absolute;
     right:218px;
-    top :34%
+    top :34%;
+    transition: 3s;
+
+}
+.ol:hover{
+    transform: scale(1.08, 1.08);
+    z-index: 2;
 }
 .leter11{
     position: relative;
@@ -560,7 +571,11 @@ main>section:nth-child(6)>h3{
     width: 480px;
     right: 52%;
     top: 45%;
-
+    transition: 3s;
+}
+.al:hover{
+    transform: scale(1.08, 1.08);
+    z-index: 2;
 }
 .leter13{
     color: white;
@@ -591,6 +606,12 @@ main>section:nth-child(6)>h3{
     width: 430px;
     left:680px;
     top: 500px;
+    transition: 3s;
+
+}
+.nibm:hover{
+    transform: scale(1.08, 1.08);
+    z-index: 2;
 }
 .leter15{
     color: white;
@@ -620,7 +641,11 @@ main>section:nth-child(6)>h3{
     top:72%;
     height: 60px;
     width: 480px;
-
+    transition: 3s;
+}
+.ijse:hover{
+    transform: scale(1.08, 1.08);
+    z-index: 2;
 }
 .leter17{
     color: white;
