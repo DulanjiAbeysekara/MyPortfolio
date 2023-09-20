@@ -645,6 +645,8 @@ main>section:nth-child(6)>h3{
     right:10%;
 
 }
+
+/*---------------------------------------------Assignments-----------------------------------------*/
 .assignment{
     position: absolute;
     align-items: center;
@@ -655,6 +657,7 @@ main>section:nth-child(6)>h3{
     background-color: darkgrey;
     top: 95%;
     height: 80vh;
+   background-color: #5A5555;
 }
 .ass{
     color: #D31A38;
@@ -666,11 +669,113 @@ main>section:nth-child(6)>h3{
     right: 80%;
 
 }
+.assignment01{
+    width: 225px;
+    height: 225px;
+    background-color:#373030;
+    border-radius: 15%;
+    position: absolute;
+    right: 70%;
+    bottom: 30%;
+    transition-duration: 3s;
+    transition-property:all;
+}
+.assignment01:hover{
+    transition-duration: 3s;
+    transition-property:all;
+    background-color:  #D31A38;
+}
+.img5{
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+.txt{
+    position: relative;
+    top: 65%;
+    left: 22%;
+    transition-duration: 3s;
+    transition-property:all;
+}
+.txt:hover{
+    transition-duration: 3s;
+    transition-property:all;
+    color:white;
+}
 
-
-
-
-
+.arti1{
+    position: relative;
+    top: 50%;
+    color: white;
+    font-family: "Lucida Sans";
+    font-size: 18px;
+}
+.assignment02{
+    width: 225px;
+    height: 225px;
+    background-color:#373030;
+    border-radius: 15%;
+    position: absolute;
+    bottom: 30%;
+    left: 40%;
+    transition-duration: 3s;
+    transition-property:all;
+}
+.assignment02:hover{
+    transition-duration: 3s;
+    transition-property:all;
+    background-color:  #D31A38;
+}
+.img6{
+    position: absolute;
+    left: 35%;
+    top: 22%;
+}
+.txt3{
+    position: relative;
+    left: 25%;
+    top: 65%;
+    transition-duration: 3s;
+    transition-property:all;
+}
+.txt3:hover{
+    transition-duration: 3s;
+    transition-property:all;
+    color:white;
+}
+.assignment03{
+    width: 225px;
+    height: 225px;
+    background-color:#373030;
+    border-radius: 15%;
+    position: absolute;
+    bottom: 30%;
+    left: 68%;
+    transition-duration: 3s;
+    transition-property:all;
+}
+.assignment03:hover {
+    transition-duration: 3s;
+    transition-property: all;
+    background-color: #D31A38;
+}
+.img7{
+    position: absolute;
+    left: 35%;
+    top: 25%;
+}
+.txt4{
+    position: relative;
+    left: 25%;
+    top: 65%;
+    transition-duration: 3s;
+    transition-property:all;
+}
+.txt4:hover{
+    transition-duration: 3s;
+    transition-property:all;
+    color:white;
+}
 
 
 
