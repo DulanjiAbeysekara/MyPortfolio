@@ -319,22 +319,66 @@ main>section:nth-child(3)>a{
      position: absolute;
      top: 28%;
      left: 30%;
-}
+     transition-duration: 3s;
+     transition-property:all;
+     transition: 3s;
+ }
+ .a1:hover{
+     transition-duration: 3s;
+     transition-property:all;
+        color:  white;
+     transform: scale(1.2, 1.2);
+     z-index: 2;
+ }
  .a2{
      position: absolute;
      top: 40%;
      left: 30%;
+     transition-duration: 3s;
+     transition-property:all;
+     transition: 3s;
+ }
+ .a2:hover{
+     transition-duration: 3s;
+     transition-property:all;
+     color:  white;
+     transform: scale(1.2, 1.2);
+     z-index: 2;
  }
 .a3{
     position: absolute;
     top: 53%;
     left: 30%;
+    transition-duration: 3s;
+    transition-property:all;
+    transition: 3s;
+}
+.a3:hover{
+    transition-duration: 3s;
+    transition-property:all;
+    color:  white;
+    transform: scale(1.2, 1.2);
+    z-index: 2;
 }
 
 .a4{
     position: absolute;
     top: 65%;
     left: 30%;
+    transition-duration: 3s;
+    transition-property:all;
+    transition: 3s;
+}
+.a4:hover{
+    transition-duration: 3s;
+    transition-property:all;
+    color:  white;
+    transform: scale(1.2, 1.2);
+    z-index: 2;
+}
+.email{
+    position: relative;
+    left: 7px;
 }
 
 
