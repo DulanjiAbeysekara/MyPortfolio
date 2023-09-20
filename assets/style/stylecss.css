@@ -776,6 +776,63 @@ main>section:nth-child(6)>h3{
     transition-property:all;
     color:white;
 }
+.butn1{
+    position: relative;
+    background: white;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    /*letter-spacing:2px;*/
+    font-weight: 300;
+    padding: 8px 12px;
+    transition: 0.5s;
+    left: 80%;
+    top: 32%;
+    border-radius: 8px;
+}
+.b1{
+    color: white;
+}
+.butn1:hover{
+    letter-spacing: 0.25em;
+    background-color: #D31A38;
+    box-shadow: 0 0 35px #D31A38 ;
+}
+.b1:hover{
+    color: #D31A38;
+}
+.butn1:before{
+    content:'';
+    position: absolute;
+    inset: 2px;
+    background: #5A5555;
+}
+.butn1 span{
+    position: relative;
+    z-index: 1;
+}
+.butn1 i{
+    position: absolute;
+    inset: 0;
+    display: block;
+
+}
+.butn1 i::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 80%;
+    width: 10px;
+    height:4px;
+    background: #5A5555;
+    transform: translateX(-50%) skewX(325deg);
+    transition: 0.5s;
+}
+.butn1:hover i::before{
+    width: 20px;
+    left: 20%;
+}
 
 
 
