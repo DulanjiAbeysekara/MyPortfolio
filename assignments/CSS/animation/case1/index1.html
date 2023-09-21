@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../case 1/8.0.1_normalize.css">
+
+    <style>
+
+        section>div{
+            position: absolute;
+            height: 120px;
+            width: 180px;
+            background-color: darkred;
+            border-radius:15px;
+
+            animation-name:ani;
+            animation-duration: 2s;
+            animation-iteration-count:infinite;
+            animation-direction: alternate;
+
+        }
+        @keyframes ani {
+            0%{
+                background-color: hotpink;
+                left: 0;
+                 top: 0;
+               transform: rotate(0deg);
+            }
+
+            25%{
+                background-color: brown;
+               left: 550px;
+                top: 0;
+                transform: rotate(180deg);
+            }
+
+            50%{
+                background-color: yellowgreen;
+                left: 550px;
+                top: 550px;
+                transform: rotate(360deg);
+
+            }
+            75%{
+                background-color: red;
+                left: 0;
+                top: 550px;
+                transform: rotate(180deg);
+
+            }
+
+            100%{
+                background-color: purple;
+                top: 0;
+                left: 0;
+                transform: rotate(0deg);
+            }
+
+        }
+
+    </style>
+
+
+
+</head>
+<body>
+<section>
+    <div></div>
+</section>
+</body>
+</html>
