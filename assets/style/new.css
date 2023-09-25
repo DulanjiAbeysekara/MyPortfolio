@@ -2083,10 +2083,80 @@ main>section:last-child{
         top: 87%;
         left: 52%;
     }
+/*--------------------------homepage----------------------*/
+    .me {
+        height: 165px;
+        left: 28%;
+        top: 6%;
+    }
+    .about {
+        font-size: 25px;
+        left: 19%;
+        top: 35%;
+    }
+    .details1 {
+        font-size: 8px;
+        top: 63%;
+        left: 18%;
+    }
+    .details2 {
+        font-size: 8px;
+        left: 18%;
+        top: 45%;
+        line-height: 3vh;
 
+    }
+/*-----------------------------contact me------------------------------------- */
+    .h2 {
+        font-size: 25px;
+    }
 
+    .location {
+        bottom: 80%;
+        left: 9%;
+        width: 30px;
+        height: 30px;
+    }
+    .a1 {
+        font-size: 10px;
+        bottom: 80%;
+        left: 23%;
+    }
 
+    .tele {
+        left: 9%;
+        width: 30px;
+        height: 30px;
+        bottom: 69%;
+    }
+    .a2 {
+        font-size: 10px;
+        left: 23%;
+        bottom: 68%;
+    }
+    .linkedinnn2 {
+        left: 9%;
+        width: 30px;
+        height: 30px;
+        bottom: 57%;
+    }
+    .a3 {
+        font-size: 10px;
+        left: 23%;
+        bottom: 56%;
+    }
+    .email {
+        left: 9%;
+        width: 30px;
+        height: 30px;
+        bottom: 46%;
+    }
 
+    .a4 {
+        font-size: 10px;
+        left: 23%;
+        bottom: 45%;
+    }
 
 
 
