@@ -2157,15 +2157,122 @@ main>section:last-child{
         left: 23%;
         bottom: 45%;
     }
+/*---------skills-----------------------*/
+    main>section:nth-child(4)>h3 {
+        font-size: 25px;
+        bottom: 89%;
+        right: 69%;
+    }
+    .scnebuilder {
+        top: 71px;
+        left: 9%;
+        height: 45px;
+        width: 45px;
+    }
+    .mysql {
+        top: 71px;
+        height: 45px;
+        width: 45px;
+        left: -4px;
+    }
+    .php {
+        top: 71px;
+        height: 45px;
+        width: 45px;
+        right: 85px;
+    }
+    .intellj {
+        top: 71px;
+        height: 45px;
+        width: 45px;
+        left: -1%;
+    }
+    .figma {
+        top: 27px;
+        height: 45px;
+        width: 45px;
+        right: -70px;
+    }
+    .java {
+        top: 64px;
+        height: 45px;
+        width: 45px;
+        right: 47px;
+    }
+
+    .js {
+        height: 45px;
+        width: 45px;
+        right: -87px;
+        top: 19px;
+
+    }
+
+    .design1{
+        width: 50px;
+        height: 50px
+
+    }
+    .ui {
+
+        height: 150px;
+        width: 200px;
+        left: 22%;
+        top: 9%;
+    }
+    .leter {
+        font-size: 11px;
+        left: 33%;
+    }
+    .ppp {
+        font-size: 8px;
+        left: 13%;
+        top: 54%;
+    }
+    .design2 {
+        width: 50px;
+        height: 50px
+    }
+    .web {
+        height: 150px;
+        width: 200px;
+        top: 36%;
+        left: 22%;
+    }
+    .leter1 {
+        font-size: 11px;
+        left: 33%;
+    }
+    .ppp2 {
+        font-size: 8px;
+        left: 13%;
+        top: 54%;
+    }
+
+    .leter3 {
+        width: 232px;
+        font-size: 7px;
+        bottom: 24%;
+        left: 15%;
+    }
+    .leter2 {
+        font-size: 7px;
+        bottom: 32%;
+        left: 16%;
+    }
+/*--------------------------------gallery-------------------------*/
+    .gallery {
+
+    }
+
+
+
+
+
 
 
 
 }
-
-
-
-
-
 
 
 
