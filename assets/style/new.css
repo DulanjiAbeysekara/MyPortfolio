@@ -1672,17 +1672,41 @@ main>section:last-child{
         left: 10%;
         top: 64%;
     }
-    .web {
-        height: 150px;
-        width: 200px;
-        top: 61%;
-    }
+
     .ui {
-        left: 23%;
+        left: 18%;
         height: 158px;
-        width: 168px;
+        width: 193px;
         top: 12%;
     }
+    .web {
+        height: 158px;
+        width: 193px;
+        top: 39%;
+        left: 17%;
+    }
+    .design2 {
+        width: 77px;
+        height: 77px;
+        left: 31%;
+    }
+    .leter1 {
+        font-size: 11px;
+        left: 36%;
+        top: 43%;
+    }
+    .ppp2 {
+
+        font-size: 8px;
+        left: 8%;
+        top: 64%;
+
+
+    }
+
+
+
+
 
 
 
