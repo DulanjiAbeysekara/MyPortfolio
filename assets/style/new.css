@@ -1566,10 +1566,28 @@ main>section:last-child{
     }
     .a1 {
         font-size: 9px;
-
+        bottom: 78%;
     }
-
-
+    .tele {
+        width: 25px;
+        height: 25px;
+        bottom: 67%;
+        left: 7%;
+    }
+    .a2 {
+        font-size: 9px;
+        bottom: 66%;
+    }
+    .linkedinnn2 {
+        width: 25px;
+        height: 25px;
+        bottom: 55%;
+        left: 7%;
+    }
+    .a3 {
+        font-size: 9px;
+        bottom: 54%;
+    }
 
 
 
