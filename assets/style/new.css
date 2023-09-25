@@ -1623,6 +1623,32 @@ main>section:last-child{
         right: 19px;
     }
     .intellj {
+        height: 50px;
+        width: 50px;
+        top: 90px;
+        left: 28px;
+    }
+    .figma {
+        height: 50px;
+        width: 50px;
+        top: 69px;
+        right: -78px;
+    }
+    .java {
+        height: 50px;
+        width: 50px;
+        top: 63px;
+        right: -73px;
+    }
+    .js {
+        height: 50px;
+        width: 50px;
+        right: -58px;
+        top: 65px;
+    }
+    .leter2 {
+
+    }
 
     }
 
