@@ -5,7 +5,8 @@ body{
     position: relative;
     /*background-color: #242124;*/
 }
-header{
+/*header{*/
+header {
     width: 100vw;
     height: 60px;
     position: fixed;
@@ -14,21 +15,23 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    left: 0;
+    left: 8%;
     top: 0;
     z-index: 10;
-    /*background-color: black;*/
+    /* background-color: black; */
 }
+    /*background-color: black;*/
+/*}*/
 header>nav>ul{
     position: absolute;
     top: 45%;
     left: 480px;
 
 }
-header>nav>ul>li{
+header>nav>ul>li {
     display: inline-block;
-    margin-right: 20px;
-    border-right:20px;
+    margin-right: 3px;
+    border-right: 20px;
     font-size: 15px;
     color: white;
 }
@@ -59,11 +62,13 @@ span{
 /*-------------------------------------homepage-------------------------------------*/
 .home-page{
     height: 100vh;
-    width: 100%;
-    background-size: 100vw 100vh;
+     width: 100%;
+    background-size: 100vw 120vh;
     background-color: #242124;
     position: relative;
-    bottom: 45%;
+    /*background-image: url("../../assets/image/istockphoto-629867138-612x612.webp");*/
+    /*overflow-x: hidden;*/
+    /*font-size: 0;*/
 
 }
 
@@ -176,16 +181,16 @@ main>section:nth-child(2){
     font-size: 23px;
 
 }
-.details2{
+.details2 {
     position: absolute;
-    top:20%;
-    color: white;
+    top: 20%;
+    /* color: white; */
     font-family: Libre Baskerville, sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     font-style: normal;
     font-weight: 400;
     line-height: 5vh;
-    color:white;
+    color: white;
     left: 50%;
 }
 .details1 span{
@@ -523,21 +528,22 @@ main>section:nth-child(6)>h3{
     left:8%;
 }
 
-.school{
-    background-color:white;
+.school {
+    background-color: white;
     width: 350px;
     height: 85px;
-    font-size:16px;
-    right:0;
-    bottom:0;
+    font-size: 16px;
+    right: 0;
+    bottom: 0;
     top: 23%;
     left: 13%;
-    /*margin: auto;*/
+    /* margin: auto; */
     position: relative;
     border: 2px solid #eaeaea;
     cursor: pointer;
-    transition:all 0.4s;
+    transition: all 0.4s;
     border-radius: 10px;
+    display: inline-block;
 }
 .school:hover{
     box-shadow: 0px 3px 8px 0px #ccc;
@@ -571,39 +577,39 @@ main>section:nth-child(6)>h3{
     left: 10px;
     /*color: #D31A38;*/
 }
-.line{
+.line {
     position: absolute;
-    height:450px;
-    width:2px;
-    background-color:gray;
-    /*bottom: 8%;*/
-    top:25%;
+    height: 380px;
+    width: 2px;
+    background-color: gray;
+    /* bottom: 8%; */
+    top: 25%;
     left: 10%;
 }
-.circle{
+.circle {
     position: absolute;
     height: 15px;
     width: 15px;
     background-color: #D31A38;
     border-radius: 50%;
-    left:126px;
+    left: 128px;
     bottom: 75%;
 }
-.ol{
-    background-color:white;
+.ol {
+    background-color: white;
     width: 350px;
     height: 85px;
-    font-size:16px;
-    right:0;
-    bottom:0;
-    top: 35%;
-    left: 13%;
-    /*margin: auto;*/
+    font-size: 16px;
+    bottom: 0;
+    top: 53%;
+    left: -13%;
+    /* margin: auto; */
     position: relative;
     border: 2px solid #eaeaea;
     cursor: pointer;
-    transition:all 0.4s;
+    transition: all 0.4s;
     border-radius: 10px;
+    display: inline-block;
 }
 .ol:hover{
     box-shadow: 0px 3px 8px 0px #ccc;
@@ -631,30 +637,31 @@ main>section:nth-child(6)>h3{
     font-family:"Times New Roman";
     font-size: 20px;
 }
-.circle1{
+.circle1 {
     position: absolute;
     height: 15px;
     width: 15px;
     background-color: #D31A38;
     border-radius: 50%;
-    left:126px;
-    bottom: 50%;
+    left: 128px;
+    bottom: 45%;
 }
-.al{
-    background-color:white;
+.al {
+    background-color: white;
     width: 350px;
     height: 85px;
-    font-size:16px;
-    right:0;
-    bottom:0;
-    top: 48%;
-    left: 13%;
+    font-size: 16px;
+    right: 0;
+    bottom: 0;
+    top: 82%;
+    left: -39%;
     border-radius: 10px;
-    /*margin: auto;*/
+    /* margin: auto; */
     position: relative;
     border: 2px solid #eaeaea;
     cursor: pointer;
-    transition:all 0.4s;
+    transition: all 0.4s;
+    display: inline-block;
 }
 .al:hover{
     box-shadow: 0px 3px 8px 0px #ccc;
@@ -682,39 +689,40 @@ main>section:nth-child(6)>h3{
     font-family:"Times New Roman";
     font-size: 20px;
 }
-.circle2{
+.circle2 {
     position: absolute;
     height: 15px;
     width: 15px;
     background-color: #D31A38;
     border-radius: 50%;
-    left:126px;
-    bottom: 23%;
+    left: 128px;
+    bottom: 16%;
 }
-.line1{
+.line1 {
     position: absolute;
-    height:450px;
-    width:2px;
-    background-color:gray;
-    /*bottom: 8%;*/
-    top:25%;
+    height: 380px;
+    width: 2px;
+    background-color: gray;
+    /* bottom: 8%; */
+    top: 27%;
     left: 55%;
 }
-.nibm{
-    background-color:white;
+.nibm {
+    background-color: white;
     width: 350px;
     height: 85px;
-    font-size:16px;
-    right:0;
-    bottom:-2%;
-    top: -6%;
-    left: 59%;
+    font-size: 16px;
+    right: 46%;
+    /* bottom: -2%; */
+    top: 28%;
+    left: 58%;
     border-radius: 10px;
-    /*margin: auto;*/
+    /* margin: auto; */
     position: relative;
     border: 2px solid #eaeaea;
     cursor: pointer;
-    transition:all 0.4s;
+    display: inline-block;
+    transition: all 0.4s;
 }
 .nibm:hover{
     box-shadow: 0px 3px 8px 0px #ccc;
@@ -742,31 +750,32 @@ main>section:nth-child(6)>h3{
     font-family:"Times New Roman";
     font-size: 20px;
 }
-.circle3{
+.circle3 {
     position: absolute;
     height: 15px;
     width: 15px;
     background-color: #D31A38;
     border-radius: 50%;
-    left:728px;
+    left: 735px;
     bottom: 75%;
-    top:35%;
+    top: 40%;
 }
-.ijse{
-    background-color:white;
+.ijse {
+    background-color: white;
     width: 350px;
     height: 85px;
-    font-size:16px;
-    right:0;
-    top: 10%;
-    left: 59%;
-    /*bottom: -10%;*/
+    font-size: 16px;
+    right: 0;
+    top: 56%;
+    left: 32%;
+    /* bottom: -10%; */
     border-radius: 10px;
-    /*margin: auto;*/
+    /* margin: auto; */
     position: relative;
     border: 2px solid #eaeaea;
     cursor: pointer;
-    transition:all 0.4s;
+    transition: all 0.4s;
+    display: inline-block;
 }
 .ijse:hover{
     box-shadow: 0px 3px 8px 0px #ccc;
@@ -794,14 +803,14 @@ main>section:nth-child(6)>h3{
     font-family:"Times New Roman";
     font-size: 20px;
 }
-.circle4{
+.circle4 {
     position: absolute;
     height: 15px;
     width: 15px;
     background-color: #D31A38;
     border-radius: 50%;
-    left:727px;
-    top:65%;
+    left: 736px;
+    top: 68%;
 }
 /*-------------------------------assigemnets------------------------------------------------*/
 .assignment{
@@ -822,18 +831,17 @@ main>section:nth-child(6)>h3{
     right: 75%;
     /*mso-border-shadow: 0px 3px 8px 0px #D31A38;*/
 }
-.assignment01{
+.assignment01 {
     width: 225px;
     height: 225px;
-    background-color:#373030;
+    background-color: #373030;
     border-radius: 15%;
     position: absolute;
     right: 70%;
-    bottom: 33%;
+    bottom: 35%;
     transition-duration: 3s;
-    transition-property:all;
+    transition-property: all;
     transition: 3s;
-
 }
 .assignment01:hover{
     transition-duration: 3s;
@@ -869,18 +877,17 @@ main>section:nth-child(6)>h3{
     font-family: "Lucida Sans";
     font-size: 18px;
 }
-.assignment02{
+.assignment02 {
     width: 225px;
     height: 225px;
-    background-color:#373030;
+    background-color: #373030;
     border-radius: 15%;
     position: absolute;
-    bottom: 33%;
+    bottom: 35%;
     left: 41.5%;
     transition-duration: 3s;
-    transition-property:all;
+    transition-property: all;
     transition: 3s;
-
 }
 .assignment02:hover{
     transition-duration: 3s;
@@ -907,20 +914,20 @@ main>section:nth-child(6)>h3{
     transition-property:all;
     color:white;
 }
-.assignment03{
-     width: 225px;
-     height: 225px;
-     background-color:#373030;
-     border-radius: 15%;
-     position: relative;
-     bottom: 13%;
-     top:28%;
-     left: 70%;
-     transition-duration: 3s;
-     transition-property:all;
-     transition: 3s;
-
- }
+.assignment03 {
+    width: 225px;
+    height: 225px;
+    background-color: #373030;
+    border-radius: 15%;
+    position: relative;
+    bottom: 35%;
+    top: 27%;
+    left: 70%;
+    transition-duration: 3s;
+    transition-property: all;
+    transition: 3s;
+    display: inline-block;
+}
 .assignment03:hover {
     transition-duration: 3s;
     transition-property: all;
@@ -946,25 +953,27 @@ main>section:nth-child(6)>h3{
     transition-property:all;
     color:white;
 }
-.arti1{
+.arti1 {
     position: relative;
-    top: 45%;
+    top: 47%;
     color: white;
     font-family: "Lucida Sans";
     font-size: 18px;
+    left: 11%;
+    width: 1000px;
 }
-.butn1{
+.butn1 {
     position: absolute;
     background: white;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
-    /*letter-spacing:2px;*/
+    /* letter-spacing: 2px; */
     font-weight: 300;
     padding: 0 18px;
     transition: 0.5s;
-    left: 85%;
+    left: 83%;
     top: 73%;
     border-radius: 8px;
 }
@@ -1040,12 +1049,13 @@ main>section:nth-child(6)>h3{
     /*position: absolute;*/
 
 }
-.project-container .project-box{
+.project-container .project-box {
     position: relative;
     border-radius: 2rem;
     box-shadow: 0 0 1rem #D31A38;
     overflow: hidden;
     display: flex;
+    top: 65%;
 }
 .project-box img{
     width: 100%;
@@ -1095,28 +1105,28 @@ main>section:nth-child(6)>h3{
     top:60%;
     left: 20%;
 }
-.arti2{
-    top:85%;
+.arti2 {
+    top: 86%;
     position: absolute;
     color: white;
     font-family: "Lucida Sans";
     font-size: 18px;
     bottom: 100%;
-    left: 15%;
+    left: 30%;
 }
-.btn2{
+.btn2 {
     position: absolute;
     background: white;
     color: black;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
-    /*letter-spacing:2px;*/
+    /* letter-spacing: 2px; */
     font-weight: 300;
     padding: 0 18px;
     transition: 0.5s;
     left: 83%;
-    top: 77%;
+    top: 78%;
     border-radius: 8px;
 }
 .b2{
@@ -1187,9 +1197,9 @@ main>section:nth-child(6)>h3{
     justify-content: center;
     align-items: center;
     background-color: #373030;
-    left: 68%;
-    bottom: 25%;
-    top:33%;
+    left: 70%;
+    bottom: 30%;
+    top:28%;
     border-radius: 10%;
     overflow: hidden;
     border:2px solid gray;
@@ -1223,9 +1233,9 @@ main>section:nth-child(6)>h3{
 }
 .c1{
     position: absolute;
-    right: 20%;
-    left:72.5%;
-    bottom: 40%;
+    right: 18%;
+    left:74.5%;
+    bottom: 45%;
     box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
     transition: 1s;
     display: block;
@@ -1243,8 +1253,8 @@ main>section:nth-child(6)>h3{
     justify-content: center;
     align-items: center;
     background-color: #373030;
-    left: 38%;
-    bottom: 7.5%;
+    left: 40%;
+    bottom: 12.5%;
     /*top:5%;*/
     border-radius: 10%;
     overflow: hidden;
@@ -1280,8 +1290,8 @@ main>section:nth-child(6)>h3{
 .c2{
     position: absolute;
     right: 20%;
-    left:43%;
-    bottom: 40%;
+    left:45%;
+    bottom: 45%;
     box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
     transition: 1s;
     display: block;
@@ -1300,8 +1310,8 @@ main>section:nth-child(6)>h3{
     justify-content: center;
     align-items: center;
     background-color: #373030;
-    left: 8.5%;
-    bottom: 47%;
+    left: 11%;
+    bottom: 53%;
     border-radius: 10%;
     overflow: hidden;
     border:2px solid gray;
@@ -1336,8 +1346,8 @@ main>section:nth-child(6)>h3{
 .c3{
     position: absolute;
     right: 30%;
-    left: 180px;
-    bottom: 43%;
+    left: 207px;
+    bottom: 45%;
     box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
     transition: 1s;
     display: block;
@@ -1350,9 +1360,9 @@ main>section:nth-child(6)>h3{
 .arti9{
     font-family: "Lucida Sans";
     color: white;
-    top:45%;
-    right: 35%;
-    position: relative;
+    top:75%;
+    right: 20%;
+    position: absolute;
     font-size: 18px;
 }
 /*-----------------------------ACTIVITIES----------------------------------------*/
@@ -1401,16 +1411,16 @@ main>section:last-child{
     transform: scale(1.5, 1.5);
     z-index: 2;
 }
-.pic11{
+.pic11 {
     width: 575px;
     height: 300px;
     border: 4px solid #D31A38;
     position: absolute;
     border-radius: 15px;
-    left: 48%;
+    left: 40%;
     top: 130px;
     transition-duration: 6s;
-    transition-property:all;
+    transition-property: all;
 }
 .pic11:hover{
     transition-duration: 6s;
@@ -1442,7 +1452,7 @@ main>section:last-child{
     font-size: 18px;
     font-family: "Lucida Sans";
     position: absolute;
-    top:78%;
+    top:98%;
     right: 65%;
 }
 .arti21{
@@ -1451,6 +1461,134 @@ main>section:last-child{
     font-family: "Lucida Sans";
     position: absolute;
     top: 78%;
-    left: 48%;
+    left: 40%;
 }
+/*-----------------------------last------------------------------*/
+/*.last{*/
+/*    background-color: #D31A38;*/
+/*    position: relative;*/
+/*    !*font-size: 0;*!*/
+/*}*/
+/*-----------------------------------------media query----------------------------------------------------*/
+@media all and (max-width: 320px) {
+
+    header > nav > ul {
+        top: 0%;
+        left: 10px;
+    }
+
+    .name {
+        font-size: 5px;
+        top: 28%;
+        left: 1%;
+    }
+
+    header > nav > ul > li {
+        font-size: 3px;
+    }
+/*-------------------------------------home page------------------------------*/
+    .imge30 {
+        width: 130px;
+        height: 130px;
+        bottom: 60%;
+        left: 32%;
+    }
+    .social-media a {
+        text-decoration: none;
+        font-size: 30px;
+        width: 25px;
+        height: 25px;
+    }
+    .fb {
+        /*position: absolute;*/
+        left: 27%;
+        top: 89%;
+    }
+    .linkedin {
+        /*position: absolute;*/
+        top: 89%;
+        left: 44%;
+    }
+    .git {
+        /*position: absolute;*/
+        top: 89%;
+        left: 61%;
+    }
+    .div1 h1 {
+        font-size: 19px;
+        /*color: white;*/
+    }
+    .oneee {
+        top: 43%;
+        left: 9%;
+    }
+    .twooo {
+        top: 48%;
+    }
+    .threee {
+        font-size: 12px;
+        top: 51%;
+        left: 13%;
+    }
+/*-------------------------------aboutme------------------------------*/
+    .me {
+        height: 167px;
+        left: 21%;
+        top: 16%;
+    }
+    .about {
+        font-size: 24px;
+        left: 24%;
+        top: 3%;
+    }
+    .details1 {
+        font-size: 9px;
+        top: 74%;
+        left: 12%;
+    }
+    .details2 {
+        font-size: 9px;
+        top: 47%;
+        left: 10%;
+    }
+/* -----------------------------------------contact me   --------------------------------*/
+
+    .h2 {
+        font-size: 24px;
+        right: 38%;
+    }
+
+    .location {
+        width: 25px;
+        height: 25px;
+        bottom: 79%;
+        left: 7%;
+    }
+    .a1 {
+        font-size: 9px;
+
+    }
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
