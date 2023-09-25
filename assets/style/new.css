@@ -1472,9 +1472,13 @@ main>section:last-child{
 /*-----------------------------------------media query----------------------------------------------------*/
 @media all and (max-width: 320px) {
 
+    header {
+        width: 73vw;
+    }
+
     header > nav > ul {
         top: 0%;
-        left: 10px;
+        left: 3px;
     }
 
     .name {
@@ -1647,15 +1651,15 @@ main>section:last-child{
         top: 65px;
     }
     .leter2 {
-        font-size: 9px;
+        font-size: 4px;
         bottom: 23%;
-        left: 11%;
+        left: 9%;
     }
 
     .leter3 {
-        font-size: 9px;
+        font-size: 4px;
         bottom: 28%;
-        left: 11%;
+        left: 7%;
     }
     .design1 {
         width: 77px;
@@ -1882,9 +1886,11 @@ main>section:last-child{
         top: 22%;
     }
     .arti1 {
-        font-size: 4px;
+        font-size: 3px;
         left: -1%;
         top: 356px;
+        display: inline-block;
+        width: 250px;
     }
     .butn1 {
         font-size: 5px;
@@ -1952,7 +1958,7 @@ main>section:last-child{
         width: 125px;
         height: 125px;
         left: 28%;
-        bottom: -10%;
+        bottom: -9%;
         display: inline-block;
     }
     .c1 {
@@ -1979,9 +1985,112 @@ main>section:last-child{
         font-size: 7px;
         left: 9%;
     }
+/*--------------------------------activities----------------------------*/
+    .ac {
+        font-size: 25px;
+        right: 45%;
+        bottom: 86%;
+    }
+    .pic10 {
+        width: 100px;
+        height: 100px
+    }
+    .picture2 {
+        height: 75px;
+    }
+    .picture3 {
+        height: 75px;
+    }
+    .picture1 {
+        height: 50px;
+    }
+    .pic11 {
+        width: 157px;
+        height: 200px;
+        left: 23%;
+        top: 72px;
+    }
+    .arti21 {
+        font-size: 6px;
+        top: 62%;
+        left: 9%;
+    }
+    .arti20 {
+        font-size: 6px;
+    }
+    .picture1 {
+        height: 50px;
+        display: none;
+    }
+
 }
+/*---------------------------------------------------320-375------------------------------------------*/
+@media all and (min-width:320px) and (max-width: 375px) {
+    header {
+        width: 75vw;
+        height: 23px;
+    }
+
+    .name {
+        font-size: 6px;
+        top: 38%;
+        left: -6%;
+    }
+    header>nav>ul {
+        position: absolute;
+        top: -4px;
+        left: 10px;
+    }
+    header>nav>ul>li {
+        font-size: 4px;
+    }
+    .imge30 {
+        bottom: 53%;
+        left: 26%;
+        width: 175px;
+        height: 175px;
+    }
+    .div1 h1 {
+        font-size: 20px;
+    }
+    .oneee {
+        top: 44%;
+        left: 14%;
+    }
+    .twooo {
+        top: 50%;
+        left: 20%;
+    }
+    .threee {
+        font-size: 14px;
+        top: 49%;
+        left: 14%;
+    }
+    .social-media a {
+        width: 30px;
+        height: 30px;
+        text-decoration: none;
+    }
+    .fb {
+        left: 26%;
+        top: 87%;
+    }
+    .linkedin {
+        top: 87%;
+        left: 39%;
+    }
+    .git{
+        top: 87%;
+        left: 52%;
+    }
 
 
+
+
+
+
+
+}
 
 
 
