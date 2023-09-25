@@ -1613,6 +1613,17 @@ main>section:last-child{
     .mysql {
         height: 50px;
         width: 50px;
+        top: 78px;
+        left: 1px;
+    }
+    .php {
+        height: 50px;
+        width: 50px;
+        top: 88px;
+        right: 19px;
+    }
+    .intellj {
+
     }
 
 
