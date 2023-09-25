@@ -1588,7 +1588,16 @@ main>section:last-child{
         font-size: 9px;
         bottom: 54%;
     }
-
+    .email {
+        width: 25px;
+        height: 25px;
+        bottom: 43%;
+        left: 7%;
+    }
+    .a4 {
+        bottom: 42%;
+        font-size: 9px;
+    }
 
 
 
