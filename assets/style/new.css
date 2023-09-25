@@ -1750,14 +1750,14 @@ main>section:last-child{
         height: 10px;
         width: 10px;
         left: 11px;
-        bottom: 62%;
+        bottom: 64%;
     }
 
     .ol {
         width: 166px;
         height: 50px;
         left: 10%;
-        top: 26%;
+        top: 25%;
     }
     .leter11 {
         font-size: 10px;
@@ -1766,16 +1766,219 @@ main>section:last-child{
     .leter12 {
         font-size: 10px;
     }
+    .al {
+        width: 166px;
+        height: 50px;
+        top: 32%;
+        left: 10%;
+    }
+    .leter13 {
+        font-size: 10px;
+    }
+    .leter14 {
+        font-size: 10px;
+    }
+    .circle2 {
+        height: 10px;
+        width: 10px;
+        left: 11px;
+        bottom: 47%;
+    }
+    .circle3 {
+        height: 10px;
+        width: 10px;
+        left: 11px;
+        top: 68%;
+    }
+    .nibm {
+        width: 166px;
+        height: 50px;
+        top: 39%;
+        left: 11%;
+    }
+    .leter15 {
+        font-size: 10px;
+    }
+    .leter16{
+        font-size: 10px;
+    }
+    .circle4 {
+        left: 11px;
+        top: 85%;
+        height: 10px;
+        width: 10px;
+    }
+    .ijse {
+        width: 166px;
+        height: 50px;
+        top: 46%;
+        left: 11%;
+    }
+    .leter17 {
+        font-size: 10px;
+    }
+    .leter18 {
+        font-size: 10px;
+    }
 
+    .line1 {
+        display: none;
+    }
+/*------------------------assignment-----------------------------------*/
+    .ass {
+        font-size: 20px;
+        bottom: 87%;
+        right: 49%;
 
+    }
+    .assignment01 {
+        width: 100px;
+        height: 100px;
+        right: 34%;
+        bottom: 69%;
+    }
+    .txt {
+        font-size: 8px;
+        top: 66px;
+        left: 19px;
+    }
+    .img5 {
+        left: 29%;
+        width: 50px;
+        height: 50px;
+    }
 
+    .assignment02 {
+        width: 100px;
+        height: 100px;
+        bottom: 46%;
+        left: 33%;
+    }
+    .img6 {
+        width: 50px;
+        height: 50px;
+        /*position: absolute;*/
+        left: 22%;
+        top: 23%;
+    }
+    .txt3 {
+        font-size: 8px;
+        top: 71%;
+    }
+    .assignment03 {
+        width: 100px;
+        height: 100px;
+        top: 57%;
+        left: 33%;
+    }
+    .txt4 {
+        font-size: 8px;
+        top: 67%;
+    }
+    .img7 {
+        height: 50px;
+        width: 50px;
+        left: 27%;
+        top: 22%;
+    }
+    .arti1 {
+        font-size: 4px;
+        left: -1%;
+        top: 356px;
+    }
+    .butn1 {
+        font-size: 5px;
+        left: 65%;
+        top: 82%;
+    }
+/*!*-----------------------------project-------------------------------*/
+    .pro {
+        font-size: 20px;
+        bottom: 87%;
+        right: 10%;
+    }
+    .project-container {
+        grid-template-columns: repeat(1,3fr);
+        gap: 1.2rem;
+    }
 
+    .project-box {
+        width: 110px;
+        height: 110px;
+    }
+    .project-container .project-box{
+        top: 59%;
+        left: 31%;
+    }
+    .project-layer h2 {
+        font-size: 11px;
+        right: 55%
 
+    }
+    .project-layer p {
+        font-size: 5px;
+        right: 57%;
+    }
+    .arti2 {
+        font-size: 7px;
+        left: 11%;
+        top: 94%;
+    }
+    .btn2 {
+        font-size: 5px;
+        left: 69%;
+        top: 89%;
+    }
+/*-----------------------------certificate--------------------------*/
+    .certificate h3 {
+        font-size: 20px;
+        bottom: 90%;
+    }
+    .certificate1 {
+        width: 125px;
+        height: 125px;
+        left: 28%;
+        top: 7%;
+        display: inline-block;
+    }
+    .certificate2 {
+        width: 125px;
+        height: 125px;
+        left: -15%;
+        bottom: -65%;
+        display: inline-block;
+    }
+    .certificate3 {
+        width: 125px;
+        height: 125px;
+        left: 28%;
+        bottom: -10%;
+        display: inline-block;
+    }
+    .c1 {
+        width: 50px;
+        height: 50px;
+        top: 14%;
+        left: 41.5%;
+    }
+    .c2 {
+        width: 50px;
+        height: 50px;
+        left: 41%;
+        bottom: 19%;
+    }
 
-
-
-
-
+    .c3 {
+        width: 50px;
+        height: 50px;
+        left: 127px;
+        bottom: 47%;
+    }
+    .arti9 {
+        top: 91%;
+        font-size: 7px;
+        left: 9%;
+    }
 }
 
 
