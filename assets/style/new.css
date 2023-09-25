@@ -1703,8 +1703,16 @@ main>section:last-child{
 
 
     }
-
-
+/*------------------------------------gallery-------------------------------*/
+    .gallery {
+        font-size: 25px;
+        left: 35%;
+    }
+    .collage {
+        height: 150px;
+        top: 24%;
+        left: 16%;
+    }
 
 
 
