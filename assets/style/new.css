@@ -2383,8 +2383,187 @@ main>section:last-child{
         display: none;
     }
 
-}
 
+/*-----------------------------------assignment----------------------------    */
+    .ass {
+        font-size: 23px;
+        bottom: 86%;
+        right: 31%;
+    }
+    .assignment01 {
+        width: 110px;
+        height: 110px;
+        right: 33%;
+        bottom: 65%;
+    }
+    .img5 {
+        width: 50px;
+        height: 50px;
+        left: 28%;
+    }
+    .txt {
+        font-size: 10px;
+    }
+    .assignment02 {
+        width: 110px;
+        height: 110px;
+        bottom: 38%;
+        left: 37%;
+    }
+    .img6 {
+        width: 50px;
+        height: 50px;
+        left: 27%;
+    }
+    .txt3 {
+        font-size: 10px;
+    }
+    .assignment03 {
+        width: 110px;
+        height: 110px;
+        top: 65%;
+        left: 37%;
+    }
+    .img7 {
+        width: 50px;
+        height: 50px;
+        left: 28%;
+    }
+    .txt4 {
+        font-size: 10px;
+        top: 64%
+    }
+    .arti1 {
+        font-size: 4px;
+        top: 70%;
+        left: -5%;
+        width: 150px;
+    }
+    .butn1 {
+        font-size: 5px;
+        left: 74%;
+        top: 92%;
+    }
+
+/*------------------------------project------------------------------*/
+    .pro {
+        font-size: 23px;
+        bottom: 85%;
+        right: 21%;
+    }
+    .project-container {
+        grid-template-columns: repeat(1,3fr);
+        gap: 1.5rem;
+    }
+    .project-box {
+        width: 100px;
+        height: 100px;
+    }
+    .project-container .project-box {
+        top: 53%;
+        left: 36%;
+    }
+    .project-layer h2 {
+        font-size: 10px;
+        right: 60%;
+    }
+    .project-layer p {
+        font-size: 5px;
+        right: 65%;
+    }
+    .arti2 {
+        font-size: 8px;
+        left: 12%;
+        top: 92%;
+    }
+    .btn2 {
+        left: 75%;
+        top: 84%;
+        font-size: 5px;
+    }
+/*------------------------------certificate----------------------*/
+    .certificate h3 {
+        font-size: 23px;
+        bottom: 87%;
+        right: 42%;
+    }
+    .certificate1 {
+        width: 115px;
+        height: 115px;
+        display: inline-block;
+        top: 10%;
+        left: 34%;
+    }
+    .certificate2 {
+        width: 115px;
+        height: 115px;
+        display: inline-block;
+        top: 39%;
+        left: 0%;
+    }
+    .certificate3 {
+        width: 115px;
+        height: 115px;
+        left: -33%;
+        bottom: -66%;
+        display: inline-block;
+    }
+    .c1 {
+        width: 40px;
+        height: 40px;
+        left: 45%;
+        bottom: 73%;
+
+    }
+
+    .c2{
+        width: 40px;
+        height: 40px;
+    }
+    .c3 {
+        width: 40px;
+        height: 40px;
+        eft: 160px;
+        bottom: 17%;
+        left: 160px;
+    }
+    .arti9 {
+        top: 92%;
+        font-size: 8px;
+    }
+/*------------------------------activies----------------------*/
+    .ac {
+        font-size: 25px;
+        right: 53%;
+        bottom: 84%;
+    }
+    .pic11 {
+        width: 250px;
+        height: 150px
+    }
+    .picture2 {
+        height: 100px;
+    }
+    .picture3 {
+        height: 75px;
+    }
+
+    .pic11 {
+        left: 15%;
+        top: 73px;
+    }
+    .arti21 {
+        font-size: 9px;
+        top: 51%;
+        left: 2%;
+    }
+    .arti20 {
+        font-size: 9px;
+        top: 86%;
+        right: 27%;
+    }
+    }
+/*-----------------------------------375-425---------------------------*/
 
 
 
