@@ -2690,14 +2690,403 @@ main>section:last-child{
         bottom: 42%;
 
     }
+/*!*---------------------------skills---------------------?*/
+    main>section:nth-child(4)>h3 {
+        font-size: 28px;
+        right: 70%;
+        right: 70%;
+    }
+    .ui {
+        height: 150px;
+        width: 150px;
+        left: 9%;
+    }
+    .design1 {
+        height: 50px;
+        width: 50px;
+    }
+    .leter {
+
+        font-size: 11px;
+        left: 33%;
+    }
+    .ppp {
+        font-size: 6px;
+        left: 12%;
+        top: 56%;
+    }
+    .design2 {
+        height: 50px;
+        width: 50px;
+    }
+    .web {
+        height: 150px;
+        width: 150px;
+        left: 53%;
+    }
+    .leter1 {
+        font-size: 11px;
+        left: 33%;
+    }
+    .ppp2 {
+        font-size: 6px;
+        left: 12%;
+        top: 56%;
+    }
+    .leter3 {
+        font-size: 7px;
+        width: 290px;
+        bottom: 6%;
+    }
+    .leter2 {
+        font-size: 7px;
+        bottom: 12%;
+    }
+    .js {
+        width: 75px;
+        height: 75px;
+        right: -228px;
+        top: -102px;
+    }
+    .java {
+        width: 75px;
+        height: 75px;
+        top: -107px;
+        right: -29px;
+    }
+    .figma {
+        width: 75px;
+        height: 75px;
+        top: -98px;
+        right: -223px;
+    }
+    .intellj {
+        width: 75px;
+        height: 75px;
+        top: -107px;
+        right: -39px;
+    }
+    .php {
+        width: 75px;
+        height: 75px;
+        right: 48px;
+        top: -21px;
+    }
+    .mysql {
+        width: 75px;
+        height: 75px;
+        top: -25px;
+        left: -19px;
+
+    }
+    .scnebuilder {
+        width: 75px;
+        height: 75px;
+        top: -25px;
+        left: 9%;
+    }
+    /*--------------------------------gallery-------------------------------*/
+    .gallery {
+        font-size: 28px;
+    }
+
+    .collage {
+        top: 22%;
+        left: 14%;
+        height: 200px;
+    }
+    /*-----------------------------education---------------------------------*/
+    main>section:nth-child(6)>h3 {
+        bottom: 87%;
+        font-size: 28px;
+    }
+    .school {
+        width: 250px;
+        height: 70px;
+        top: 15%;
+        left: 15%;
+    }
+
+    .ol {
+        width: 250px;
+        height: 70px;
+        top: 18%;
+        left: 15%;
+    }
+    .al {
+        width: 250px;
+        height: 70px;
+        top: 21%;
+        left: 15%;
+    }
+    .nibm {
+        width: 250px;
+        height: 70px;
+        top: 24%;
+        left: 15%;
+    }
+    .ijse {
+        width: 250px;
+        height: 70px;
+        top: 27%;
+        left: 16%;
+    }
+    .line {
+        height: 389px;
+        top: 16%;
+    }
+    .circle {
+        height: 10px;
+        width: 10px;
+        left: 37px;
+        bottom: 83%;
+    }
+    .circle1{
+        height: 10px;
+        width: 10px;
+        left: 37px;
+        bottom: 65%;
+    }
+
+    .circle2 {
+        height: 10px;
+        width: 10px;
+        left: 37px;
+        bottom: 48%;
+    }
+    .circle3 {
+        height: 10px;
+        width: 10px;
+        left: 37px;
+        top: 67%;
+    }
+
+    .circle4 {
+        height: 10px;
+        width: 10px;
+        left: 37px;
+        top: 89%;
+    }
+    #EDUCATION h5 {
+        font-size: 11px;
+    }
+    .leter9 {
+        font-size: 14px;
+    }
+    .leter10 {
+        font-size: 14px;
+    }
+    .leter11{
+        font-size: 14px;
+    }
+    .leter12{
+        font-size: 14px;
+    }
+    .leter13{
+        font-size: 14px;
+    }
+    .leter14{
+        font-size: 14px;
+    }
+
+    .leter15{
+        font-size: 14px;
+    }
+    .leter16{
+        font-size: 14px;
+    }
+    .leter17{
+        font-size: 14px;
+    }
+    .leter18{
+        font-size: 14px;
+    }
+    .line1 {
+        display: none;
+    }
+    /*------------------------------assignment------------------------------------*/
+    .ass {
+        font-size: 23px;
+        bottom: 84%;
+        right: 57%;
+    }
+    .assignment01 {
+        width: 150px;
+        height: 150px;
+        right: 55%;
+        bottom: 53%;
+    }
+    .assignment02 {
+        width: 150px;
+        height: 150px;
+        bottom: 53%;
+        left: 54%;
+    }
+    .assignment03 {
+        width: 150px;
+        height: 150px;
+        top: 51%;
+        left: 30%;
+    }
+    .img5{
+        left: 27%;
+
+    }
+    .img6{
+        left: 30%;
+    }
+    .img7{
+        left: 29%;
+        top: 20%;
+    }
+    .txt {
+        font-size: 14px;
+    }
+    .txt3 {
+        font-size: 14px;
+    }
+    .txt4{
+        font-size: 14px;
+    }
+    .arti1 {
+        top: 57%;
+        left: -4%;
+        width: 220px;
+        font-size: 7px;
+    }
+    .butn1 {
+        font-size: 6px;
+        left: 71%;
+        top: 85%;
+    }
+
+    /*------------------------------project---------------------------*/
+    .pro {
+        font-size: 23px;
+        bottom: 84%;
+        right: 20%;
+    }
+    .project-container {
+        gap: 10px;
+    }
+    .project-box {
+        width: 100px;
+        height: 100px;
+        left: 10%;
+
+    }
+    .project-container .project-box {
+        border-radius: 1.2rem;
+        top: 160%;
+    }
+
+    .project-layer h2 {
+        font-size: 13px;
+        bottom: -6%;
+        right: 63%;
+    }
+    .project-layer p {
+        font-size: 5px;
+        right: 65%;
+    }
+    .arti2 {
+        font-size: 9px;
+        left: 13%;
+    }
+    .btn2 {
+        font-size: 7px;
+        left: 74%;
+        top: 65%;
+    }
+    /*-----------------------------certificate-------------------------*/
+    .certificate1 {
+        width: 125px;
+        height: 125px;
+        left: 13%;
+        display: inline-block;
+        top: 17%;
+    }
+
+    .certificate2 {
+        width: 125px;
+        height: 125px;
+        display: inline-block;
+        left: 24%;
+        bottom: -17.5%;
+    }
+
+    .certificate3 {
+        width: 125px;
+        height: 125px;
+        display: inline-block;
+        left: -26%;
+        bottom: -51%;
+
+    }
+    .c1 {
+        height: 50px;
+        width: 50px;
+        right: 18%;
+        left: 22.5%;
+        bottom: 64%;
+    }
+    .c2 {
+        height: 50px;
+        width: 50px;
+        left: 66%;
+        bottom: 63%;
+    }
+    .c3 {
+        height: 50px;
+        width: 50px;
+        left: 190px;
+        bottom: 31%;
+    }
+
+    .certificate h3 {
+        font-size: 23px;
+    }
+    .arti9 {
+        top: 83%;
+        right: 16%;
+        font-size: 12px;
+    }
+    /*-------------------------------activities------------------------*/
+
+    .ac {
+        right: 56%;
+        bottom: 80%;
+        font-size: 28px;
+    }
+    .pic10 {
+
+        display: none;
+    }
+    .pic11 {
+        width: 250px;
+        height: 150px;
+        left: 22%;
+        top: 90px;
+    }
+    .picture2 {
+        height: 100px;
+    }
+    .picture3 {
+        height: 80px;
+    }
+    .arti21 {
+        font-size: 6px;
+        top: 58%;
+        left: 23%;
+    }
+    .arti20 {
+        font-size: 6px;
+        top: 84%;
+        right: 42%;
+    }
 
 
-
-
-
-}
-
-
+    }
 
 
 
