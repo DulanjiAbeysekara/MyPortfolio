@@ -1473,11 +1473,11 @@ main>section:last-child{
 @media all and (max-width: 320px) {
 
     header {
-        width: 73vw;
+        width: 82vw;
     }
 
     header > nav > ul {
-        top: 0%;
+        top: -4px;
         left: 3px;
     }
 
@@ -1531,8 +1531,8 @@ main>section:last-child{
     }
     .threee {
         font-size: 12px;
-        top: 51%;
-        left: 13%;
+        top: 56%;
+        left: 8%;
     }
 /*-------------------------------aboutme------------------------------*/
     .me {
@@ -2564,7 +2564,138 @@ main>section:last-child{
     }
     }
 /*-----------------------------------375-425---------------------------*/
+@media all and (min-width: 375px) and (max-width: 425px){
+    header {
+        width: 80vw;
+    }
+    .name {
+        top: 32%;
+        left: -3%;
+        font-size: 9px;
+    }
+    header>nav>ul {
+        top: 12%;
+        left: 87px;
+    }
+    header>nav>ul>li {
+        font-size: 3px;
+    }
+    .imge30 {
+        width: 150px;
+        height: 150px;
+        bottom: 55%;
+        left: 29%;
+    }
+    .div1 h1 {
+        font-size: 25px;
+        /*color: white;*/
+    }
+    .oneee {
+        top: 44%;
+        left: 13%;
+    }
+    .twooo {
+        top: 49%;
+        left: 18%;
+    }
+    .threee {
+        top: 53%;
+        left: 17%;
+        font-size: 14px;
+    }
+    .social-media a {
+        width: 45px;
+        height: 45px;
+    }
+    .fb {
+        left: 25%;
+        top: 87%;
+    }
+    .linkedin {
+        top: 87%;
+        left: 40%;
+    }
+    .git {
+        top: 87%;
+        left: 55%;
+    }
+    /*}--------------------------about me------------------*/
+    .me {
+        height: 177px;
+        left: 29%;
+    }
+    .about {
+        font-size: 28px;
+        top: -3%;
+    }
 
+    .details1 {
+        font-size: 10px;
+        top: 63%;
+        left: 23%;
+    }
+    .details2 {
+        font-size: 9px;
+        line-height: 2.5vh;
+        left: 22%;
+        top: 46%;
+
+    }
+/*--------------------------contact me----------------------------*/
+    .h2 {
+        font-size: 28px;
+        right: 48%;
+    }
+
+    .location {
+        width: 30px;
+        height: 30px;
+        bottom: 76%;
+        left: 7%;
+    }
+    .tele {
+        bottom: 65%;
+        left: 7%;
+        width: 30px;
+        height: 30px;}
+
+    .linkedinnn2 {
+        bottom: 54%;
+        left: 7%;
+        height: 30px;
+        width: 30px;
+    }
+    .email {
+        bottom: 43%;
+        left: 7%;
+        width: 30px;
+        height: 30px;
+    }
+    .a1 {
+        bottom: 76%;
+        font-size: 9px;
+
+    }
+    .a2 {
+        font-size: 9px;
+        bottom: 64%;
+    }
+
+    .a3 {
+        bottom: 54%;
+        font-size: 9px;
+    }
+    .a4 {
+        font-size: 9px;
+        bottom: 42%;
+
+    }
+
+
+
+
+
+}
 
 
 
