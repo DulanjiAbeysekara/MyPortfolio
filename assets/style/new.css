@@ -1521,6 +1521,7 @@ main>section:last-child{
     .div1 h1 {
         font-size: 19px;
         /*color: white;*/
+        margin-left: -3vh;
     }
     .oneee {
         top: 43%;
@@ -1529,10 +1530,13 @@ main>section:last-child{
     .twooo {
         top: 48%;
     }
-    .threee {
-        font-size: 12px;
-        top: 56%;
-        left: 8%;
+    #threee {
+
+        font-size: 14px;
+        top: 49%;
+        left: 14%;
+        margin-left: -4vh;
+
     }
 /*-------------------------------aboutme------------------------------*/
     .me {
@@ -2040,6 +2044,7 @@ main>section:last-child{
         position: absolute;
         top: -4px;
         left: 10px;
+        margin-left: -6vh;
     }
     header>nav>ul>li {
         font-size: 4px;
@@ -2065,6 +2070,7 @@ main>section:last-child{
         font-size: 14px;
         top: 49%;
         left: 14%;
+        margin-left: -3vh;
     }
     .social-media a {
         width: 30px;
