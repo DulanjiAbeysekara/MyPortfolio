@@ -1968,7 +1968,7 @@ main>section:last-child{
     .c1 {
         width: 50px;
         height: 50px;
-        top: 14%;
+        top: 17%;
         left: 41.5%;
     }
     .c2 {
@@ -1981,8 +1981,9 @@ main>section:last-child{
     .c3 {
         width: 50px;
         height: 50px;
-        left: 127px;
-        bottom: 47%;
+        left: 135px;
+        bottom: 16%;
+        margin-top: 75%;
     }
     .arti9 {
         top: 91%;
@@ -2124,9 +2125,10 @@ main>section:last-child{
         height: 30px;
     }
     .a1 {
-        font-size: 10px;
+        font-size: 9px;
         bottom: 80%;
         left: 23%;
+        margin-left: -4px;
     }
 
     .tele {
@@ -2168,6 +2170,7 @@ main>section:last-child{
         font-size: 25px;
         bottom: 89%;
         right: 69%;
+        margin-right: -9px;
     }
     .scnebuilder {
         top: 71px;
@@ -2194,41 +2197,45 @@ main>section:last-child{
         left: -1%;
     }
     .figma {
-        top: 27px;
+        top: -19px;
         height: 45px;
         width: 45px;
         right: -70px;
+        margin-bottom: -17%;
+        margin-right: 40%;
     }
     .java {
-        top: 64px;
+        top: 42px;
         height: 45px;
         width: 45px;
-        right: 47px;
+        right: -137px;
+        margin-top: 12%;
     }
 
     .js {
         height: 45px;
         width: 45px;
-        right: -87px;
+        right: -132px;
         top: 19px;
-
+        margin-bottom: -20%;
     }
-
-    .design1{
+    .design1 {
         width: 50px;
-        height: 50px
-
+        height: 50px;
+        margin-left: 10%;
     }
     .ui {
-
         height: 150px;
         width: 200px;
         left: 22%;
         top: 9%;
+        margin-left: -5%;
     }
     .leter {
         font-size: 11px;
         left: 33%;
+        margin-left: 1%;
+        margin-top: 0%;
     }
     .ppp {
         font-size: 8px;
@@ -2237,17 +2244,21 @@ main>section:last-child{
     }
     .design2 {
         width: 50px;
-        height: 50px
+        height: 50px;
+        margin-left: 6%;
     }
     .web {
         height: 150px;
         width: 200px;
         top: 36%;
         left: 22%;
+        margin-left: -4%;
     }
     .leter1 {
         font-size: 11px;
         left: 33%;
+        margin-top: 3%;
+        margin-left: 5%;
     }
     .ppp2 {
         font-size: 8px;
@@ -2272,10 +2283,10 @@ main>section:last-child{
         left: 55%;
     }
     .collage {
-        width: 225px;
-        height: 225px;
-        top: 23%;
-        left: 15%;
+        /* width: 225px; */
+        height: 160px;
+        top: 18%;
+        left: 9%;
     }
 /*----------------------------------education---------------------*/
     main>section:nth-child(6)>h3 {
@@ -2299,6 +2310,7 @@ main>section:last-child{
         width: 10px;
         left: 21px;
         bottom: 85%;
+        margin-left: -1%;
     }
     .leter9 {
         font-size: 10px;
@@ -2309,11 +2321,11 @@ main>section:last-child{
     }
 
     .ol {
-        width:165px;
+        width: 165px;
         height: 50px;
-        top: 29%;
+        top: 19%;
         left: -34%;
-
+        margin-left: 45%;
     }
     .leter11 {
         font-size: 10px;
@@ -2327,6 +2339,7 @@ main>section:last-child{
         width: 10px;
         left: 21px;
         bottom: 66%;
+        margin-left: -1%;
     }
 
     .circle2 {
@@ -2334,12 +2347,14 @@ main>section:last-child{
         width: 10px;
         left: 21px;
         bottom: 49%;
+        margin-left: -1%;
     }
     .al {
         width: 165px;
         height: 50px;
-        left: 13%;
-        top: 37%;
+        left: 12%;
+        top: 36%;
+        margin-top: -23%;
     }
     .leter13 {
         font-size: 10px;
@@ -2351,14 +2366,15 @@ main>section:last-child{
         height: 10px;
         width: 10px;
         left: 21px;
+        margin-left: -1%;
         top: 69%;
     }
-
     .nibm {
         width: 165px;
         height: 50px;
         left: -34%;
-        top: 56%;
+        top: 43%;
+        margin-left: 46%;
     }
     .leter15 {
         font-size: 10px;
@@ -2372,12 +2388,14 @@ main>section:last-child{
         width: 10px;
         left: 21px;
         top: 86%;
+        margin-left: -1%;
     }
     .ijse {
         width: 165px;
         height: 50px;
         left: 13%;
-        top: 64%;
+        top: 61%;
+        margin-top: -37%;
     }
     .leter17 {
         font-size: 10px;
@@ -2415,6 +2433,7 @@ main>section:last-child{
         height: 110px;
         bottom: 38%;
         left: 37%;
+        margin-left: -6%;
     }
     .img6 {
         width: 50px;
@@ -2428,6 +2447,7 @@ main>section:last-child{
         width: 110px;
         height: 110px;
         top: 65%;
+        margin-left: -6%;
         left: 37%;
     }
     .img7 {
@@ -2444,6 +2464,7 @@ main>section:last-child{
         top: 70%;
         left: -5%;
         width: 150px;
+        margin-left: -6%;
     }
     .butn1 {
         font-size: 5px;
@@ -2504,14 +2525,15 @@ main>section:last-child{
         width: 115px;
         height: 115px;
         display: inline-block;
-        top: 39%;
+        top: 13%;
         left: 0%;
+        margin-left: 34%;
     }
     .certificate3 {
         width: 115px;
         height: 115px;
-        left: -33%;
-        bottom: -66%;
+        left: 34%;
+        bottom: -16%;
         display: inline-block;
     }
     .c1 {
@@ -2522,25 +2544,33 @@ main>section:last-child{
 
     }
 
-    .c2{
+    .c2 {
         width: 40px;
         height: 40px;
+        margin-left: 6%;
+        margin-bottom: 41%;
     }
-    .c3 {
-        width: 40px;
-        height: 40px;
-        eft: 160px;
-        bottom: 17%;
-        left: 160px;
+    .certificate3 {
+        width: 115px;
+        height: 115px;
+        left: 34%;
+        bottom: -16%;
+        display: inline-block;
     }
     .arti9 {
         top: 92%;
         font-size: 8px;
     }
+    .c3 {
+        width: 40px;
+        height: 40px;
+        left: 137px;
+        bottom: 17%;
+    }
 /*------------------------------activies----------------------*/
     .ac {
         font-size: 25px;
-        right: 53%;
+        right: 48%;
         bottom: 84%;
     }
     .pic11 {
@@ -2557,11 +2587,13 @@ main>section:last-child{
     .pic11 {
         left: 15%;
         top: 73px;
+        margin-left: -10%;
     }
     .arti21 {
-        font-size: 9px;
+        font-size: 8px;
         top: 51%;
         left: 2%;
+        margin-left: -6%;
     }
     .arti20 {
         font-size: 9px;
