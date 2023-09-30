@@ -1470,7 +1470,7 @@ main>section:last-child{
 /*    !*font-size: 0;*!*/
 /*}*/
 /*-----------------------------------------media query----------------------------------------------------*/
-@media all and (max-width: 500px) {
+@media all and (max-width: 320px) {
 
     header {
         width: 85vw;
@@ -1530,13 +1530,14 @@ main>section:last-child{
     .twooo {
         top: 48%;
     }
-    #threee {
-
+    .threee {
         font-size: 14px;
+        color: white;
+        font-family: "Libre Baskerville, serif";
         top: 49%;
-        left: 14%;
-        margin-left: -4vh;
-
+        left: 8%;
+        position: absolute;
+        letter-spacing: 0.5px;
     }
 /*-------------------------------aboutme------------------------------*/
     .me {
@@ -2612,8 +2613,8 @@ main>section:last-child{
         font-size: 9px;
     }
     header>nav>ul {
-        top: 12%;
-        left: 31px;
+        top: -11%;
+        left: 55px;
     }
     header>nav>ul>li {
         font-size: 3px;
@@ -2682,7 +2683,7 @@ main>section:last-child{
 /*--------------------------contact me----------------------------*/
     .h2 {
         font-size: 28px;
-        right: 48%;
+        right: 47%;
     }
 
     .location {
@@ -2784,20 +2785,20 @@ main>section:last-child{
     .java {
         width: 75px;
         height: 75px;
-        top: 31px;
-        right: -107px;
+        top: 8px;
+        right: -126px;
     }
     .js {
         width: 75px;
         height: 75px;
-        right: -227px;
-        top: -118px;
+        right: -225px;
+        top: -113px;
     }
     .figma {
         width: 75px;
         height: 75px;
-        top: -42px;
-        right: -108px;
+        top: -50px;
+        right: -99px;
     }
     .intellj {
         width: 75px;
@@ -2810,8 +2811,8 @@ main>section:last-child{
     .php {
         width: 75px;
         height: 75px;
-        right: 48px;
-        top: -21px;
+        right: 25px;
+        top: -187px;
     }
     .mysql {
         width: 75px;
@@ -3131,8 +3132,11 @@ main>section:last-child{
 /*------------------------------------------425-768----------------------------*/
 @media all and (min-width:425px) and (max-width: 768px) {
 
+
     header {
         width: 450vw;
+        display: none;
+
     }
     .name {
         font-size: 15px;
@@ -3149,7 +3153,8 @@ main>section:last-child{
     }
 /*-----------------------------home page-------------------------------    */
     .div1 h1 {
-        font-size: 29px;
+        margin-top: 47vh;
+        font-size:25px;
     }
     .oneee {
         top: 24%;
@@ -3161,14 +3166,14 @@ main>section:last-child{
     }
     .threee {
         font-size: 17px;
-        top: 37%;
-        left: 8%;
+        top: 43%;
+        left:2%;
     }
     .imge30 {
-        width: 225px;
-        height: 225px;
-        bottom: 30%;
-        left: 58%;
+        width: 193px;
+        height: 207px;
+        bottom: 47%;
+        left:40%;
     }
     .fb {
         left: 25%;
@@ -3184,23 +3189,24 @@ main>section:last-child{
     }
 /*-------------------------about me----------------------*/
     .me {
-        left: 5%;
-        top: 21%;
-        height: 300px;
+        left: 2%;
+        top: 18%;
+        height:272px;
     }
     .about {
         font-size: 30px;
 
     }
     .details2 {
+        margin-top: 29vh;
         font-size: 12px;
         line-height: 4.5vh;
-        left: 45%;
+       left:5%;
     }
     .details1 {
         font-size: 12px;
-        top: 50%;
-        left: 45%;
+        top: 55%;
+        left:45%;
     }
     /*-----------------------------contact me---------------------------*/
     .h2 {
@@ -3245,45 +3251,51 @@ main>section:last-child{
 /*   -----------------------------------*/
     main>section:nth-child(4)>h3 {
         font-size: 30px;
-        right: 81%;
+        right:70%;
     }
-    .ui{
-        height: 175px;
-        width: 200px
+    .ui {
+        height: 150px;
+        width: 150px;
+        left: 54%;
+        top: 4%;
     }
     .design1 {
         left: 26%;
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
     }
     .leter {
-        font-size: 13px;
-        left: 33%;
-        top: 52%;
+        font-size: 10px;
+        left: 29%;
+        top: 44%;
     }
     .ppp {
-        font-size: 8px;
+        font-size: 7px;
         left: 13%;
-        top: 70%;
+        top: 60%;
     }
     .web {
-        height: 175px;
-        width: 200px
+        height: 150px;
+        width: 175px;
+        top: 28%;
+        left: 10%;
+        /* transition: none; */
     }
     .design2 {
         left: 26%;
-        height: 100px;
-        width: 100px;
+        height: 70px;
+        width: 70px;
+        left: 31%;
     }
     .leter1 {
-        font-size: 13px;
-        left: 33%;
-        top: 52%;
+        font-size: 10px;
+        left: 36%;
+        top: 44%;
     }
     .ppp2 {
-        font-size: 8px;
+        font-size: 7px;
         left: 12%;
-        top: 68%;
+        top: 59%;
     }
     .leter3 {
         font-size: 10px;
@@ -3292,52 +3304,52 @@ main>section:last-child{
     }
     .leter2 {
         font-size: 10px;
-        bottom: 8%;
+        bottom: 11%;
         left: 6%;
     }
     .js {
+        left: 25%;
         height: 100px;
         width: 100px;
-        right: -156px;
-        top: -121px;
+        /* right: -156px; */
+        top: 75%;
     }
     .java {
         height: 100px;
-        width: 100px;
-        right: -187px;
-        top: -135px;
-
+        width: 80px;
+        top: 25%;
+        left: 75%;
     }
-   .figma {
-        height: 100px;
+    .figma {
+        height: 90px;
         width: 100px;
-       top: -124px;
-       right: -212px;
+        top: -106px;
+        right: -163px;
     }
 
     .intellj {
-        height: 100px;
-        width: 100px;
-        right: 35px;
-        top: -28%;
-
+        height: 80px;
+        width: 80px;
+        /* right: 14px; */
+        top: -34%;
+        left: 45%;
     }
     .php {
-        height: 100px;
-        width: 100px;
-        top: 8px;
-        right: 206px;
+        height: 66px;
+        width: 75px;
+        top: -10px;
+        right: 8vh;
     }
     .mysql {
-        height: 100px;
-        width: 100px;
-        top: 8px;
-        left: -11px;
+        height: 71px;
+        width: 63px;
+        top: -20px;
+        left: -39vh;
     }
     .scnebuilder {
-        height: 100px;
-        width: 100px;
-        top: 7px;
+        height: 72px;
+        width: 64px;
+        top: 8px;
         left: 13%;
     }
 /*-----------------------------gallery--------------------------*/
@@ -3346,10 +3358,14 @@ main>section:last-child{
     }
     .collage {
         top: 23%;
-        left: 24%;
-        height: 300px;
+        left: 28%;
+        height: 150px;
     }
 /*----------------------------------school-----------------------*/
+    main>section:nth-child(6) {
+        height: 127vh;
+        width: 100%;
+    }
     main>section:nth-child(6)>h3 {
         font-size: 30px;
         color: white;
@@ -3389,14 +3405,7 @@ main>section:last-child{
         right: 0;
         bottom: 0;
         top: 19%;
-        left: 13%;
-        /* margin: auto; */
-        position: relative;
-        border: 2px solid #eaeaea;
-        cursor: pointer;
-        transition: all 0.4s;
-        border-radius: 10px;
-        display: inline-block;
+        left: 22%;
     }
     .line {
         position: absolute;
@@ -3440,15 +3449,7 @@ main>section:last-child{
         height: 75px;
         font-size: 16px;
         bottom: 0;
-        top: 49%;
-        left: -22%;
-        /* margin: auto; */
-        position: relative;
-        border: 2px solid #eaeaea;
-        cursor: pointer;
-        transition: all 0.4s;
-        border-radius: 10px;
-        display: inline-block;
+        top:34%;
     }
     .leter11 {
         position: relative;
@@ -3474,16 +3475,9 @@ main>section:last-child{
         font-size: 16px;
         right: 0;
         bottom: 0;
-        top: 61%;
-        left: 14%;
-        border-radius: 10px;
-        /* margin: auto; */
-        position: relative;
-        border: 2px solid #eaeaea;
-        cursor: pointer;
-        transition: all 0.4s;
-        display: inline-block;
-    }
+        top: 37%;
+        left:21%;
+}
     .circle2 {
         position: absolute;
         height: 12px;
@@ -3538,22 +3532,14 @@ main>section:last-child{
         left: 424px;
         top: 68%;
     }
-    .nibm {
-        background-color: white;
-        width: 260px;
-        height: 75px;
-        font-size: 16px;
-        right: 46%;
-        /* bottom: -2%; */
-        top: 24%;
-        left: 26%;
-        border-radius: 10px;
-        /* margin: auto; */
-        position: relative;
-        border: 2px solid #eaeaea;
-        cursor: pointer;
-        display: inline-block;
-        transition: all 0.4s;
+.nibm {
+    background-color: white;
+    width: 260px;
+    height: 75px;
+    font-size: 16px;
+    right: 46%;
+    /* bottom: -2%; */
+    top:-1%
     }
     .leter15 {
         position: relative;
@@ -3578,16 +3564,8 @@ main>section:last-child{
         height: 75px;
         font-size: 16px;
         right: 0;
-        top: 37%;
-        left: 61%;
-        /* bottom: -10%; */
-        border-radius: 10px;
-        /* margin: auto; */
-        position: relative;
-        border: 2px solid #eaeaea;
-        cursor: pointer;
-        transition: all 0.4s;
-        display: inline-block;
+        top: 31%;
+        left:21%;
     }
     .leter17 {
         position: relative;
@@ -3607,6 +3585,10 @@ main>section:last-child{
         font-size: 16px;
     }
 /*-----------------------------------assignment--------------------------*/
+    .assignment {
+        height: 182vh;
+        width: 100%;
+    }
     .ass {
         color: #D31A38;
         /* text-decoration: underline #D31A38; */
@@ -3614,33 +3596,27 @@ main>section:last-child{
         font-size: 26px;
         position: absolute;
         bottom: 84%;
-        right: 71%;
+        right:42%;
     }
 
     .assignment01 {
-        width: 190px;
+        width: 174px;
         height: 190px;
         background-color: #373030;
         border-radius: 15%;
         position: absolute;
-        right: 68%;
-        bottom: 38%;
-        transition-duration: 3s;
-        transition-property: all;
-        transition: 3s;
+        right: 39%;
+        bottom:55%;
     }
 
     .assignment02 {
-        width: 190px;
+        width: 189px;
         height: 190px;
         background-color: #373030;
         border-radius: 15%;
         position: absolute;
-        bottom: 37%;
-        left: 37%;
-        transition-duration: 3s;
-        transition-property: all;
-        transition: 3s;
+        bottom: 9%;
+        left:16%;
     }
     .assignment03 {
         width: 190px;
@@ -3649,12 +3625,8 @@ main>section:last-child{
         border-radius: 15%;
         position: relative;
         bottom: 35%;
-        top: 23%;
-        left: 67%;
-        transition-duration: 3s;
-        transition-property: all;
-        transition: 3s;
-        display: inline-block;
+        top: 51%;
+        left: 16%;
     }
     .txt {
         position: relative;
@@ -3688,12 +3660,11 @@ main>section:last-child{
     }
     .arti1 {
         position: relative;
-        top: 47%;
+        top: 73%;
         color: white;
         font-family: "Lucida Sans";
         font-size: 9px;
-        left: -1%;
-        width: 425px;
+        left: -5%;
     }
     .butn1 {
         position: absolute;
@@ -3707,8 +3678,7 @@ main>section:last-child{
         padding: 0 18px;
         transition: 0.5s;
         left: 78%;
-        top: 73%;
-        border-radius: 8px;
+        top:95%;
     }
 /*---------------------------project------------------------------------    */
     .pro {
