@@ -1474,6 +1474,7 @@ main>section:last-child{
 
     header {
         width: 85vw;
+        display: none;
     }
 
     header > nav > ul {
@@ -1982,8 +1983,8 @@ main>section:last-child{
     .c3 {
         width: 50px;
         height: 50px;
-        left: 135px;
-        bottom: 16%;
+        left: 125px;
+        bottom: 46%;
         margin-top: 75%;
     }
     .arti9 {
@@ -2023,6 +2024,7 @@ main>section:last-child{
     }
     .arti20 {
         font-size: 6px;
+        display: none;
     }
     .picture1 {
         height: 50px;
@@ -2606,6 +2608,7 @@ main>section:last-child{
 @media all and (min-width: 375px) and (max-width: 425px){
     header {
         width: 80vw;
+        display: none;
     }
     .name {
         top: 32%;
@@ -2626,8 +2629,8 @@ main>section:last-child{
         left: 29%;
     }
     .div1 h1 {
-        font-size: 25px;
-        /*color: white;*/
+        font-size: 20px;
+        /* color: white; */
     }
     .oneee {
         top: 44%;
@@ -2670,22 +2673,20 @@ main>section:last-child{
 
     .details1 {
         font-size: 10px;
-        top: 63%;
-        left: 23%;
+        top: 60%;
+        left: 19%;
     }
     .details2 {
         font-size: 9px;
         line-height: 2.5vh;
-        left: 22%;
-        top: 46%;
-
+        left: 17%;
+        top: 43%;
     }
 /*--------------------------contact me----------------------------*/
     .h2 {
         font-size: 28px;
-        right: 47%;
+        right: 41%;
     }
-
     .location {
         width: 30px;
         height: 30px;
@@ -2740,14 +2741,23 @@ main>section:last-child{
         width: 150px;
         left: 9%;
     }
+    .ui:hover {
+        transition-duration: 3s;
+        transition-property: all;
+        border: 4px solid #D31A38;
+        transform: scale(1.08, 1.08);
+        z-index: 2;
+        display: none;
+    }
     .design1 {
         height: 50px;
         width: 50px;
+        left: 24%;
     }
     .leter {
-
         font-size: 11px;
-        left: 33%;
+        left: 31%;
+        top: 39%;
     }
     .ppp {
         font-size: 6px;
@@ -2757,6 +2767,7 @@ main>section:last-child{
     .design2 {
         height: 50px;
         width: 50px;
+        left: 27%;
     }
     .web {
         height: 150px;
@@ -2764,9 +2775,17 @@ main>section:last-child{
         left: 53%;
         top: 9%;
     }
+    .web:hover {
+        transition-duration: 3s;
+        transition-property: all;
+        border: 4px solid #D31A38;
+        transform: scale(1.08, 1.08);
+        z-index: 2;
+        display: none;
+    }
     .leter1 {
         font-size: 11px;
-        left: 33%;
+        left: 28%;
     }
     .ppp2 {
         font-size: 6px;
@@ -2833,9 +2852,9 @@ main>section:last-child{
     }
 
     .collage {
-        top: 22%;
+        top: 35%;
         left: 14%;
-        height: 200px;
+        height: 175px;
     }
     /*-----------------------------education---------------------------------*/
     main>section:nth-child(6)>h3 {
@@ -2880,33 +2899,32 @@ main>section:last-child{
     .circle {
         height: 10px;
         width: 10px;
-        left: 37px;
+        left: 26px;
         bottom: 83%;
     }
-    .circle1{
+    .circle1 {
         height: 10px;
         width: 10px;
-        left: 37px;
+        left: 26px;
         bottom: 65%;
     }
-
     .circle2 {
         height: 10px;
         width: 10px;
-        left: 37px;
+        left: 26px;
         bottom: 48%;
     }
     .circle3 {
         height: 10px;
         width: 10px;
-        left: 37px;
+        left: 26px;
         top: 67%;
     }
 
     .circle4 {
         height: 10px;
         width: 10px;
-        left: 37px;
+        left: 26px;
         top: 89%;
     }
     #EDUCATION h5 {
@@ -2947,28 +2965,36 @@ main>section:last-child{
         display: none;
     }
     /*------------------------------assignment------------------------------------*/
+    .assignment {
+        height: 130vh;
+        width: 100%;
+        background-size: 100vw 100vh;
+        background: #5A5555;
+        position: relative;
+        font-size: 0;
+    }
     .ass {
         font-size: 23px;
-        bottom: 84%;
-        right: 57%;
+        bottom: 88%;
+        right: 49%;
     }
     .assignment01 {
-        width: 150px;
-        height: 150px;
-        right: 55%;
-        bottom: 53%;
+        width: 125px;
+        height: 125px;
+        right: 33%;
+        bottom: 71%;
     }
     .assignment02 {
-        width: 150px;
-        height: 150px;
-        bottom: 53%;
-        left: 54%;
+        width: 125px;
+        height: 125px;
+        bottom: 47%;
+        left: 37%;
     }
     .assignment03 {
-        width: 150px;
-        height: 150px;
-        top: 51%;
-        left: 30%;
+        width: 125px;
+        height: 125px;
+        top: 58%;
+        left: 36%;
     }
     .img5{
         left: 27%;
@@ -2982,31 +3008,39 @@ main>section:last-child{
         top: 20%;
     }
     .txt {
-        font-size: 14px;
+        font-size: 10px;
     }
     .txt3 {
-        font-size: 14px;
+        font-size: 10px;
+        left: 17%;
     }
     .txt4{
-        font-size: 14px;
+        font-size: 10px;
     }
     .arti1 {
-        top: 57%;
-        left: -4%;
+        top: 69%;
+        left: 15%;
         width: 220px;
-        font-size: 7px;
+        font-size: 8px;
     }
     .butn1 {
         font-size: 6px;
-        left: 71%;
-        top: 85%;
+        left: 57%;
+        top: 82%;
     }
-
     /*------------------------------project---------------------------*/
+    .project {
+        height: 100vh;
+        width: 100%;
+        background-size: 100vw 100vh;
+        background: #242124;
+        position: relative;
+        font-size: 0;
+    }
     .pro {
         font-size: 23px;
-        bottom: 84%;
-        right: 20%;
+        bottom: 86%;
+        right: 15%;
     }
     .project-container {
         gap: 10px;
@@ -3019,7 +3053,8 @@ main>section:last-child{
     }
     .project-container .project-box {
         border-radius: 1.2rem;
-        top: 160%;
+        /*top: 160%;*/
+        top: 88%;
     }
 
     .project-layer h2 {
@@ -3037,52 +3072,64 @@ main>section:last-child{
     }
     .btn2 {
         font-size: 7px;
-        left: 74%;
-        top: 65%;
+        left: 61%;
+        top: 82%;
     }
     /*-----------------------------certificate-------------------------*/
+    .certificate {
+        height: 130vh;
+        width: 100%;
+        background-size: 100vw 100vh;
+        background: #373030;
+        position: relative;
+        font-size: 0;
+    }
+    .certificate h3 {
+        font-size: 23px;
+        bottom: 89%;
+        right: 46%;
+    }
     .certificate1 {
         width: 125px;
         height: 125px;
-        left: 13%;
+        left: 29%;
         display: inline-block;
-        top: 17%;
+        top: 11%;
     }
 
     .certificate2 {
         width: 125px;
         height: 125px;
         display: inline-block;
-        left: 24%;
-        bottom: -4.5%;
-        top: -10%;
+        left: -5%;
+        /* bottom: -4.5%; */
+        top: 18%;
     }
-
     .certificate3 {
         width: 125px;
         height: 125px;
         display: inline-block;
-        left: 26%;
-        bottom: 1%;
+        left: 29%;
+        bottom: -23%;
     }
     .c1 {
         height: 50px;
         width: 50px;
         right: 18%;
-        left: 22.5%;
-        bottom: 64%;
+        left: 40%;
+        bottom: 76%;
     }
     .c2 {
         height: 50px;
         width: 50px;
-        left: 64%;
-        bottom: 33%;
+        left: 34%;
+        bottom: 29%;
     }
-    c3 {
-        height: 50px;
+    .c3 {
         width: 50px;
-        left: 132px;
-        bottom: 28%;
+        height: 50px;
+        left: 146px;
+        bottom: 26%;
     }
 
     .certificate h3 {
@@ -3096,7 +3143,7 @@ main>section:last-child{
     /*-------------------------------activities------------------------*/
 
     .ac {
-        right: 56%;
+        right: 48%;
         bottom: 80%;
         font-size: 28px;
     }
@@ -3125,10 +3172,11 @@ main>section:last-child{
         font-size: 6px;
         top: 84%;
         right: 42%;
+        display: none;
     }
 
 
-    }
+}
 /*------------------------------------------425-768----------------------------*/
 @media all and (min-width:425px) and (max-width: 768px) {
 
@@ -3152,61 +3200,73 @@ main>section:last-child{
         font-size: 11px;
     }
 /*-----------------------------home page-------------------------------    */
-    .div1 h1 {
-        margin-top: 47vh;
-        font-size:25px;
-    }
+/*    .div1 h1 {*/
+/*        margin-top: 47vh;*/
+/*        font-size: 25px;*/
+/*        top: 2%;*/
+/*    }*/
     .oneee {
-        top: 24%;
-        left: 6%;
+        top: 46%;
+        left: 11%;
     }
     .twooo {
-        top: 33%;
-        left: 6%;
+        top: 51%;
+        left: 16%;
     }
     .threee {
         font-size: 17px;
-        top: 43%;
-        left:2%;
+        top: 51%;
+        left: 9%;
+    }
+    .imge30:hover {
+        transform: scale(1.15, 1.15);
+        z-index: 2;
+        display: none;
     }
     .imge30 {
         width: 193px;
         height: 207px;
-        bottom: 47%;
-        left:40%;
+        bottom: 52%;
+        left: 25%;
     }
     .fb {
-        left: 25%;
-        top: 61%;
+        left: 30%;
+        top: 89%;
     }
     .linkedin {
-        top: 61%;
-        left: 34%;
+        top: 89%;
+        left: 44%;
     }
     .git {
-        top: 61%;
-        left: 43%;
+        top: 89%;
+        left: 58%;
     }
+    /*.social-media a {*/
+    /*    width: 45px;*/
+    /*    height: 45px;*/
+    /*    !* left: 25%; *!*/
+    /*    top: 89%;*/
+    /*}*/
 /*-------------------------about me----------------------*/
     .me {
-        left: 2%;
-        top: 18%;
-        height:272px;
+        left: 29%;
+        top: 12%;
+        height: 200px;
     }
     .about {
         font-size: 30px;
 
     }
     .details2 {
-        margin-top: 29vh;
+        margin-top: 6vh;
         font-size: 12px;
         line-height: 4.5vh;
-       left:5%;
+        left: 10%;
     }
     .details1 {
         font-size: 12px;
-        top: 55%;
-        left:45%;
+        top: 75%;
+        left: 17%;
     }
     /*-----------------------------contact me---------------------------*/
     .h2 {
@@ -3405,7 +3465,7 @@ main>section:last-child{
         right: 0;
         bottom: 0;
         top: 19%;
-        left: 22%;
+        left: 16%;
     }
     .line {
         position: absolute;
@@ -3422,8 +3482,8 @@ main>section:last-child{
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 70px;
-        bottom: 79%;
+        left: 36px;
+        bottom: 80%;
     }
     .circle1 {
         position: absolute;
@@ -3431,12 +3491,12 @@ main>section:last-child{
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 70px;
-        bottom: 49%;
+        left: 36px;
+        bottom: 62%;
     }
     .line {
         position: absolute;
-        height: 313px;
+        height: 450px;
         width: 2px;
         background-color: gray;
         /* bottom: 8%; */
@@ -3449,7 +3509,8 @@ main>section:last-child{
         height: 75px;
         font-size: 16px;
         bottom: 0;
-        top:34%;
+        top: 23%;
+        left: 17%;
     }
     .leter11 {
         position: relative;
@@ -3475,17 +3536,17 @@ main>section:last-child{
         font-size: 16px;
         right: 0;
         bottom: 0;
-        top: 37%;
-        left:21%;
-}
+        top: 27%;
+        left: 16%;
+    }
     .circle2 {
         position: absolute;
         height: 12px;
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 70px;
-        bottom: 20%;
+        left: 37px;
+        bottom: 46%;
     }
     .leter13 {
         position: relative;
@@ -3520,8 +3581,9 @@ main>section:last-child{
         background-color: #D31A38;
         border-radius: 50%;
         left: 424px;
-        bottom: 90%;
-        top: 39%;
+        /* bottom: 90%; */
+        top: 68%;
+        left: 9%;
     }
     .circle4 {
         position: absolute;
@@ -3529,17 +3591,18 @@ main>section:last-child{
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 424px;
-        top: 68%;
+        left: 9%;
+        top: 86%;
     }
-.nibm {
-    background-color: white;
-    width: 260px;
-    height: 75px;
-    font-size: 16px;
-    right: 46%;
-    /* bottom: -2%; */
-    top:-1%
+    .nibm {
+        background-color: white;
+        width: 260px;
+        height: 75px;
+        font-size: 16px;
+        /* right: 32%; */
+        /* bottom: -2%; */
+        top: 32%;
+        left: 16%;
     }
     .leter15 {
         position: relative;
@@ -3564,8 +3627,8 @@ main>section:last-child{
         height: 75px;
         font-size: 16px;
         right: 0;
-        top: 31%;
-        left:21%;
+        top: 38%;
+        left: 16%;
     }
     .leter17 {
         position: relative;
@@ -3595,28 +3658,28 @@ main>section:last-child{
         font-family: "Times New Roman";
         font-size: 26px;
         position: absolute;
-        bottom: 84%;
-        right:42%;
+        bottom: 91%;
+        right: 45%;
     }
 
     .assignment01 {
-        width: 174px;
+        width: 190px;
         height: 190px;
         background-color: #373030;
         border-radius: 15%;
         position: absolute;
-        right: 39%;
-        bottom:55%;
+        right: 29%;
+        bottom: 66%;
     }
 
     .assignment02 {
-        width: 189px;
+        width: 190px;
         height: 190px;
         background-color: #373030;
         border-radius: 15%;
         position: absolute;
-        bottom: 9%;
-        left:16%;
+        bottom: 41%;
+        left: 26%;
     }
     .assignment03 {
         width: 190px;
@@ -3625,8 +3688,8 @@ main>section:last-child{
         border-radius: 15%;
         position: relative;
         bottom: 35%;
-        top: 51%;
-        left: 16%;
+        top: 63%;
+        left: 26%;
     }
     .txt {
         position: relative;
@@ -3660,11 +3723,11 @@ main>section:last-child{
     }
     .arti1 {
         position: relative;
-        top: 73%;
+        top: 71%;
         color: white;
         font-family: "Lucida Sans";
-        font-size: 9px;
-        left: -5%;
+        font-size: 10px;
+        left: 12%;
     }
     .butn1 {
         position: absolute;
@@ -3677,9 +3740,21 @@ main>section:last-child{
         font-weight: 300;
         padding: 0 18px;
         transition: 0.5s;
-        left: 78%;
-        top:95%;
+        left: 66%;
+        top: 86%;
     }
+    .img7 {
+        left: 31%;
+        top: 20%;
+    }
+    /*.arti1 {*/
+    /*    position: relative;*/
+    /*    top: 71%;*/
+    /*    color: white;*/
+    /*    font-family: "Lucida Sans";*/
+    /*    font-size: 10px;*/
+    /*    left: 12%;*/
+    /*}*/
 /*---------------------------project------------------------------------    */
     .pro {
         color: #D31A38;
@@ -3687,14 +3762,22 @@ main>section:last-child{
         font-family: "Times New Roman";
         font-size: 26px;
         position: absolute;
-        bottom: 83%;
-        right: 42%;
+        bottom: 88%;
+        right: 59%;
+    }
+    .project {
+        height: 130vh;
+        width: 100%;
+        background-size: 100vw 100vh;
+        background: #242124;
+        position: relative;
+        font-size: 0;
     }
     .project-container {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(1,3fr);
         align-items: center;
-        gap: 0.2rem;
+        gap: 1rem;
         /* position: absolute; */
     }
     .project-container .project-box {
@@ -3703,7 +3786,12 @@ main>section:last-child{
         box-shadow: 0 0 1rem #D31A38;
         overflow: hidden;
         display: flex;
-        top: 50%;
+        top: 66%;
+        left: 30%;
+        /* height: 75px; */
+        /* width: 75px; */
+        width: 150px;
+        height: 150px;
     }
     .project-box {
         width: 200px;
@@ -3712,13 +3800,7 @@ main>section:last-child{
         top: 60%;
         left: 9%;
     }
-    .project-container {
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        align-items: center;
-        gap: 0.2rem;
-        /* position: absolute; */
-    }
+
     .btn2 {
         position: absolute;
         background: white;
@@ -3730,33 +3812,36 @@ main>section:last-child{
         font-weight: 300;
         padding: 0 18px;
         transition: 0.5s;
-        left: 81%;
-        top: 77%;
+        left: 71%;
+        top: 88%;
         border-radius: 8px;
     }
     .project-layer h2 {
-        font-size: 17px;
-        font-family: "Lucida Sans";
-        right: 35%;
-        position: relative;
+        font-size: 13px;
+        bottom: 4vh;
+        right: 43%;
     }
     .project-layer p {
         font-size: 13px;
         margin: 0.3px 0 1px;
         color: white;
-        right: 32%;
+        right: 41%;
         position: relative;
     }
     .arti2 {
-        top: 86%;
-        position: absolute;
-        color: white;
-        font-family: "Lucida Sans";
-        font-size: 9px;
-        bottom: 100%;
-        left: 30%;
+        margin-top: 10vh;
+        font-size: 11px;
+        left: 0%;
     }
 /*-------------------------------------------certificate-----------------------------------------------*/
+    .certificate {
+        height: 120vh;
+        width: 100%;
+        background-size: 100vw 100vh;
+        background: #373030;
+        position: relative;
+        font-size: 0;
+    }
     .certificate h3 {
         color: #D31A38;
         /* text-decoration: underline #D31A38; */
@@ -3767,90 +3852,62 @@ main>section:last-child{
         right: 12%;
     }
     .certificate2 {
-        position: relative;
-        width: 200px;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #373030;
-        left: 9%;
-        bottom: -27.5%;
-        /* top: 5%; */
-        border-radius: 10%;
-        overflow: hidden;
-        border: 2px solid gray;
+        width: 125px;
+        height: 125px;
         display: inline-block;
+        left: 2%;
+        bottom: -6.5%;
+        top: 62%;
     }
     .certificate1 {
         position: relative;
-        width: 200px;
-        height: 200px;
+        width: 125px;
+        height: 125px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #373030;
-        left: 70%;
-        bottom: 30%;
-        top: 28%;
+        left: 34%;
+        /* bottom: 42%; */
+        top: 12%;
         border-radius: 10%;
         overflow: hidden;
         border: 2px solid gray;
         display: inline-block;
     }
     .certificate3 {
-        position: relative;
-        width: 200px;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #373030;
-        left: -52%;
-        bottom: -27%;
-        border-radius: 10%;
-        overflow: hidden;
+        width: 125px;
+        height: 125px;
         display: inline-block;
-        border: 2px solid gray;
+        left: -30%;
+        bottom: -37%;
     }
     .c1 {
-        position: absolute;
-        right: 28%;
-        left: 78.5%;
-        bottom: 44%;
-        box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
-        transition: 1s;
-        display: block;
-        width: 80px;
-        height: 80px;
-
+        width: 100px;
+        right: 18%;
+        left: 37.5%;
+        bottom: 74%;
     }
     .c2 {
-        position: absolute;
-        right: 6%;
-        left: 334px;
-        bottom: 207px;
-        box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
-        transition: 1s;
-        display: block;
-        width: 80px;
-        height: 80px;
+        /* height: 100px; */
+        width: 100px;
+        left: 38%;
+        bottom: 24%;
     }
     .c3 {
+        width: 100px;
         position: absolute;
-        right: 25%;
-        left: 10%;
-        bottom: 44%;
+        right: 30%;
+        left: 153px;
+        bottom: 45%;
         box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
         transition: 1s;
         display: block;
-        width: 80px;
-        height: 80px;
     }
     .arti9 {
         font-family: "Lucida Sans";
         color: white;
-        top: 83%;
+        top: 88%;
         right: 20%;
         position: absolute;
         font-size: 9px;
@@ -3858,13 +3915,9 @@ main>section:last-child{
 /*------------------------------------------activities----------------------------------*/
 
     .ac {
-        color: white;
-        font-family: "Times New Roman";
-        font-size: 30px;
-        position: absolute;
-        /* text-decoration: underline white; */
-        right: 72%;
+        right: 49%;
         bottom: 80%;
+        font-size:28px;
     }
     .pic10 {
         width: 250px;
@@ -3920,6 +3973,7 @@ main>section:last-child{
         position: absolute;
         top: 67%;
         right: 13%;
+        display: none;
     }
 }
 /*-------------------------------------*/
