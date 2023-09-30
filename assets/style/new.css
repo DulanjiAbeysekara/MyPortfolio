@@ -3992,7 +3992,7 @@ main>section:last-child{
     header>nav>ul {
         position: absolute;
         top: 27%;
-        left: 199px;
+        left: 93px;
         font-size: 12px;
     }
     header {
@@ -4010,76 +4010,80 @@ main>section:last-child{
         /* background-color: black; */
     }
     /*---------------------------------home page-----------------------------------*/
+    .div1 h1 {
+        font-size: 25px;
+        color: white;
+    }
     .imge30 {
         transition: 3s;
         position: absolute;
-        bottom: 30%;
-        left: 70%;
-        height: 250px;
-        width: 250px;
+        bottom: 40%;
+        left: 65%;
+        height: 175px;
+        width: 175px;
     }
     .oneee {
         top: 30%;
-        left: 11%;
+        left: 6%;
         position: absolute;
         font-family: "Times New Roman";
         letter-spacing: 2px;
     }
     .twooo {
-        top: 38%;
+        top: 36%;
         position: absolute;
-        left: 14%;
+        left: 9%;
         font-family: "Times New Roman";
         letter-spacing: 2px;
     }
     .threee {
-        font-size: 23px;
+        font-size: 16px;
         color: white;
         font-family: "Libre Baskerville, serif";
-        top: 42%;
-        left: 15%;
+        top: 37%;
+        left: 9%;
         position: absolute;
         letter-spacing: 0.5px;
     }
     .fb {
         position: absolute;
-        left: 23%;
+        left: 33%;
         top: 77%;
     }
     .linkedin {
         position: absolute;
         top: 77%;
-        left: 29%;
+        left: 41%;
     }
     .git {
         position: absolute;
         top: 77%;
-        left: 35%;
+        left: 49%;
     }
     .me {
         position: absolute;
         left: 5%;
-        top: 16%;
-        height: 380px;
+        top: 23%;
+        height: 250px;
     }
     .details2 {
         position: absolute;
         top: 20%;
         /* color: white; */
         font-family: Libre Baskerville, sans-serif;
-        font-size: 17px;
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: 5vh;
         color: white;
-        left: 43%;
+        left: 40%;
     }
     .details1 {
         position: absolute;
-        top: 50%;
-        left: 43%;
+        top: 56%;
+        left: 41%;
         font-family: Libre Baskerville, sans-serif;
-        font-size: 18px;
+        font-size: 11px;
     }
     .location {
         position: absolute;
@@ -4141,21 +4145,36 @@ main>section:last-child{
         font-size: 14px;
         text-decoration: none;
     }
+
+    /*----------------------------skills-----------------------------*/
     main>section:nth-child(4)>h3 {
         /* text-decoration: underline white; */
         font-size: 40px;
         color: white;
         bottom: 83%;
         position: absolute;
-        right: 82%;
+        right: 76%;
         font-family: "Times New Roman";
     }
     .ui {
         position: absolute;
-        height: 250px;
-        width: 400px;
+        height: 200px;
+        width: 250px;
         background-color: #242124;
-        left: 8%;
+        left: 14%;
+        top: 15%;
+        color: white;
+        transition-duration: 3s;
+        transition-property: all;
+        transition: 3s;
+        border-radius: 15px;
+    }
+    .web {
+        position: absolute;
+        height: 200px;
+        width: 250px;
+        background-color: #242124;
+        left: 51%;
         top: 15%;
         color: white;
         transition-duration: 3s;
@@ -4164,84 +4183,86 @@ main>section:last-child{
         border-radius: 15px;
     }
     .design1 {
-        height: 125px;
+        height: 80px;
         position: absolute;
-        left: 35%;
-        width: 125px;
+        left: 34%;
+        width: 80px;
     }
     .ppp {
         position: absolute;
-        font-size: 14px;
+        font-size: 9px;
         color: white;
         font-family: "Lucida Sans";
-        left: 15%;
-        top: 60%;
+        left: 14%;
+        top: 58%;
     }
     .leter {
         position: absolute;
-        font-size: 16px;
+        font-size: 14px;
         font-family: "Times New Roman";
-        left: 38%;
-        top: 46%;
+        left: 34%;
+        top: 36%;
         color: white;
     }
     .design2 {
         position: absolute;
         left: 35%;
-        height: 125px;
-        width: 125px;
+        height: 80px;
+        width: 80px;
     }
     .leter1 {
         position: absolute;
-        left: 40%;
-        top: 45%;
-        font-size: 16px;
+        left: 37%;
+        top: 37%;
+        font-size: 14px;
     }
     .ppp2 {
         position: absolute;
-        font-size: 14px;
+        font-size: 9px;
         color: white;
         font-family: "Lucida Sans";
-        left: 17%;
+        left: 14%;
         top: 58%;
     }
     .js {
         position: relative;
         transition: 3s;
-        right: 118px;
-        top: 33px;
+        /* right: 10%; */
+        top: -17px;
         width: 75px;
         height: 75px;
+        left: -18%;
     }
     .java {
         position: relative;
         transition: 3s;
-        top: 40px;
-        right: 80px;
+        top: -19px;
+        left: -2%;
         width: 75px;
         height: 75px;
     }
     .figma {
         position: relative;
         transition: 3s;
-        top: 40px;
-        right: 38px;
+        top: 1px;
+        right: -6px;
         width: 75px;
         height: 75px;
     }
     .intellj {
         position: relative;
         transition: 3s;
-        top: 40px;
+        top: 3px;
         width: 75px;
         /* right: 35px; */
         height: 75px;
+        left: 15%;
     }
     .php {
         position: relative;
-        right: 41px;
+        right: 71%;
         transition: 3s;
-        top: 40px;
+        top: 79px;
         height: 75px;
         width: 75px;
     }
@@ -4249,35 +4270,33 @@ main>section:last-child{
         position: relative;
         right: 20px;
         transition: 3s;
-        top: 40px;
-        left: 25px;
+        top: 68px;
+        left: -103px;
         height: 75px;
         width: 75px;
     }
     .scnebuilder {
         position: relative;
         transition: 3s;
-        top: 40px;
-        left: 25%;
+        top: 61px;
+        left: -28%;
         width: 75px;
         height: 75px;
+    }
+    .leter2 {
+        font-size: 10px;
+        bottom: 43%;
+        left: 9%;
     }
     .leter3 {
         position: absolute;
         color: white;
-        font-size: 12px;
+        font-size: 10px;
         font-family: "Lucida Sans";
-        bottom: 30%;
-        left: 15%;
+        bottom: 36%;
+        left: 9%;
     }
-    .leter2 {
-        position: absolute;
-        color: white;
-        font-size: 12px;
-        font-family: "Lucida Sans";
-        bottom: 38%;
-        left: 15%;
-    }
+    /*-----------------------gallery-------------------------------------*/
     .gallery {
         font-size: 40px;
         color: white;
@@ -4292,8 +4311,12 @@ main>section:last-child{
         top: 15%;
         left: 5%;
         position: absolute;
-        height: 375px;
+        height: 325px;
     }
+    /*------------------------------education--------------------------------------------*/
+    /*#date{*/
+    /*    top:18%;*/
+    /*}*/
     .line {
         position: absolute;
         height: 380px;
@@ -4305,34 +4328,34 @@ main>section:last-child{
     }
     .circle {
         position: absolute;
-        height: 15px;
-        width: 15px;
+        height: 12px;
+        width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 75px;
-        bottom: 77%;
+        left: 56px;
+        bottom: 79%;
     }
     .circle1 {
         position: absolute;
-        height: 15px;
-        width: 15px;
+        height: 12px;
+        width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 74px;
-        bottom: 43%;
+        left: 56px;
+        bottom: 52%;
     }
     .circle2 {
         position: absolute;
-        height: 15px;
-        width: 15px;
+        height: 12px;
+        width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 75px;
-        bottom: 5%;
+        left: 55px;
+        bottom: 21%;
     }
     .school {
         background-color: white;
-        width: 350px;
+        width: 250px;
         height: 85px;
         font-size: 16px;
         right: 0;
@@ -4349,12 +4372,12 @@ main>section:last-child{
     }
     .ol {
         background-color: white;
-        width: 350px;
+        width: 250px;
         height: 85px;
         font-size: 16px;
         bottom: 0;
-        top: 52%;
-        left: -24%;
+        top: 48%;
+        left: -23%;
         /* margin: auto; */
         position: relative;
         border: 2px solid #eaeaea;
@@ -4365,13 +4388,13 @@ main>section:last-child{
     }
     .al {
         background-color: white;
-        width: 350px;
+        width: 250px;
         height: 85px;
         font-size: 16px;
         right: 0;
         bottom: 0;
-        top: 62%;
-        left: 110px;
+        top: 59%;
+        left: 82px;
         border-radius: 10px;
         /* margin: auto; */
         position: relative;
@@ -4391,18 +4414,18 @@ main>section:last-child{
     }
     .circle3 {
         position: absolute;
-        height: 15px;
-        width: 15px;
+        height: 12px;
+        width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 548px;
+        left: 409px;
         bottom: 65%;
-        top: 42%;
+        top: 38%;
     }
     .nibm {
         background-color: white;
-        width: 350px;
-        height: 85px;
+        width: 260px;
+        height: 80px;
         font-size: 16px;
         right: 46%;
         /* bottom: -2%; */
@@ -4418,16 +4441,16 @@ main>section:last-child{
     }
     .circle4 {
         position: absolute;
-        height: 15px;
-        width: 15px;
+        height: 12px;
+        width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 548px;
-        top: 74%;
+        left: 408px;
+        top: 64%;
     }
     .ijse {
         background-color: white;
-        width: 350px;
+        width: 250px;
         height: 85px;
         font-size: 16px;
         right: 0;
@@ -4443,44 +4466,65 @@ main>section:last-child{
         display: inline-block;
     }
 /*---------------------------------assignment----------------------------------*/
+    .ass {
+        color: #D31A38;
+        /* text-decoration: underline #D31A38; */
+        font-family: "Times New Roman";
+        font-size: 26px;
+        position: absolute;
+        bottom: 83%;
+        right: 65%;
+    }
     .assignment01 {
-        width: 225px;
-        height: 225px;
+        width: 190px;
+        height: 190px;
         background-color: #373030;
         border-radius: 15%;
         position: absolute;
         right: 70%;
-        bottom: 27%;
+        bottom: 46%;
         transition-duration: 3s;
         transition-property: all;
         transition: 3s;
     }
+    .assignment01:hover{
+        display: none;
+    }
+
     .assignment02 {
-        width: 225px;
-        height: 225px;
+        width: 190px;
+        height: 190px;
         background-color: #373030;
         border-radius: 15%;
         position: absolute;
-        bottom: 26%;
-        left: 39%;
+        bottom: 46%;
+        left: 37%;
         transition-duration: 3s;
         transition-property: all;
         transition: 3s;
     }
+    .assignment02:hover{
+        display: none;
+    }
+
     .assignment03 {
-        width: 225px;
-        height: 225px;
+        width: 190px;
+        height: 190px;
         background-color: #373030;
         border-radius: 15%;
         position: relative;
-        bottom: 35%;
-        top: 27%;
-        left: 70%;
-        transition-duration: 3s;
-        transition-property: all;
+        /* bottom: 35%; */
+        top: 24%;
+        left: 69%;
+        /*transition-duration: 3s;*/
+        /*transition-property: all;*/
         transition: 3s;
         display: inline-block;
     }
+    .assignment03:hover{
+        display: none;
+    }
+
     .arti1 {
         position: relative;
         top: 40%;
@@ -4488,7 +4532,7 @@ main>section:last-child{
         font-family: "Lucida Sans";
         font-size: 13px;
         left: 9%;
-        width: 900px;
+        width: 615px;
     }
     .butn1 {
         position: absolute;
@@ -4501,20 +4545,41 @@ main>section:last-child{
         font-weight: 300;
         padding: 0 18px;
         transition: 0.5s;
-        left: 83%;
-        top: 80%;
+        left: 78%;
+        top: 62%;
         border-radius: 8px;
     }
-    .ass {
+    .assignment {
+        height: 120vh;
+        width: 100%;
+    }
+    /*.ass {*/
+    /*    color: #D31A38;*/
+    /*    !* text-decoration: underline #D31A38; *!*/
+    /*    font-family: "Times New Roman";*/
+    /*    font-size: 35px;*/
+    /*    position: absolute;*/
+    /*    bottom: 80%;*/
+    /*    right: 70%;*/
+    /*}*/
+/*------------------------------project----------------------------------*/
+    .pro {
         color: #D31A38;
         /* text-decoration: underline #D31A38; */
         font-family: "Times New Roman";
-        font-size: 35px;
+        font-size: 26px;
         position: absolute;
-        bottom: 80%;
-        right: 70%;
+        bottom: 84%;
+        right: 59%;
     }
-/*------------------------------project----------------------------------*/
+    .project {
+        height: 110vh;
+        width: 100%;
+        background-size: 100vw 100vh;
+        background: #242124;
+        position: relative;
+        font-size: 0;
+    }
 
     .project-container .project-box {
         position: relative;
@@ -4522,7 +4587,7 @@ main>section:last-child{
         box-shadow: 0 0 1rem #D31A38;
         overflow: hidden;
         display: flex;
-        top: 45%;
+        top: 113%;
         left: 12%;
     }
     .arti2 {
@@ -4531,8 +4596,9 @@ main>section:last-child{
         color: white;
         font-family: "Lucida Sans";
         font-size: 13px;
-        bottom: 100%;
+        /* bottom: 90%; */
         left: 19%;
+        top: 72%;
     }
     .btn2 {
         position: absolute;
@@ -4545,25 +4611,40 @@ main>section:last-child{
         font-weight: 300;
         padding: 0 18px;
         transition: 0.5s;
-        left: 83%;
-        top: 84%;
+        left: 76%;
+        top: 69%;
         border-radius: 8px;
     }
+    .project-container {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        align-items: center;
+        gap: 1rem;
+        /* position: absolute; */
+    }
 /*--------------------------------------------certificate----------------------*/
+    .certificate {
+        height: 110vh;
+        width: 100%;
+        background-size: 100vw 100vh;
+        background: #373030;
+        position: relative;
+        font-size: 0;
+    }
 
     .certificate h3 {
         color: #D31A38;
         /* text-decoration: underline #D31A38; */
         font-family: "Times New Roman";
-        font-size: 35px;
+        font-size: 26px;
         position: absolute;
-        bottom: 80%;
-        right: 12%;
+        bottom: 86%;
+        right: 9%;
     }
     .certificate1 {
         position: relative;
-        width: 225px;
-        height: 225px;
+        width: 180px;
+        height: 180px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -4578,51 +4659,45 @@ main>section:last-child{
     }
     .c1 {
         position: absolute;
-        right: 18%;
-        left: 74%;
-        bottom: 37%;
+        left: 78%;
+        bottom: 54%;
         box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
         transition: 1s;
         display: block;
-        height: 150px;
-        width: 150px;
+        height: 75px;
+        width: 75px;
     }
     .certificate2 {
         position: relative;
-        width: 225px;
-        height: 225px;
+        width: 180px;
+        height: 180px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #373030;
-        left: 17%;
-        bottom: -22%;
-        /* top: 5%; */
+        left: 13%;
+        /* bottom: -25%; */
+        top: 22%;
         border-radius: 10%;
         overflow: hidden;
         border: 2px solid gray;
         display: inline-block;
     }
     .c2 {
-        position: absolute;
-        right: 17%;
-        left: 44%;
-        bottom: 38%;
-        box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
-        transition: 1s;
-        height: 150px;
-        width: 150px;
-        display: block;
+        height: 75px;
+        width: 75px;
+        left: 45%;
+        bottom: 54%;
     }
     .certificate3 {
         position: relative;
-        width: 225px;
-        height: 225px;
+        width: 180px;
+        height: 180px;
         display: flex;
         justify-content: center;
         align-items: center;
         background-color: #373030;
-        left: -36%;
+        left: -44%;
         bottom: -22%;
         border-radius: 10%;
         overflow: hidden;
@@ -4631,20 +4706,22 @@ main>section:last-child{
     }
     .c3 {
         position: absolute;
-        right: 26%;
-        left: 132px;
-        bottom: 38%;
+        /* right: 35%; */
+        top: 32%;
+        left: 93px;
+        bottom: 48%;
         box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
         transition: 1s;
         display: block;
-        height: 150px;
-        width: 150px;
+        height: 75px;
+        width: 75px;
     }
     .arti9 {
         font-family: "Lucida Sans";
         color: white;
-        top: 81%;
-        right: 20%;
+        top: 73%;
+        left: 25%;
+        /* right: 41%; */
         position: absolute;
         font-size: 13px;
     }
@@ -4652,7 +4729,7 @@ main>section:last-child{
     .ac {
         color: white;
         font-family: "Times New Roman";
-        font-size: 40px;
+        font-size: 30px;
         position: absolute;
         /* text-decoration: underline white; */
         right: 73%;
@@ -4678,12 +4755,12 @@ main>section:last-child{
     }
     .pic11 {
         width: 475px;
-        height: 300px;
+        height: 250px;
         border: 4px solid #D31A38;
         position: absolute;
         border-radius: 15px;
-        left: 40%;
-        top: 87px;
+        left: 18%;
+        top: 99px;
         transition-duration: 6s;
         transition-property: all;
     }
@@ -4707,7 +4784,7 @@ main>section:last-child{
         font-family: "Lucida Sans";
         position: absolute;
         top: 86%;
-        left: 40%;
+        left: 19%;
     }
     .arti20 {
         color: white;
@@ -4721,6 +4798,658 @@ main>section:last-child{
 
 
 }
+/*////////////////////////////////////////////////////////////////////*/
+@media all and (min-width:1024px) and (max-width: 1440px) {
+    header>nav>ul {
+        position: absolute;
+        top: 27%;
+        left: 188px;
+        font-size: 12px;
+    }
 
+
+    .div1 h1 {
+        font-size: 34px;
+        color: white;
+        left: 14%;
+    }
+
+    .threee {
+        font-size: 18px;
+        color: white;
+        font-family: "Libre Baskerville, serif";
+        top: 40%;
+        left: 16%;
+        position: absolute;
+        letter-spacing: 0.5px;
+    }
+/*----------------------------------------homepage---------------------------------*/
+    .imge30 {
+        transition: 3s;
+        position: absolute;
+        bottom: 27%;
+        left: 64%;
+        height: 250px;
+        width: 250px;
+    }
+    .git {
+        position: absolute;
+        top: 82%;
+        left: 54%;
+    }
+    .linkedin {
+        position: absolute;
+        top: 82%;
+        left: 46%;
+    }
+    .fb {
+        position: absolute;
+        left: 38%;
+        top: 82%;
+    }
+/*-------------------------------about me--------------------------    */
+    .me {
+        position: absolute;
+        left: 5%;
+        top: 23%;
+        height: 325px;
+    }
+    .details2 {
+        position: absolute;
+        top: 20%;
+        /* color: white; */
+        font-family: Libre Baskerville, sans-serif;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 5vh;
+        color: white;
+        left: 40%;
+    }
+    .details1 {
+        position: absolute;
+        top: 51%;
+        left: 40%;
+        font-family: Libre Baskerville, sans-serif;
+        font-size: 14px;
+    }
+
+/*------------------contact me--------------------------------*/
+    .a1 {
+        position: absolute;
+        bottom: 70%;
+        left: 23%;
+        color: #D31A38;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .a2 {
+        position: absolute;
+        bottom: 52%;
+        left: 23%;
+        color: #D31A38;
+        font-size: 16px;
+        text-decoration: none;
+    }
+    .a3 {
+        position: absolute;
+        bottom: 36%;
+        left: 23%;
+        color: #D31A38;
+        font-size: 15px;
+        text-decoration: none;
+    }
+    .a4 {
+        position: absolute;
+        bottom: 21%;
+        left: 23%;
+        color: #D31A38;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+/*-------------------------skills--------------------------------*/
+    .ui {
+        position: absolute;
+        height: 225px;
+        width: 275px;
+        background-color: #242124;
+        left: 18%;
+        top: 15%;
+        color: white;
+        transition-duration: 3s;
+        transition-property: all;
+        transition: 3s;
+        border-radius: 15px;
+    }
+    .web {
+        position: absolute;
+        height: 225px;
+        width: 275px;
+        background-color: #242124;
+        left: 54%;
+        top: 15%;
+        color: white;
+        transition-duration: 3s;
+        transition-property: all;
+        transition: 3s;
+        border-radius: 15px;
+    }
+    .design2 {
+        position: absolute;
+        left: 33%;
+        height: 100px;
+        width: 100px;
+    }
+    .leter1 {
+        position: absolute;
+        left: 37%;
+        top: 40%;
+        font-size: 16px;
+    }
+    .ppp2 {
+        position: absolute;
+        font-size: 11px;
+        color: white;
+        font-family: "Lucida Sans";
+        left: 11%;
+        top: 58%;
+    }
+    .design1 {
+        height: 100px;
+        position: absolute;
+        left: 32%;
+        width: 100px;
+    }
+    .leter {
+        position: absolute;
+        font-size: 16px;
+        font-family: "Times New Roman";
+        left: 32%;
+        top: 40%;
+        color: white;
+    }
+    .ppp {
+        position: absolute;
+        font-size: 11px;
+        color: white;
+        font-family: "Lucida Sans";
+        left: 11%;
+        top: 58%;
+    }
+    .js {
+        position: relative;
+        transition: 3s;
+        /* right: 10%; */
+        top: 42px;
+        width: 90px;
+        height: 90px;
+        left: -44%;
+    }
+    .java {
+        position: relative;
+        transition: 3s;
+        top: 37px;
+        left: -33%;
+        width: 90px;
+        height: 90px;
+    }
+    .figma {
+        position: relative;
+        transition: 3s;
+        top: 47px;
+        right: 73px;
+        width: 90px;
+        height: 90px;
+    }
+    .php {
+        position: relative;
+        right: 10%;
+        transition: 3s;
+        top: 39px;
+        height: 90px;
+        width: 90px;
+    }
+    .intellj {
+        position: relative;
+        transition: 3s;
+        top: 40px;
+        width: 90px;
+        /* right: 35px; */
+        height: 90px;
+        left: -3%;
+    }
+    .mysql {
+        position: relative;
+        right: 20px;
+        transition: 3s;
+        top: 9px;
+        left: 26px;
+        height: 75px;
+        width: 75px;
+    }
+    .scnebuilder {
+        position: relative;
+        transition: 3s;
+        top: 29px;
+        left: 30%;
+        width: 90px;
+        height: 90px;
+    }
+/*------------------------------------------gallery-------------------------------*/
+    .collage {
+        /* border-style: solid; */
+        border: 4px solid #D31A38;
+        transition: 3s;
+        top: 15%;
+        left: 5%;
+        position: absolute;
+        height: 340px;
+    }
+/*--------------------------------education--------------------------------------*/
+    .circle {
+        position: absolute;
+        height: 14px;
+        width: 14px;
+        background-color: #D31A38;
+        border-radius: 50%;
+        left: 75px;
+        bottom: 77%;
+    }
+    .circle1 {
+        position: absolute;
+        height: 14px;
+        width: 14px;
+        background-color: #D31A38;
+        border-radius: 50%;
+        left: 75px;
+        bottom: 44%;
+    }
+    .circle2 {
+        position: absolute;
+        height: 14px;
+        width: 14px;
+        background-color: #D31A38;
+        border-radius: 50%;
+        left: 75px;
+        bottom: 6%;
+    }
+    .school {
+        background-color: white;
+        width: 345px;
+        height: 85px;
+        /* font-size: 3px; */
+        right: 0;
+        bottom: 0;
+        top: 17%;
+        left: 10%;
+        /* margin: auto; */
+        position: relative;
+        border: 2px solid #eaeaea;
+        cursor: pointer;
+        transition: all 0.4s;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .ol {
+        background-color: white;
+        width: 345px;
+        height: 85px;
+        font-size: 16px;
+        bottom: 0;
+        top: 50%;
+        left: -24%;
+        /* margin: auto; */
+        position: relative;
+        border: 2px solid #eaeaea;
+        cursor: pointer;
+        transition: all 0.4s;
+        border-radius: 10px;
+        display: inline-block;
+    }
+    .al {
+        background-color: white;
+        width: 345px;
+        height: 85px;
+        font-size: 16px;
+        right: 0;
+        bottom: 0;
+        top: 59%;
+        left: 106px;
+        border-radius: 10px;
+        /* margin: auto; */
+        position: relative;
+        border: 2px solid #eaeaea;
+        cursor: pointer;
+        transition: all 0.4s;
+        display: inline-block;
+    }
+    .circle3 {
+        position: absolute;
+        height: 14px;
+        width: 14px;
+        background-color: #D31A38;
+        border-radius: 50%;
+        left: 549px;
+        bottom: 65%;
+        top: 40%;
+    }
+    .circle4 {
+        position: absolute;
+        height: 14px;
+        width: 14px;
+        background-color: #D31A38;
+        border-radius: 50%;
+        left: 549px;
+        top: 73%;
+    }
+    .nibm {
+        background-color: white;
+        width: 345px;
+        height: 80px;
+        font-size: 16px;
+        right: 46%;
+        /* bottom: -2%; */
+        top: 16%;
+        left: 23%;
+        border-radius: 10px;
+        /* margin: auto; */
+        position: relative;
+        border: 2px solid #eaeaea;
+        cursor: pointer;
+        display: inline-block;
+        transition: all 0.4s;
+    }
+    .ijse {
+        background-color: white;
+        width: 345px;
+        height: 85px;
+        font-size: 16px;
+        right: 0;
+        top: 34%;
+        left: 58%;
+        /* bottom: -10%; */
+        border-radius: 10px;
+        /* margin: auto; */
+        position: relative;
+        border: 2px solid #eaeaea;
+        cursor: pointer;
+        transition: all 0.4s;
+        display: inline-block;
+    }
+/*----------------------------------------assnignment--------------------------------*/
+    .ass {
+        color: #D31A38;
+        /* text-decoration: underline #D31A38; */
+        font-family: "Times New Roman";
+        font-size: 30px;
+        position: absolute;
+        bottom: 79%;
+        right: 69%;
+    }
+    .assignment01 {
+        width: 210px;
+        height: 210px;
+        background-color: #373030;
+        border-radius: 15%;
+        position: absolute;
+        right: 70%;
+        bottom: 38%;
+        transition-duration: 3s;
+        transition-property: all;
+        transition: 3s;
+    }
+    .assignment02 {
+        width: 210px;
+        height: 210px;
+        background-color: #373030;
+        border-radius: 15%;
+        position: absolute;
+        bottom: 38%;
+        left: 39%;
+        transition-duration: 3s;
+        transition-property: all;
+        transition: 3s;
+    }
+    .assignment03 {
+        width: 210px;
+        height: 210px;
+        background-color: #373030;
+        border-radius: 15%;
+        position: relative;
+        /* bottom: 35%; */
+        top: 29%;
+        left: 69%;
+        /* transition-duration: 3s; */
+        /* transition-property: all; */
+        transition: 3s;
+        display: inline-block;
+    }
+    .txt {
+        position: relative;
+        top: 60%;
+        left: 13%;
+        font-size: 20px;
+        transition-duration: 0.3s;
+        transition-property: all;
+    }
+
+
+    .txt4 {
+        position: absolute;
+        left: 14%;
+        top: 60%;
+        transition-duration: 3s;
+        transition-property: all;
+        font-size: 20px;
+    }
+    .img7 {
+        position: absolute;
+        left: 35%;
+        top: 22%;
+    }
+    .arti1 {
+        position: relative;
+        top: 40%;
+        color: white;
+        font-family: "Lucida Sans";
+        font-size: 14px;
+        left: 21%;
+        width: 615px;
+    }
+    .butn1 {
+        position: absolute;
+        background: white;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 9px;
+        /* letter-spacing: 2px; */
+        font-weight: 300;
+        padding: 0 18px;
+        transition: 0.5s;
+        left: 81%;
+        top: 67%;
+        border-radius: 8px;
+    }
+/*------------------------project-----------------------------*/
+    .project {
+        height: 120vh;
+        width: 100%;
+        background-size: 100vw 100vh;
+        background: #242124;
+        position: relative;
+        font-size: 0;
+    }
+    .pro {
+        color: #D31A38;
+        /* text-decoration: underline #D31A38; */
+        font-family: "Times New Roman";
+        font-size: 30px;
+        position: absolute;
+        bottom: 84%;
+        right: 74%;
+    }
+    .project-box {
+        position: relative;
+        border-radius: 2rem;
+        box-shadow: 0 0 1rem #D31A38;
+        overflow: hidden;
+        display: flex;
+        top: 64%;
+        left: 12%;
+    }
+    .project-container .project-box {
+        position: relative;
+        border-radius: 2rem;
+        box-shadow: 0 0 1rem #D31A38;
+        overflow: hidden;
+        display: flex;
+        top: 65%;
+        left: 12%;
+    }
+    .btn2 {
+        position: absolute;
+        background: white;
+        color: black;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 10px;
+        /* letter-spacing: 2px; */
+        font-weight: 300;
+        padding: 0 18px;
+        transition: 0.5s;
+        left: 79%;
+        top: 76%;
+        border-radius: 8px;
+    }
+    .arti2 {
+        top: 86%;
+        position: absolute;
+        color: white;
+        font-family: "Lucida Sans";
+        font-size: 15px;
+        /* bottom: 90%; */
+        left: 25%;
+        top: 88%;
+    }
+
+/*----------------------------------------certificate--------------------------------*/
+    .certificate h3 {
+        color: #D31A38;
+        /* text-decoration: underline #D31A38; */
+        font-family: "Times New Roman";
+        font-size: 30px;
+        position: absolute;
+        bottom: 83%;
+        right: 9%;
+    }
+    .certificate1 {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #373030;
+        left: 70%;
+        /* bottom: 11%; */
+        top: 27%;
+        border-radius: 10%;
+        overflow: hidden;
+        border: 2px solid gray;
+        display: inline-block;
+    }
+    .certificate2 {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #373030;
+        left: 20%;
+        /* bottom: -25%; */
+        top: 27%;
+        border-radius: 10%;
+        overflow: hidden;
+        border: 2px solid gray;
+        display: inline-block;
+    }
+    .certificate3 {
+        position: relative;
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #373030;
+        left: -31%;
+        bottom: -27%;
+        border-radius: 10%;
+        overflow: hidden;
+        border: 2px solid gray;
+        display: inline-block;
+    }
+    .c1 {
+        position: absolute;
+        left: 77%;
+        bottom: 50%;
+        box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
+        transition: 1s;
+        display: block;
+        height: 75px;
+        width: 75px;
+    }
+    .c2 {
+        height: 75px;
+        width: 75px;
+        left: 47%;
+        bottom: 49%;
+    }
+    .c3 {
+        position: absolute;
+        /* right: 35%; */
+        top: 37%;
+        left: 153px;
+        bottom: 17%;
+        box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
+        transition: 1s;
+        display: block;
+        height: 75px;
+        width: 75px;
+    }
+    .arti9 {
+        font-family: "Lucida Sans";
+        color: white;
+        top: 73%;
+        left: 22%;
+        /* right: 41%; */
+        position: absolute;
+        font-size: 14px;
+    }
+    .pic11 {
+        width: 475px;
+        height: 250px;
+        border: 4px solid #D31A38;
+        position: absolute;
+        border-radius: 15px;
+        left: 41%;
+        top: 99px;
+        transition-duration: 6s;
+        transition-property: all;
+    }
+    .arti21 {
+        color: white;
+        font-size: 13px;
+        font-family: "Lucida Sans";
+        position: absolute;
+        top: 86%;
+        left: 43%;
+    }
+
+
+
+}
 
 
