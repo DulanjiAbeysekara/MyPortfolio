@@ -1470,7 +1470,7 @@ main>section:last-child{
 /*    !*font-size: 0;*!*/
 /*}*/
 /*-----------------------------------------media query----------------------------------------------------*/
-@media all and (max-width: 320px) {
+@media all and (max-width: 500px) {
 
     header {
         width: 85vw;
@@ -2030,7 +2030,7 @@ main>section:last-child{
 
 }
 /*---------------------------------------------------320-375------------------------------------------*/
-@media all and (min-width:320px) and (max-width: 375px) {
+@media all and (min-width:325px) and (max-width: 375px) {
     header {
         width: 75vw;
         height: 23px;
@@ -2761,6 +2761,7 @@ main>section:last-child{
         height: 150px;
         width: 150px;
         left: 53%;
+        top: 9%;
     }
     .leter1 {
         font-size: 11px;
@@ -2780,29 +2781,31 @@ main>section:last-child{
         font-size: 7px;
         bottom: 12%;
     }
-    .js {
-        width: 75px;
-        height: 75px;
-        right: -228px;
-        top: -102px;
-    }
     .java {
         width: 75px;
         height: 75px;
-        top: -107px;
-        right: -29px;
+        top: 31px;
+        right: -107px;
+    }
+    .js {
+        width: 75px;
+        height: 75px;
+        right: -227px;
+        top: -118px;
     }
     .figma {
         width: 75px;
         height: 75px;
-        top: -98px;
-        right: -223px;
+        top: -42px;
+        right: -108px;
     }
     .intellj {
         width: 75px;
         height: 75px;
-        top: -107px;
-        right: -39px;
+        top: 82%;
+        right: -26px;
+        left: 25%;
+        bottom: -50%;
     }
     .php {
         width: 75px;
@@ -2849,24 +2852,24 @@ main>section:last-child{
         width: 250px;
         height: 70px;
         top: 18%;
-        left: 15%;
+        left: -30%;
     }
     .al {
         width: 250px;
         height: 70px;
-        top: 21%;
+        top: 36%;
         left: 15%;
     }
     .nibm {
         width: 250px;
         height: 70px;
-        top: 24%;
-        left: 15%;
+        top: 39%;
+        left: -30%;
     }
     .ijse {
         width: 250px;
         height: 70px;
-        top: 27%;
+        top: 55%;
         left: 16%;
     }
     .line {
@@ -3050,16 +3053,16 @@ main>section:last-child{
         height: 125px;
         display: inline-block;
         left: 24%;
-        bottom: -17.5%;
+        bottom: -4.5%;
+        top: -10%;
     }
 
     .certificate3 {
         width: 125px;
         height: 125px;
         display: inline-block;
-        left: -26%;
-        bottom: -51%;
-
+        left: 26%;
+        bottom: 1%;
     }
     .c1 {
         height: 50px;
@@ -3071,14 +3074,14 @@ main>section:last-child{
     .c2 {
         height: 50px;
         width: 50px;
-        left: 66%;
-        bottom: 63%;
+        left: 64%;
+        bottom: 33%;
     }
-    .c3 {
+    c3 {
         height: 50px;
         width: 50px;
-        left: 190px;
-        bottom: 31%;
+        left: 132px;
+        bottom: 28%;
     }
 
     .certificate h3 {
