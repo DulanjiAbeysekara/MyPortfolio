@@ -45,17 +45,16 @@ header>nav>ul>li>a{
 header>nav>ul>li>a:hover,header>nav>ul>li>a.home{
     color: #D31A38;
 }
-.name{
-    font-size:18px;
+.name {
+    font-size: 18px;
     color: white;
     font-weight: 600;
     cursor: default;
-    top: 65%;
-    left:5%;
+    top: 40%;
+    left: 0%;
     text-decoration: none;
     position: absolute;
 }
-
 span{
     color: #D31A38;
 }
@@ -704,7 +703,7 @@ main>section:nth-child(6)>h3{
     width: 2px;
     background-color: gray;
     /* bottom: 8%; */
-    top: 27%;
+    top: 25%;
     left: 55%;
 }
 .nibm {
@@ -1385,27 +1384,28 @@ main>section:last-child{
     right: 80%;
     bottom: 80%;
 }
-.pic10{
+.pic10 {
     width: 250px;
     height: 300px;
     border: 4px solid #D31A38;
     position: absolute;
-    right:900px;
-    bottom: 140px;
+    right: 700px;
+    bottom: 87px;
     border-radius: 15px;
     transition-duration: 1s;
-    transition-property:all;
+    transition-property: all;
 }
 .pic10:hover{
     transition-duration: 6s;
     transition-property:all;
     border:2px solid white;
 }
-.picture1{
-    left: 8px;
-    top: 20px;
+.picture1 {
+    left: 34px;
+    top: 45px;
     position: absolute;
     transition: 3s;
+    height: 200px;
 }
 .picture1:hover {
     transform: scale(1.5, 1.5);
@@ -1427,33 +1427,35 @@ main>section:last-child{
     transition-property:all;
     border:2px solid white;
 }
-.picture2{
+.picture2 {
     position: relative;
-    top:25px;
+    top: 25px;
     left: 20px;
     transition: 1s;
+    height: 200px;
 }
 .picture2:hover {
     transform: scale(1.5, 1.5);
     z-index: 2;
 }
-.picture3{
+.picture3 {
     position: relative;
-    top:25px;
+    top: 25px;
     left: 20px;
     transition: 1s;
+    height: 200px;
 }
 .picture3:hover {
     transform: scale(1.5, 1.5);
     z-index: 2;
 }
-.arti20{
+arti20 {
     color: white;
-    font-size: 18px;
+    font-size: 13px;
     font-family: "Lucida Sans";
     position: absolute;
-    top:98%;
-    right: 65%;
+    top: 83%;
+    right: 69%;
 }
 .arti21{
     color: white;
@@ -4802,8 +4804,8 @@ main>section:last-child{
 @media all and (min-width:1024px) and (max-width: 1440px) {
     header>nav>ul {
         position: absolute;
-        top: 27%;
-        left: 188px;
+        top: 33%;
+        left: 197px;
         font-size: 12px;
     }
 
@@ -4813,9 +4815,8 @@ main>section:last-child{
         color: white;
         left: 14%;
     }
-
     .threee {
-        font-size: 18px;
+        font-size: 20px;
         color: white;
         font-family: "Libre Baskerville, serif";
         top: 40%;
@@ -4859,7 +4860,7 @@ main>section:last-child{
         top: 20%;
         /* color: white; */
         font-family: Libre Baskerville, sans-serif;
-        font-size: 17px;
+        font-size: 19px;
         font-style: normal;
         font-weight: 400;
         line-height: 5vh;
@@ -4868,12 +4869,11 @@ main>section:last-child{
     }
     .details1 {
         position: absolute;
-        top: 51%;
+        top: 56%;
         left: 40%;
         font-family: Libre Baskerville, sans-serif;
-        font-size: 14px;
+        font-size: 16px;
     }
-
 /*------------------contact me--------------------------------*/
     .a1 {
         position: absolute;
@@ -5062,8 +5062,8 @@ main>section:last-child{
         width: 14px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 75px;
-        bottom: 44%;
+        left: 74px;
+        bottom: 45%;
     }
     .circle2 {
         position: absolute;
@@ -5072,7 +5072,7 @@ main>section:last-child{
         background-color: #D31A38;
         border-radius: 50%;
         left: 75px;
-        bottom: 6%;
+        bottom: 15%;
     }
     .school {
         background-color: white;
@@ -5081,7 +5081,7 @@ main>section:last-child{
         /* font-size: 3px; */
         right: 0;
         bottom: 0;
-        top: 17%;
+        top: 19%;
         left: 10%;
         /* margin: auto; */
         position: relative;
@@ -5097,7 +5097,7 @@ main>section:last-child{
         height: 85px;
         font-size: 16px;
         bottom: 0;
-        top: 50%;
+        top: 52%;
         left: -24%;
         /* margin: auto; */
         position: relative;
@@ -5114,8 +5114,8 @@ main>section:last-child{
         font-size: 16px;
         right: 0;
         bottom: 0;
-        top: 59%;
-        left: 106px;
+        top: 64%;
+        left: 11%;
         border-radius: 10px;
         /* margin: auto; */
         position: relative;
@@ -5130,9 +5130,9 @@ main>section:last-child{
         width: 14px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 549px;
-        bottom: 65%;
-        top: 40%;
+        left: 548px;
+        bottom: 68%;
+        top: 38%;
     }
     .circle4 {
         position: absolute;
@@ -5140,7 +5140,7 @@ main>section:last-child{
         width: 14px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 549px;
+        left: 548px;
         top: 73%;
     }
     .nibm {
@@ -5150,7 +5150,7 @@ main>section:last-child{
         font-size: 16px;
         right: 46%;
         /* bottom: -2%; */
-        top: 16%;
+        top: 22%;
         left: 23%;
         border-radius: 10px;
         /* margin: auto; */
@@ -5166,7 +5166,7 @@ main>section:last-child{
         height: 85px;
         font-size: 16px;
         right: 0;
-        top: 34%;
+        top: 37%;
         left: 58%;
         /* bottom: -10%; */
         border-radius: 10px;
@@ -5184,8 +5184,8 @@ main>section:last-child{
         font-family: "Times New Roman";
         font-size: 30px;
         position: absolute;
-        bottom: 79%;
-        right: 69%;
+        bottom: 81%;
+        right: 75%;
     }
     .assignment01 {
         width: 210px;
@@ -5194,7 +5194,7 @@ main>section:last-child{
         border-radius: 15%;
         position: absolute;
         right: 70%;
-        bottom: 38%;
+        bottom: 37%;
         transition-duration: 3s;
         transition-property: all;
         transition: 3s;
@@ -5205,7 +5205,7 @@ main>section:last-child{
         background-color: #373030;
         border-radius: 15%;
         position: absolute;
-        bottom: 38%;
+        bottom: 37%;
         left: 39%;
         transition-duration: 3s;
         transition-property: all;
@@ -5218,8 +5218,8 @@ main>section:last-child{
         border-radius: 15%;
         position: relative;
         /* bottom: 35%; */
-        top: 29%;
-        left: 69%;
+        top: 30%;
+        left: 68%;
         /* transition-duration: 3s; */
         /* transition-property: all; */
         transition: 3s;
@@ -5250,7 +5250,7 @@ main>section:last-child{
     }
     .arti1 {
         position: relative;
-        top: 40%;
+        top: 51%;
         color: white;
         font-family: "Lucida Sans";
         font-size: 14px;
@@ -5269,7 +5269,7 @@ main>section:last-child{
         padding: 0 18px;
         transition: 0.5s;
         left: 81%;
-        top: 67%;
+        top: 74%;
         border-radius: 8px;
     }
 /*------------------------project-----------------------------*/
@@ -5393,8 +5393,8 @@ main>section:last-child{
     }
     .c1 {
         position: absolute;
-        left: 77%;
-        bottom: 50%;
+        left: 76%;
+        bottom: 49%;
         box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
         transition: 1s;
         display: block;
@@ -5410,9 +5410,9 @@ main>section:last-child{
     .c3 {
         position: absolute;
         /* right: 35%; */
-        top: 37%;
-        left: 153px;
-        bottom: 17%;
+        top: 38%;
+        left: 158px;
+        /* bottom: 14%; */
         box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
         transition: 1s;
         display: block;
@@ -5422,7 +5422,7 @@ main>section:last-child{
     .arti9 {
         font-family: "Lucida Sans";
         color: white;
-        top: 73%;
+        top: 78%;
         left: 22%;
         /* right: 41%; */
         position: absolute;
