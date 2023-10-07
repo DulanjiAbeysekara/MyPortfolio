@@ -1,0 +1,7 @@
+
+.container-fluid{
+    background:linear-gradient(to right,#de6262,#ffb88c);
+    height: 10vh;
+    top:0;
+    position: absolute;
+}
