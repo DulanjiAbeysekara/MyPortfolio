@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color:white;
+    color:white ;
+    height: auto;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    left:0;
+    right: 0;
+    margin:auto;
+    margin-top:5%;
+    margin-bottom: 3%;
+    border: 3px solid grey;
+    position:relative;
+}
+.btn{
+    height: auto;
+    width: 40px;
+}
+#space{
+    width:45px;
+}
