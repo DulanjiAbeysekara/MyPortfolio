@@ -76,6 +76,12 @@ $("#customerSalaryText").keydown(function (e){
 });
 
 
+
+
+
+
+
+
 function save(){
 
     if(regexId.test($("#customerIdText").val()) && regexName.test($("#customerNameText").val()) && regexAddress.test($("#customerAddress").val()) && regexSalary.test($("#customerSalaryText").val())){
@@ -147,7 +153,7 @@ function getAll(){
         var address = CustomerDetails[i].caddress;
         var salary = CustomerDetails[i].csalary;
 
-        let row = <tr><td>${id}</td><td>${name}</td><td>${address}</td><td>${salary}</td></tr>
+        let row = `<tr><td>${id}</td><td>${name}</td><td>${address}</td><td>${salary}</td></tr>`
 
         $('#tblBody').append(row);
 

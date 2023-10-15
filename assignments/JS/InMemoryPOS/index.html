@@ -43,7 +43,7 @@
 
 
 
-<main class="container-fluid" id="customerContent">
+<main class="container-fluid" id="customerN">
     <section class="row">
         <div class="col-12 col-lg-4">
             <h1 class="topic">Customer Registration</h1>
@@ -69,28 +69,31 @@
                 <span class="control-error" id="lblcussalary"></span>
             </div>
             <div class="btn-group position-absolute" style="top: 75%;">
-                <button type="button" id="#savecustomer" class="btn btn-info  position-absolut " style="left: 0.5vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Save</button>
-                <button type="button" id="#deletecustomer" class="btn btn-secondary position-absolute   " style="left: 14vh; width: 75px; font-family: 'Times New Roman';border-radius: 15%; ">Delete</button>
-                <button type="button" id="#updatecustomer" class="btn btn btn-danger position-absolute" style="left: 27vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Update</button>
-                <button type="button" id="#getcustomer" class="btn btn-warning position-absolute  " style="left: 40vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Get All</button>
-                <button type="button" id="#btnClearCust" class="btn btn-primary position-absolute  " style="left: 53vh; width: 100px; font-family: 'Times New Roman'; border-radius: 15%;">Clear All</button>
+                <button type="button" id="savecustomer" class="btn btn-info  position-absolut " style="left: 0.5vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Save</button>
+                <button type="button" id="deletecustomer" class="btn btn-secondary position-absolute   " style="left: 14vh; width: 75px; font-family: 'Times New Roman';border-radius: 15%; ">Delete</button>
+                <button type="button" id="updatecustomer" class="btn btn btn-danger position-absolute" style="left: 27vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Update</button>
+                <button type="button" id="getcustomer" class="btn btn-warning position-absolute  " style="left: 40vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Get All</button>
+                <button type="button" id="btnClearCust" class="btn btn-primary position-absolute  " style="left: 53vh; width: 100px; font-family: 'Times New Roman'; border-radius: 15%;">Clear All</button>
             </div>
 
         </div>
         <div class="col-12 col-lg-8 mt-3">
-            <table class="table">
-                <thead class="bg-danger text-white">
+            <table class="table col-xxl-4">
+                <thead>
                 <tr>
-                    <th>Customer ID</th>
-                    <th>Customer Name</th>
-                    <th>Customer Address</th>
-                    <th>Customer Salary</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Address</th>
+                    <th scope="col">Salary</th>
                 </tr>
                 </thead>
-                <tbody id="tblCustomer">
+
+                <tbody id="tblBody">
 
                 </tbody>
+
             </table>
+
         </div>
     </section>
 </main>
@@ -99,9 +102,10 @@
 <script src="bootstrap-5.3.2-dist/code.jquery.com_jquery-3.7.1.min.js"></script>
 <!--<script src="controller/CustomerController.js"></script>-->
 <script src="db/db.js"></script>
+
 <script src="model/CustomerModel.js"></script>
 <script src="controller/validation/customerValidation.js"></script>
-<script src="controller/custController.js"></script>
+<script src="controller/Customer_Controller.js"></script>
 
 
 </body>
