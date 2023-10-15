@@ -1,0 +1,166 @@
+body{
+    background-color: #242124;
+    height:200vh;
+}
+
+.text{
+    font-size:30px;
+    color:#ffffff;
+    position: absolute;
+    left:45%;
+    text-decoration:underline ;
+}
+.text1{
+    color:#D31A38;
+    font-size:26px;
+    position: absolute;
+    top:13vh;
+    left:8vh;
+    font-family: "Times New Roman";
+
+}
+.image1{
+    left:13vh;
+    position: relative;
+}
+table{
+    width:400px;
+    position: absolute;
+    left:5vh;
+    top:26vh;
+
+}
+td{
+    font-size:16px;
+}
+
+th{
+     color:#D31A38;
+     font-size:22px;
+     text-align:  center;
+
+}
+table,th,td {
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+}
+
+th,td {
+    padding:10px;
+}
+#name{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name1{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name2{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name3{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name4{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name5{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+
+/*-------------------------------------------------------------------*/
+#transition{
+    position: absolute;
+    left:73vh;
+}
+
+.text2{
+    color:#D31A38;
+    font-size:26px;
+    position: absolute;
+    top:13vh;
+    left:80vh;
+    font-family: "Times New Roman";
+}
+#name6{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name7{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name8{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name9{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+
+/*-----------------------------------------------------------------*/
+#animation{
+    position: absolute;
+    left:141vh;
+}
+
+.text3{
+    color:#D31A38;
+    font-size:26px;
+    position: absolute;
+    top:13vh;
+    left:141vh;
+    font-family: "Times New Roman";
+}
+
+#name10{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+
+#name11{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name12{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name13{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}

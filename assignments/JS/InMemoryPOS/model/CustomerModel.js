@@ -1,6 +1,7 @@
-let customer={
-    id:"",
-    name:"",
-    address:"",
-    contact:""
+
+var customer = {
+    cid : "",
+    cname : "",
+    caddress : "",
+    csalary : ""
 }
