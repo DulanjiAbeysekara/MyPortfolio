@@ -1,0 +1,16 @@
+.topic{
+    color:#126180;
+    position: absolute;
+    top:12%;
+    left: 5%;
+    font-size: 30px;
+    font-family: "Times New Roman";
+}
+/*.form-group{*/
+/*    position: absolute;*/
+/*}*/
+
+#btnsaveCust{
+    position: relative;
+     margin-top: 12%;
+}
