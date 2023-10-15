@@ -6,7 +6,8 @@
     <meta content="width=device-width initial-scale=1" name="viewport">
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="assests/pos.css">
-
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="8.0.1_normalize.css">
 
 
 </head>
@@ -41,39 +42,95 @@
 </header>
 
 
+<!--<main class="container-fluid" id="customerN">-->
+<!--    <section class="row">-->
+<!--        <div class="col-12 col-lg-4">-->
+<!--            <h1 class="topic">Customer Registration</h1>-->
+
+<!--            <div class="form-group position-absolute" style="top: 28%;">-->
+<!--                <label for="customerIdText" style="position: absolute; bottom: 90%; left:5%; color: #126180; ">Customer ID  :</label>-->
+<!--                <input class="form-control" style="width: 350px;" id="customerIdText" required type="text">-->
+<!--                <span class="control-error" id="lblcusid"></span>-->
+<!--            </div>-->
+<!--            <div class="form-group position-absolute" style="top:40%;">-->
+<!--                <label for="customerNameText" style="position: absolute; bottom: 90%; left:5%; color: #126180; ">Customer Name  :</label>-->
+<!--                <input class="form-control" style="width: 350px;" id="customerNameText" type="text">-->
+<!--                <span class="control-error" id="lblcusname"></span>-->
+<!--            </div>-->
+<!--            <div class="form-group position-absolute" style="top:52%;">-->
+<!--                <label for="customerAddressText" style="color: #126180; position:absolute; bottom:90%; left:5%;">Customer Address  :</label>-->
+<!--                <input class="form-control " style="width: 350px;" id="customerAddressText" type="text">-->
+<!--                <span class="control-error" id="lblcusaddress"></span>-->
+<!--            </div>-->
+<!--            <div class="form-group position-absolute" style="top: 65%;">-->
+<!--                <label for="customerSalaryText" style="color: #126180; bottom: 95%;  left:5%; position: absolute;"> Contact Number : </label>-->
+<!--                <input class="form-control" style="width: 350px;" id="customerSalaryText" type="text">-->
+<!--                <span class="control-error" id="lblcussalary"></span>-->
+<!--            </div>-->
+<!--            <div class="btn-group position-absolute" style="top: 75%;">-->
+<!--                <button type="button" id="savecustomer" class="btn btn-info  position-absolut " style="left: 0.5vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Save</button>-->
+<!--                <button type="button" id="deletecustomer" class="btn btn-secondary position-absolute   " style="left: 14vh; width: 75px; font-family: 'Times New Roman';border-radius: 15%; ">Delete</button>-->
+<!--                <button type="button" id="updatecustomer" class="btn btn btn-danger position-absolute" style="left: 27vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Update</button>-->
+<!--                <button type="button" id="getcustomer" class="btn btn-warning position-absolute  " style="left: 40vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Get All</button>-->
+<!--                <button type="button" id="btnClearCust" class="btn btn-primary position-absolute  " style="left: 53vh; width: 100px; font-family: 'Times New Roman'; border-radius: 15%;">Clear All</button>-->
+<!--            </div>-->
+
+<!--        </div>-->
+<!--        <div class="col-12 col-lg-8 mt-3">-->
+<!--            <table class="table col-xxl-4">-->
+<!--                <thead>-->
+<!--                <tr>-->
+<!--                    <th scope="col">ID</th>-->
+<!--                    <th scope="col">Name</th>-->
+<!--                    <th scope="col">Address</th>-->
+<!--                    <th scope="col">Salary</th>-->
+<!--                </tr>-->
+<!--                </thead>-->
+
+<!--                <tbody id="tblBody">-->
+
+<!--                </tbody>-->
+
+<!--            </table>-->
+
+<!--        </div>-->
+<!--    </section>-->
+<!--</main>-->
+
+<!--------------------------------------------item---------------------------->
 
 
-<main class="container-fluid" id="customerN">
+<main class="container-fluid" id="itemN">
     <section class="row">
         <div class="col-12 col-lg-4">
-            <h1 class="topic">Customer Registration</h1>
+            <h1 class="topic">Item</h1>
 
             <div class="form-group position-absolute" style="top: 28%;">
-                <label for="customerIdText" style="position: absolute; bottom: 90%; left:5%; color: #126180; ">Customer ID  :</label>
-                <input class="form-control" style="width: 350px;" id="customerIdText" required type="text">
-                <span class="control-error" id="lblcusid"></span>
+                <label for="itemIdText" style="position: absolute; bottom: 90%; left:5%; color: #126180; ">Item ID  :</label>
+                <input class="form-control" style="width: 350px;" id="itemIdText" required type="text">
+                <span class="control-error" id="lblitemid"></span>
             </div>
             <div class="form-group position-absolute" style="top:40%;">
-                <label for="customerNameText" style="position: absolute; bottom: 90%; left:5%; color: #126180; ">Customer Name  :</label>
-                <input class="form-control" style="width: 350px;" id="customerNameText" type="text">
-                <span class="control-error" id="lblcusname"></span>
+                <label for="itemNameText" style="position: absolute; bottom: 90%; left:5%; color: #126180; ">Item Name  :</label>
+                <input class="form-control" style="width: 350px;" id="itemNameText" type="text">
+                <span class="control-error" id="lblitemname"></span>
             </div>
             <div class="form-group position-absolute" style="top:52%;">
-                <label for="customerAddressText" style="color: #126180; position:absolute; bottom:90%; left:5%;">Customer Address  :</label>
-                <input class="form-control " style="width: 350px;" id="customerAddressText" type="text">
-                <span class="control-error" id="lblcusaddress"></span>
+                <label for="itemQtyText" style="color: #126180; position:absolute; bottom:90%; left:5%;">Item Qty  :</label>
+                <input class="form-control " style="width: 350px;" id="itemQtyText" type="text">
+                <span class="control-error" id="lblitemqty"></span>
             </div>
             <div class="form-group position-absolute" style="top: 65%;">
-                <label for="customerSalaryText" style="color: #126180; bottom: 95%;  left:5%; position: absolute;"> Contact Number : </label>
-                <input class="form-control" style="width: 350px;" id="customerSalaryText" type="text">
-                <span class="control-error" id="lblcussalary"></span>
+                <label for="itemPriceText" style="color: #126180; bottom: 95%;  left:5%; position: absolute;">Item Price : </label>
+                <input class="form-control" style="width: 350px;" id="itemPriceText" type="text">
+                <span class="control-error" id="lblitemprice"></span>
             </div>
             <div class="btn-group position-absolute" style="top: 75%;">
-                <button type="button" id="savecustomer" class="btn btn-info  position-absolut " style="left: 0.5vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Save</button>
-                <button type="button" id="deletecustomer" class="btn btn-secondary position-absolute   " style="left: 14vh; width: 75px; font-family: 'Times New Roman';border-radius: 15%; ">Delete</button>
-                <button type="button" id="updatecustomer" class="btn btn btn-danger position-absolute" style="left: 27vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Update</button>
-                <button type="button" id="getcustomer" class="btn btn-warning position-absolute  " style="left: 40vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Get All</button>
-                <button type="button" id="btnClearCust" class="btn btn-primary position-absolute  " style="left: 53vh; width: 100px; font-family: 'Times New Roman'; border-radius: 15%;">Clear All</button>
+                <button type="button" id="saveitem" class="btn btn-info  position-absolut " style="left: 0.5vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Save</button>
+                <button type="button" id="deleteitem" class="btn btn-secondary position-absolute   " style="left: 14vh; width: 75px; font-family: 'Times New Roman';border-radius: 15%; ">Delete</button>
+                <button type="button" id="updateitem" class="btn btn btn-danger position-absolute" style="left: 27vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Update</button>
+                <button type="button" id="getitem" class="btn btn-warning position-absolute  " style="left: 40vh; width: 75px; font-family: 'Times New Roman'; border-radius: 15%; ">Get All</button>
+                <button type="button" id="btnClearitem" class="btn btn-primary position-absolute  " style="left: 53vh; width: 100px; font-family: 'Times New Roman'; border-radius: 15%;">Clear All</button>
             </div>
 
         </div>
@@ -81,14 +138,14 @@
             <table class="table col-xxl-4">
                 <thead>
                 <tr>
-                    <th scope="col">ID</th>
-                    <th scope="col">Name</th>
-                    <th scope="col">Address</th>
-                    <th scope="col">Salary</th>
+                    <th scope="col">Item Id</th>
+                    <th scope="col">Item Name</th>
+                    <th scope="col">Item Qty</th>
+                    <th scope="col">Item Price</th>
                 </tr>
                 </thead>
 
-                <tbody id="tblBody">
+                <tbody id="tblBodyItem">
 
                 </tbody>
 
@@ -98,11 +155,9 @@
     </section>
 </main>
 
-
 <script src="bootstrap-5.3.2-dist/code.jquery.com_jquery-3.7.1.min.js"></script>
 <!--<script src="controller/CustomerController.js"></script>-->
 <script src="db/db.js"></script>
-
 <script src="model/CustomerModel.js"></script>
 <script src="controller/validation/customerValidation.js"></script>
 <script src="controller/Customer_Controller.js"></script>
