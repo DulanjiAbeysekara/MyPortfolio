@@ -13,7 +13,7 @@ $("#itemIdText","#itemNameText","#itemQtyText","#itemPriceText").keydown(functio
 });
 
 $("#itemIdText").keyup(function (e){
-    if(regexId.test($("#itemIdText").val())){
+    if(regexItemCode.test($("#itemIdText").val())){
         $("#itemIdText").css("border-color",  "transparent");
     }else{
         $("#itemIdText").css("border-color",  "red");
@@ -21,7 +21,7 @@ $("#itemIdText").keyup(function (e){
 });
 
 $("#itemIdText").keydown(function (e){
-    if(e.keyCode == 13 && regexId.test($("#itemIdText").val())) {
+    if(e.keyCode == 13 && regexItemCode.test($("#itemIdText").val())) {
         $("#itemNameText").focus();
     }
 });
@@ -29,7 +29,7 @@ $("#itemIdText").keydown(function (e){
 
 
 $("#itemNameText").keyup(function (e){
-    if(regexName.test($("#itemNameText").val())){
+    if(regexItemName.test($("#itemNameText").val())){
         $("#itemNameText").css("border-color",  "transparent");
     }else{
         $("#itemNameText").css("border-color",  "red");
@@ -37,7 +37,7 @@ $("#itemNameText").keyup(function (e){
 });
 
 $("#itemQtyText").keyup(function (e){
-    if(regexQty.test($("#itemQtyText").val())){
+    if(regexItemQty.test($("#itemQtyText").val())){
         $("#itemQtyText").css("border-color",  "transparent");
     }else{
         $("#itemQtyText").css("border-color",  "red");
@@ -45,14 +45,14 @@ $("#itemQtyText").keyup(function (e){
 });
 
 $("#itemQtyText").keydown(function (e){
-    if(e.keyCode == 13 && regexQty.test($("#itemQtyText").val())){
+    if(e.keyCode == 13 && regexItemQty.test($("#itemQtyText").val())){
         save();
     }
 });
 
 
 $("#itemPriceText").keyup(function (e){
-    if(regexPrice.test($("#itemPriceText").val())){
+    if(regexItemUnitePrice.test($("#itemPriceText").val())){
         $("#itemPriceText").css("border-color",  "transparent");
     }else{
         $("#itemPriceText").css("border-color",  "red");
@@ -60,7 +60,7 @@ $("#itemPriceText").keyup(function (e){
 });
 
 $("#itemPriceText").keydown(function (e){
-    if(e.keyCode == 13 && regexPrice.test($("#itemPriceText").val())){
+    if(e.keyCode == 13 && regexItemUnitePrice.test($("#itemPriceText").val())){
         $("#itemPriceText").focus();
     }
 });
@@ -70,7 +70,7 @@ $("#itemPriceText").keydown(function (e){
 
 function save(){
 
-    if(regexId.test($("#itemIdText").val()) && regexName.test($("#itemNameText").val()) && regexAddress.test($("#itemQtyText").val()) && regexSalary.test($("#itemPriceText").val())){
+    if(regexItemCode.test($("#itemIdText").val()) && regexItemName.test($("#itemNameText").val()) && regexItemQty.test($("#itemQtyText").val()) && regexItemUnitePrice.test($("#itemPriceText").val())){
         var is = false;
 
         for(let i = 0; i < ItemDetails.length; i++){
