@@ -1803,7 +1803,7 @@ arti20 {
         top: 68%;
     }
     .nibm {
-        width: 166px;
+           width: 166px;
         height: 50px;
         top: 39%;
         left: 11%;
@@ -1816,7 +1816,7 @@ arti20 {
     }
     .circle4 {
         left: 11px;
-        top: 85%;
+        top: 82%;
         height: 10px;
         width: 10px;
     }
@@ -2864,38 +2864,39 @@ arti20 {
         font-size: 28px;
     }
     .school {
-        width: 250px;
+        width: 185px;
         height: 70px;
         top: 15%;
         left: 15%;
     }
 
     .ol {
-        width: 250px;
+        width: 185px;
         height: 70px;
-        top: 18%;
+        top: 20%;
         left: -30%;
     }
     .al {
-        width: 250px;
+        width: 185px;
         height: 70px;
-        top: 36%;
+        top: 28%;
         left: 15%;
     }
     .nibm {
-        width: 250px;
+        width: 185px;
         height: 70px;
-        top: 39%;
+        top: 33%;
         left: -30%;
     }
     .ijse {
-        width: 250px;
+        width: 185px;
         height: 70px;
-        top: 55%;
+        top: 108%;
         left: 16%;
+        position: absolute;
     }
     .line {
-        height: 389px;
+        height: 420px;
         top: 16%;
     }
     .circle {
@@ -2903,65 +2904,90 @@ arti20 {
         width: 10px;
         left: 26px;
         bottom: 83%;
+        position: absolute;
     }
     .circle1 {
         height: 10px;
         width: 10px;
         left: 26px;
-        bottom: 65%;
+        bottom: 66%;
+        position: absolute;
     }
     .circle2 {
         height: 10px;
         width: 10px;
         left: 26px;
         bottom: 48%;
+        position: absolute;
     }
     .circle3 {
         height: 10px;
         width: 10px;
         left: 26px;
-        top: 67%;
+        top: 68%;
+        position: absolute;
     }
 
     .circle4 {
         height: 10px;
         width: 10px;
         left: 26px;
-        top: 89%;
+        top: 86%;
     }
     #EDUCATION h5 {
         font-size: 11px;
     }
     .leter9 {
-        font-size: 14px;
+        position: absolute;
+        font-size: 10px;
+        top:20%;
     }
     .leter10 {
-        font-size: 14px;
+        font-size: 10px;
+        position: absolute;
+        top:32%;
     }
     .leter11{
-        font-size: 14px;
+        position: absolute;
+        top:20%;
+        font-size: 10px;
     }
     .leter12{
-        font-size: 14px;
+        font-size: 10px;
+        position: absolute;
+        top:32%;
     }
     .leter13{
-        font-size: 14px;
+        position: absolute;
+        top:20%;
+        font-size: 10px;
     }
     .leter14{
-        font-size: 14px;
+        font-size: 10px;
+        position: absolute;
+        top:32%;
     }
 
     .leter15{
-        font-size: 14px;
+        font-size: 10px;
+        position: absolute;
+        top:20%;
     }
+
     .leter16{
-        font-size: 14px;
+        font-size: 10px;
+        position: absolute;
+        top:32%;
     }
     .leter17{
-        font-size: 14px;
+        font-size: 10px;
+        position: absolute;
+        top:20%;
     }
     .leter18{
-        font-size: 14px;
+        font-size: 10px;
+        position: absolute;
+        top:32%;
     }
     .line1 {
         display: none;
@@ -2983,7 +3009,7 @@ arti20 {
     .assignment01 {
         width: 125px;
         height: 125px;
-        right: 33%;
+        right: 34%;
         bottom: 71%;
     }
     .assignment02 {
@@ -2995,8 +3021,8 @@ arti20 {
     .assignment03 {
         width: 125px;
         height: 125px;
-        top: 58%;
-        left: 36%;
+        top: 60%;
+        left: 37%;
     }
     .img5{
         left: 27%;
@@ -3045,7 +3071,7 @@ arti20 {
         right: 15%;
     }
     .project-container {
-        gap: 10px;
+        gap: 2rem;
     }
     .project-box {
         width: 100px;
@@ -3119,19 +3145,19 @@ arti20 {
         width: 50px;
         right: 18%;
         left: 40%;
-        bottom: 76%;
+        bottom: 78%;
     }
     .c2 {
         height: 50px;
         width: 50px;
         left: 34%;
-        bottom: 29%;
+        bottom: 34%;
     }
     .c3 {
         width: 50px;
         height: 50px;
         left: 146px;
-        bottom: 26%;
+        bottom: 31%;
     }
 
     .certificate h3 {
@@ -3228,7 +3254,7 @@ arti20 {
     .imge30 {
         width: 193px;
         height: 207px;
-        bottom: 52%;
+        bottom: 56%;
         left: 25%;
     }
     .fb {
@@ -3406,7 +3432,7 @@ arti20 {
         height: 71px;
         width: 63px;
         top: -20px;
-        left: -39vh;
+        left: -34vh;
     }
     .scnebuilder {
         height: 72px;
@@ -3471,7 +3497,7 @@ arti20 {
     }
     .line {
         position: absolute;
-        height: 313px;
+        height: 500px;
         width: 2px;
         background-color: gray;
         /* bottom: 8%; */
@@ -3494,7 +3520,7 @@ arti20 {
         background-color: #D31A38;
         border-radius: 50%;
         left: 36px;
-        bottom: 62%;
+        bottom: 65%;
     }
     .line {
         position: absolute;
@@ -3548,7 +3574,7 @@ arti20 {
         background-color: #D31A38;
         border-radius: 50%;
         left: 37px;
-        bottom: 46%;
+        bottom: 50%;
     }
     .leter13 {
         position: relative;
@@ -3584,7 +3610,7 @@ arti20 {
         border-radius: 50%;
         left: 424px;
         /* bottom: 90%; */
-        top: 68%;
+        top: 63%;
         left: 9%;
     }
     .circle4 {
@@ -3594,7 +3620,7 @@ arti20 {
         background-color: #D31A38;
         border-radius: 50%;
         left: 9%;
-        top: 86%;
+        top: 79%;
     }
     .nibm {
         background-color: white;
@@ -3629,7 +3655,7 @@ arti20 {
         height: 75px;
         font-size: 16px;
         right: 0;
-        top: 38%;
+        top: 79%;
         left: 16%;
     }
     .leter17 {
@@ -3671,7 +3697,7 @@ arti20 {
         border-radius: 15%;
         position: absolute;
         right: 29%;
-        bottom: 66%;
+        bottom: 68%;
     }
 
     .assignment02 {
@@ -3680,8 +3706,8 @@ arti20 {
         background-color: #373030;
         border-radius: 15%;
         position: absolute;
-        bottom: 41%;
-        left: 26%;
+        bottom: 44%;
+        left: 25%;
     }
     .assignment03 {
         width: 190px;
@@ -3690,8 +3716,8 @@ arti20 {
         border-radius: 15%;
         position: relative;
         bottom: 35%;
-        top: 63%;
-        left: 26%;
+        top: 62%;
+        left: 25%;
     }
     .txt {
         position: relative;
@@ -3779,8 +3805,9 @@ arti20 {
         display: grid;
         grid-template-columns: repeat(1,3fr);
         align-items: center;
-        gap: 1rem;
-        /* position: absolute; */
+        gap: 3rem;
+        /* position: ab
+            /* position: absolute; */
     }
     .project-container .project-box {
         position: relative;
@@ -3850,7 +3877,7 @@ arti20 {
         font-family: "Times New Roman";
         font-size: 26px;
         position: absolute;
-        bottom: 85%;
+        bottom: 90%;
         right: 12%;
     }
     .certificate2 {
@@ -3885,23 +3912,23 @@ arti20 {
         bottom: -37%;
     }
     .c1 {
-        width: 100px;
+        width: 75px;
         right: 18%;
-        left: 37.5%;
-        bottom: 74%;
+        left: 40.5%;
+        bottom: 75%;
     }
     .c2 {
         /* height: 100px; */
-        width: 100px;
-        left: 38%;
-        bottom: 24%;
+        width: 75px;
+        left: 40%;
+        bottom: 26%;
     }
     .c3 {
-        width: 100px;
+        width: 75px;
         position: absolute;
         right: 30%;
-        left: 153px;
-        bottom: 45%;
+        left: 161px;
+        bottom: 50%;
         box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
         transition: 1s;
         display: block;
@@ -4091,29 +4118,29 @@ arti20 {
         position: absolute;
         bottom: 70%;
         left: 12%;
-        height: 70px;
-        width: 70px;
+        height: 50px;
+        width: 50px;
     }
     .tele {
         position: absolute;
         bottom: 52%;
         left: 12%;
-        height: 70px;
-        width: 70px;
+        height: 50px;
+        width: 50px;
     }
     .linkedinnn2 {
         position: absolute;
         bottom: 36%;
         left: 12%;
-        height: 70px;
-        width: 70px;
+        height: 50px;
+        width: 50px;
     }
     .email {
         position: absolute;
         bottom: 20%;
         left: 12%;
-        height: 70px;
-        width: 70px;
+        height: 50px;
+        width: 50px;
     }
     .a1 {
         position: absolute;
@@ -4246,19 +4273,19 @@ arti20 {
     .figma {
         position: relative;
         transition: 3s;
-        top: 1px;
-        right: -6px;
+        top: -9px;
+        right: -31px;
         width: 75px;
         height: 75px;
     }
     .intellj {
         position: relative;
         transition: 3s;
-        top: 3px;
+        top: -6px;
         width: 75px;
         /* right: 35px; */
         height: 75px;
-        left: 15%;
+        left: 27%;
     }
     .php {
         position: relative;
@@ -4272,16 +4299,16 @@ arti20 {
         position: relative;
         right: 20px;
         transition: 3s;
-        top: 68px;
-        left: -103px;
+        top: 75px;
+        left: -98px;
         height: 75px;
         width: 75px;
     }
     .scnebuilder {
         position: relative;
         transition: 3s;
-        top: 61px;
-        left: -28%;
+        top: 77px;
+        left: -16%;
         width: 75px;
         height: 75px;
     }
@@ -4319,13 +4346,13 @@ arti20 {
     /*#date{*/
     /*    top:18%;*/
     /*}*/
-    .line {
+    .line1 {
         position: absolute;
-        height: 380px;
+        height: 439px;
         width: 2px;
         background-color: gray;
         /* bottom: 8%; */
-        top: 21%;
+        top: 20%;
         left: 8%;
     }
     .circle {
@@ -4378,7 +4405,7 @@ arti20 {
         height: 85px;
         font-size: 16px;
         bottom: 0;
-        top: 48%;
+        top: 47%;
         left: -23%;
         /* margin: auto; */
         position: relative;
@@ -4395,7 +4422,7 @@ arti20 {
         font-size: 16px;
         right: 0;
         bottom: 0;
-        top: 59%;
+        top: 61%;
         left: 82px;
         border-radius: 10px;
         /* margin: auto; */
@@ -4405,13 +4432,13 @@ arti20 {
         transition: all 0.4s;
         display: inline-block;
     }
-    .line1 {
+    .line {
         position: absolute;
-        height: 380px;
+        height: 399px;
         width: 2px;
         background-color: gray;
         /* bottom: 8%; */
-        top: 22%;
+        top: 24%;
         left: 55%;
     }
     .circle3 {
@@ -4431,8 +4458,8 @@ arti20 {
         font-size: 16px;
         right: 46%;
         /* bottom: -2%; */
-        top: 25%;
-        left: 23%;
+        top: 27%;
+        left: 24%;
         border-radius: 10px;
         /* margin: auto; */
         position: relative;
@@ -4456,7 +4483,7 @@ arti20 {
         height: 85px;
         font-size: 16px;
         right: 0;
-        top: 37%;
+        top: 40%;
         left: 58%;
         /* bottom: -10%; */
         border-radius: 10px;
@@ -4466,6 +4493,93 @@ arti20 {
         cursor: pointer;
         transition: all 0.4s;
         display: inline-block;
+    }
+    .leter9 {
+        position: relative;
+        left: 10px;
+        top: 16%;
+        color: black;
+        font-family: "Times New Roman";
+        font-size: 14px;
+    }
+
+    .leter10 {
+        position: absolute;
+        left: 10px;
+        bottom: 5%;
+        top: 33%;
+        color: black;
+        font-family: "Times New Roman";
+        font-size: 14px;
+    }
+    .leter11 {
+        position: relative;
+        left: 10px;
+        top: 15%;
+        color: black;
+        font-family: "Times New Roman";
+        font-size: 14px;
+    }
+
+    .leter12 {
+        position: absolute;
+        left: 10px;
+        bottom: 5%;
+        top: 31%;
+        color: black;
+        font-family: "Times New Roman";
+        font-size: 14px;
+    }
+    .leter14 {
+        position: absolute;
+        left: 10px;
+        bottom: 5%;
+        top: 31%;
+        color: black;
+        font-family: "Times New Roman";
+        font-size: 14px;
+    }
+    .leter13 {
+        position: relative;
+        left: 10px;
+        top: 15%;
+        color: black;
+        font-family: "Times New Roman";
+        font-size: 14px;
+    }
+    .leter15 {
+        position: relative;
+        left: 9px;
+        top: 12%;
+        color: black;
+        font-family: "Times New Roman";
+        font-size: 14px;
+    }
+    .leter16 {
+        position: absolute;
+        left: 10px;
+        bottom: 5%;
+        top: 29%;
+        color: black;
+        font-family: "Times New Roman";
+        font-size: 14px;
+    }
+    .leter17 {
+        position: relative;
+        left: 10px;
+        top: 15%;
+        color: black;
+        font-family: "Times New Roman";
+        font-size: 14px;
+    }
+    .leter18 {
+        position: absolute;
+        left: 10px;
+        bottom: 5%;
+        top: 31%;
+        color: black;
+        font-family: "Times New Roman";
+        font-size: 14px;
     }
 /*---------------------------------assignment----------------------------------*/
     .ass {
@@ -4484,10 +4598,10 @@ arti20 {
         border-radius: 15%;
         position: absolute;
         right: 70%;
-        bottom: 46%;
-        transition-duration: 3s;
-        transition-property: all;
-        transition: 3s;
+        bottom: 45%;
+        /* transition-duration: 3s; */
+        /* transition-property: all; */
+        /* transition: 3s; */
     }
     .assignment01:hover{
         display: none;
@@ -4499,16 +4613,15 @@ arti20 {
         background-color: #373030;
         border-radius: 15%;
         position: absolute;
-        bottom: 46%;
+        bottom: 45%;
         left: 37%;
-        transition-duration: 3s;
-        transition-property: all;
-        transition: 3s;
+        /* transition-duration: 3s; */
+        /* transition-property: all; */
+        /* transition: 3s; */
     }
     .assignment02:hover{
         display: none;
     }
-
     .assignment03 {
         width: 190px;
         height: 190px;
@@ -4516,11 +4629,11 @@ arti20 {
         border-radius: 15%;
         position: relative;
         /* bottom: 35%; */
-        top: 24%;
+        top: 28%;
         left: 69%;
-        /*transition-duration: 3s;*/
-        /*transition-property: all;*/
-        transition: 3s;
+        /* transition-duration: 3s; */
+        /* transition-property: all; */
+        /* transition: 3s; */
         display: inline-block;
     }
     .assignment03:hover{
@@ -4528,8 +4641,8 @@ arti20 {
     }
 
     .arti1 {
-        position: relative;
-        top: 40%;
+        position: absolute;
+        top: 80%;
         color: white;
         font-family: "Lucida Sans";
         font-size: 13px;
@@ -4548,7 +4661,7 @@ arti20 {
         padding: 0 18px;
         transition: 0.5s;
         left: 78%;
-        top: 62%;
+        top: 66%;
         border-radius: 8px;
     }
     .assignment {
@@ -4662,7 +4775,7 @@ arti20 {
     .c1 {
         position: absolute;
         left: 78%;
-        bottom: 54%;
+        bottom: 57%;
         box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
         transition: 1s;
         display: block;
@@ -4689,7 +4802,7 @@ arti20 {
         height: 75px;
         width: 75px;
         left: 45%;
-        bottom: 54%;
+        bottom: 58%;
     }
     .certificate3 {
         position: relative;
@@ -4709,10 +4822,10 @@ arti20 {
     .c3 {
         position: absolute;
         /* right: 35%; */
-        top: 32%;
+        top: 30%;
         left: 93px;
-        bottom: 48%;
-        box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
+        bottom: 70%;
+        box-shadow: 0 0 5px 1px rgba(0, 0, 0, .1);
         transition: 1s;
         display: block;
         height: 75px;
