@@ -1,6 +1,6 @@
 body{
     background-color: #242124;
-    height:200vh;
+    height:425vh;
 }
 
 .text{
@@ -14,8 +14,8 @@ body{
     color:#D31A38;
     font-size:26px;
     position: absolute;
-    top:13vh;
-    left:8vh;
+    top:15vh;
+    left:90vh;
     font-family: "Times New Roman";
 
 }
@@ -24,9 +24,9 @@ body{
     position: relative;
 }
 table{
-    width:400px;
+    width:600px;
     position: absolute;
-    left:5vh;
+    left:70vh;
     top:26vh;
 
 }
@@ -88,15 +88,16 @@ th,td {
 /*-------------------------------------------------------------------*/
 #transition{
     position: absolute;
-    left:73vh;
+    left:70vh;
+    top:30%;
 }
 
 .text2{
     color:#D31A38;
     font-size:26px;
     position: absolute;
-    top:13vh;
-    left:80vh;
+    top:118vh;
+    left:90vh;
     font-family: "Times New Roman";
 }
 #name6{
@@ -127,15 +128,16 @@ th,td {
 /*-----------------------------------------------------------------*/
 #animation{
     position: absolute;
-    left:141vh;
+    left:70vh;
+    top:48%;
 }
 
 .text3{
     color:#D31A38;
     font-size:26px;
     position: absolute;
-    top:13vh;
-    left:141vh;
+    top:195vh;
+    left:90vh;
     font-family: "Times New Roman";
 }
 
@@ -159,6 +161,90 @@ th,td {
     left:8%;
 }
 #name13{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+/*----------------------------------------------*/
+
+#js{
+    position: absolute;
+    left:70vh;
+    top:80%;
+}
+
+#name20{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name21{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name22{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name23{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+#name24{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+
+.jsc{
+    color:#D31A38;
+    font-size:26px;
+    position: absolute;
+    left:80vh;
+    top:78%;
+    font-family: "Times New Roman";
+}
+
+/*------------------------------------------------------------*/
+
+#name30{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+
+#freamwork{
+    position: absolute;
+    left:70vh;
+    top:66%;
+}
+.cssf{
+    color:#D31A38;
+    font-size:26px;
+    position: absolute;
+    left:80vh;
+    top:64%;
+    font-family: "Times New Roman";
+}
+
+#name31{
+    font-size:20px;
+    color:#ffffff;
+    position: relative;
+    left:8%;
+}
+
+#name32{
     font-size:20px;
     color:#ffffff;
     position: relative;
