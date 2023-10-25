@@ -15,7 +15,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 1rem;
-    left: 8%;
+    left: 15%;
     top: 0;
     z-index: 10;
     /* background-color: black; */
@@ -25,20 +25,20 @@ header {
 header>nav>ul {
     position: absolute;
     top: 33%;
-    left: 464px;
+    left: 50%;
     font-size: 15px;
 }
 header>nav>ul>li {
     display: inline-block;
     margin-right: 3px;
-    border-right: 20px;
+    border-right: 15px;
     font-size: 15px;
     color: white;
 }
 header>nav>ul>li>a{
     text-decoration: none;
     color: white;
-    margin-left: 9px;
+    margin-left: 20px;
     font-weight: bold;
     transition: .3s ease;
 }
@@ -121,6 +121,7 @@ span{
     font-size: 2rem;
     color: #D31A38;
     transition: .5s ease;
+    text-decoration: none;
 
 }
 .social-media a:hover{
@@ -340,60 +341,60 @@ main>section:nth-child(4)>h3{
     transform: scale(1.08, 1.08);
     z-index: 2;
 }
-.design1{
+.design1 {
     position: absolute;
     left: 35%;
+    height: 124px;
 }
-.leter{
+.leter {
     position: absolute;
     font-size: 18px;
     font-family: "Times New Roman";
-    left: 35%;
-    top: 33%;
+    left: 38%;
+    top: 43%;
     color: white;
 }
-.ppp{
+.ppp {
     position: absolute;
     font-size: 15px;
-    color:white;
+    color: white;
     font-family: "Lucida Sans";
     left: 15%;
-    top:50%;
+    top: 57%;
 }
-
-.design2{
+.design2 {
     position: absolute;
     left: 35%;
+    height: 120px;
 }
-
-.leter1{
+.leter1 {
     position: absolute;
-    left: 35.5%;
-    top:35%;
+    left: 39.5%;
+    top: 40%;
     font-size: 18px;
 }
-.ppp2{
+.ppp2 {
     position: absolute;
     font-size: 15px;
-    color:white;
+    color: white;
     font-family: "Lucida Sans";
     left: 15%;
-    top:50%;
+    top: 54%;
 }
-.leter3{
+.leter3 {
     position: absolute;
     color: white;
-    font-size: 15px;
-    font-family:"Lucida Sans";
-    bottom:30%;
+    font-size: 17px;
+    font-family: "Lucida Sans";
+    bottom: 30%;
     left: 15%;
 }
-.leter2{
+.leter2 {
     position: absolute;
     color: white;
-    font-size: 15px;
-    font-family:"Lucida Sans";
-    bottom:38%;
+    font-size: 17px;
+    font-family: "Lucida Sans";
+    bottom: 38%;
     left: 15%;
 }
 .pic{
@@ -438,21 +439,23 @@ main>section:nth-child(4)>h3{
     transform: scale(0.5, 0.5);
     z-index: 2;
 }
-.intellj{
+.intellj {
     position: relative;
     transition: 3s;
-    top:40px;
-    /*right: 35px;*/
+    top: 40px;
+    height: 120px;
+    /* right: 35px; */
 }
 .intellj:hover{
     transform: scale(0.5, 0.5);
     z-index: 2;
 }
-.figma{
+.figma {
     position: relative;
     transition: 3s;
-    top:40px;
+    top: 40px;
     right: 38px;
+    height: 140px;
 }
 .figma:hover{
     transform: scale(0.5, 0.5);
@@ -503,6 +506,8 @@ main>section:nth-child(5){
     top:15%;
     left: 5%;
     position: absolute;
+    /*width: 600px;*/
+    /*height:600px;*/
 }
 .collage:hover{
     transform: scale(0.5, 0.5);
@@ -534,8 +539,8 @@ main>section:nth-child(6)>h3{
     font-size: 16px;
     right: 0;
     bottom: 0;
-    top: 23%;
-    left: 13%;
+    top: 26%;
+    left: 12%;
     /* margin: auto; */
     position: relative;
     border: 2px solid #eaeaea;
@@ -578,7 +583,7 @@ main>section:nth-child(6)>h3{
 }
 .line {
     position: absolute;
-    height: 380px;
+    height: 436px;
     width: 2px;
     background-color: gray;
     /* bottom: 8%; */
@@ -591,8 +596,8 @@ main>section:nth-child(6)>h3{
     width: 15px;
     background-color: #D31A38;
     border-radius: 50%;
-    left: 128px;
-    bottom: 75%;
+    left: 130px;
+    bottom: 73%;
 }
 .ol {
     background-color: white;
@@ -601,7 +606,7 @@ main>section:nth-child(6)>h3{
     font-size: 16px;
     bottom: 0;
     top: 53%;
-    left: -13%;
+    left: -14%;
     /* margin: auto; */
     position: relative;
     border: 2px solid #eaeaea;
@@ -642,7 +647,7 @@ main>section:nth-child(6)>h3{
     width: 15px;
     background-color: #D31A38;
     border-radius: 50%;
-    left: 128px;
+    left: 130px;
     bottom: 45%;
 }
 .al {
@@ -652,8 +657,8 @@ main>section:nth-child(6)>h3{
     font-size: 16px;
     right: 0;
     bottom: 0;
-    top: 82%;
-    left: -39%;
+    top: 77%;
+    left: -40%;
     border-radius: 10px;
     /* margin: auto; */
     position: relative;
@@ -694,8 +699,8 @@ main>section:nth-child(6)>h3{
     width: 15px;
     background-color: #D31A38;
     border-radius: 50%;
-    left: 128px;
-    bottom: 16%;
+    left: 130px;
+    bottom: 18%;
 }
 .line1 {
     position: absolute;
@@ -713,8 +718,8 @@ main>section:nth-child(6)>h3{
     font-size: 16px;
     right: 46%;
     /* bottom: -2%; */
-    top: 28%;
-    left: 58%;
+    top: 13%;
+    left: 120vh;
     border-radius: 10px;
     /* margin: auto; */
     position: relative;
@@ -755,9 +760,9 @@ main>section:nth-child(6)>h3{
     width: 15px;
     background-color: #D31A38;
     border-radius: 50%;
-    left: 735px;
-    bottom: 75%;
-    top: 40%;
+    left: 54.5%;
+    bottom: 100%;
+    top: 30%;
 }
 .ijse {
     background-color: white;
@@ -765,8 +770,8 @@ main>section:nth-child(6)>h3{
     height: 85px;
     font-size: 16px;
     right: 0;
-    top: 56%;
-    left: 32%;
+    top: 48%;
+    left: 65vh;
     /* bottom: -10%; */
     border-radius: 10px;
     /* margin: auto; */
@@ -808,8 +813,8 @@ main>section:nth-child(6)>h3{
     width: 15px;
     background-color: #D31A38;
     border-radius: 50%;
-    left: 736px;
-    top: 68%;
+    left: 54.5%;
+    top: 61%;
 }
 /*-------------------------------assigemnets------------------------------------------------*/
 .assignment{
@@ -1238,6 +1243,7 @@ main>section:nth-child(6)>h3{
     box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
     transition: 1s;
     display: block;
+    height: 100px;
 
 }
 .c1:hover {
@@ -1293,6 +1299,7 @@ main>section:nth-child(6)>h3{
     bottom: 45%;
     box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
     transition: 1s;
+    height: 100px;
     display: block;
 
 }
@@ -1350,7 +1357,7 @@ main>section:nth-child(6)>h3{
     box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
     transition: 1s;
     display: block;
-
+    height: 100px;
 }
 .c3:hover {
     transform: scale(1.5, 1.5);
@@ -1389,8 +1396,8 @@ main>section:last-child{
     height: 300px;
     border: 4px solid #D31A38;
     position: absolute;
-    right: 700px;
-    bottom: 87px;
+    left: 15%;
+    top: 125px;
     border-radius: 15px;
     transition-duration: 1s;
     transition-property: all;
@@ -1417,7 +1424,7 @@ main>section:last-child{
     border: 4px solid #D31A38;
     position: absolute;
     border-radius: 15px;
-    left: 40%;
+    left: 45%;
     top: 130px;
     transition-duration: 6s;
     transition-property: all;
@@ -1454,8 +1461,10 @@ arti20 {
     font-size: 13px;
     font-family: "Lucida Sans";
     position: absolute;
-    top: 83%;
-    right: 69%;
+    top: 25%;
+    left:0;
+    bottom: 0;
+    right: 0;
 }
 .arti21{
     color: white;
@@ -1463,7 +1472,7 @@ arti20 {
     font-family: "Lucida Sans";
     position: absolute;
     top: 78%;
-    left: 40%;
+    left: 45%;
 }
 /*-----------------------------last------------------------------*/
 /*.last{*/
@@ -4020,9 +4029,9 @@ arti20 {
     }
     header>nav>ul {
         position: absolute;
-        top: 27%;
-        left: 93px;
-        font-size: 12px;
+        top: 34%;
+        left: 41px;
+        font-size: 4px;
     }
     header {
         width: 87vw;
@@ -4348,7 +4357,7 @@ arti20 {
     /*}*/
     .line1 {
         position: absolute;
-        height: 439px;
+        height: 372px;
         width: 2px;
         background-color: gray;
         /* bottom: 8%; */
@@ -4361,7 +4370,7 @@ arti20 {
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 56px;
+        left: 77px;
         bottom: 79%;
     }
     .circle1 {
@@ -4370,8 +4379,8 @@ arti20 {
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 56px;
-        bottom: 52%;
+        left: 76px;
+        bottom: 47%;
     }
     .circle2 {
         position: absolute;
@@ -4379,8 +4388,8 @@ arti20 {
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 55px;
-        bottom: 21%;
+        left: 76px;
+        bottom: 13%;
     }
     .school {
         background-color: white;
@@ -4405,8 +4414,8 @@ arti20 {
         height: 85px;
         font-size: 16px;
         bottom: 0;
-        top: 47%;
-        left: -23%;
+        top: 52%;
+        left: -14%;
         /* margin: auto; */
         position: relative;
         border: 2px solid #eaeaea;
@@ -4415,6 +4424,7 @@ arti20 {
         border-radius: 10px;
         display: inline-block;
     }
+
     .al {
         background-color: white;
         width: 250px;
@@ -4422,8 +4432,8 @@ arti20 {
         font-size: 16px;
         right: 0;
         bottom: 0;
-        top: 61%;
-        left: 82px;
+        top: 82%;
+        left: -395px;
         border-radius: 10px;
         /* margin: auto; */
         position: relative;
@@ -4434,11 +4444,11 @@ arti20 {
     }
     .line {
         position: absolute;
-        height: 399px;
+        height: 390px;
         width: 2px;
         background-color: gray;
         /* bottom: 8%; */
-        top: 24%;
+        top: 18%;
         left: 55%;
     }
     .circle3 {
@@ -4447,19 +4457,19 @@ arti20 {
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 409px;
-        bottom: 65%;
-        top: 38%;
+        left: 549px;
+        bottom: 70%;
+        top: 35%;
     }
     .nibm {
         background-color: white;
         width: 260px;
         height: 80px;
         font-size: 16px;
-        right: 46%;
+        right: -3%;
         /* bottom: -2%; */
-        top: 27%;
-        left: 24%;
+        top: 19%;
+        left: 58%;
         border-radius: 10px;
         /* margin: auto; */
         position: relative;
@@ -4474,7 +4484,7 @@ arti20 {
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 408px;
+        left: 548px;
         top: 64%;
     }
     .ijse {
@@ -4483,8 +4493,8 @@ arti20 {
         height: 85px;
         font-size: 16px;
         right: 0;
-        top: 40%;
-        left: 58%;
+        top: 48%;
+        left: 32%;
         /* bottom: -10%; */
         border-radius: 10px;
         /* margin: auto; */
@@ -4614,7 +4624,7 @@ arti20 {
         border-radius: 15%;
         position: absolute;
         bottom: 45%;
-        left: 37%;
+        left: 40%;
         /* transition-duration: 3s; */
         /* transition-property: all; */
         /* transition: 3s; */
@@ -4629,7 +4639,7 @@ arti20 {
         border-radius: 15%;
         position: relative;
         /* bottom: 35%; */
-        top: 28%;
+        top: 26%;
         left: 69%;
         /* transition-duration: 3s; */
         /* transition-property: all; */
@@ -4645,7 +4655,7 @@ arti20 {
         top: 80%;
         color: white;
         font-family: "Lucida Sans";
-        font-size: 13px;
+        font-size: 14px;
         left: 9%;
         width: 615px;
     }
@@ -4667,6 +4677,30 @@ arti20 {
     .assignment {
         height: 120vh;
         width: 100%;
+    }
+    .txt {
+        position: relative;
+        top: 60%;
+        left: 6%;
+        font-size: 20px;
+        transition-duration: 0.3s;
+        transition-property: all;
+    }
+    .txt3 {
+        position: relative;
+        left: 8%;
+        top: 60%;
+        transition-duration: 3s;
+        transition-property: all;
+        font-size: 20px;
+    }
+    .txt4 {
+        position: absolute;
+        left: 8%;
+        top: 60%;
+        transition-duration: 3s;
+        transition-property: all;
+        font-size: 20px;
     }
     /*.ass {*/
     /*    color: #D31A38;*/
@@ -4702,7 +4736,7 @@ arti20 {
         box-shadow: 0 0 1rem #D31A38;
         overflow: hidden;
         display: flex;
-        top: 113%;
+        top: 50%;
         left: 12%;
     }
     .arti2 {
@@ -4710,10 +4744,10 @@ arti20 {
         position: absolute;
         color: white;
         font-family: "Lucida Sans";
-        font-size: 13px;
+        font-size: 15px;
         /* bottom: 90%; */
-        left: 19%;
-        top: 72%;
+        left: 29%;
+        top: 79%;
     }
     .btn2 {
         position: absolute;
@@ -4774,7 +4808,7 @@ arti20 {
     }
     .c1 {
         position: absolute;
-        left: 78%;
+        left: 75%;
         bottom: 57%;
         box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
         transition: 1s;
@@ -4790,7 +4824,7 @@ arti20 {
         justify-content: center;
         align-items: center;
         background-color: #373030;
-        left: 13%;
+        left: 22%;
         /* bottom: -25%; */
         top: 22%;
         border-radius: 10%;
@@ -4801,8 +4835,8 @@ arti20 {
     .c2 {
         height: 75px;
         width: 75px;
-        left: 45%;
-        bottom: 58%;
+        left: 46%;
+        bottom: 57%;
     }
     .certificate3 {
         position: relative;
@@ -4812,7 +4846,7 @@ arti20 {
         justify-content: center;
         align-items: center;
         background-color: #373030;
-        left: -44%;
+        left: -26%;
         bottom: -22%;
         border-radius: 10%;
         overflow: hidden;
@@ -4823,7 +4857,7 @@ arti20 {
         position: absolute;
         /* right: 35%; */
         top: 30%;
-        left: 93px;
+        left: 159px;
         bottom: 70%;
         box-shadow: 0 0 5px 1px rgba(0, 0, 0, .1);
         transition: 1s;
@@ -4838,7 +4872,7 @@ arti20 {
         left: 25%;
         /* right: 41%; */
         position: absolute;
-        font-size: 13px;
+        font-size: 14px;
     }
 /*-------------------------activities------------------------*/
     .ac {
@@ -4874,8 +4908,8 @@ arti20 {
         border: 4px solid #D31A38;
         position: absolute;
         border-radius: 15px;
-        left: 18%;
-        top: 99px;
+        left: 45%;
+        top: 117px;
         transition-duration: 6s;
         transition-property: all;
     }
@@ -4898,8 +4932,8 @@ arti20 {
         font-size: 13px;
         font-family: "Lucida Sans";
         position: absolute;
-        top: 86%;
-        left: 19%;
+        top: 81%;
+        left: 44%;
     }
     .arti20 {
         color: white;
@@ -4907,73 +4941,106 @@ arti20 {
         font-family: "Lucida Sans";
         position: absolute;
         top: 98%;
-        top: 391px;
+        top: 426px;
         right: 69%;
     }
 
 
 }
-/*////////////////////////////////////////////////////////////////////*/
-@media all and (min-width:1024px) and (max-width: 1440px) {
-    header>nav>ul {
+/*-------------------------------------1024-1440*/
+@media all and (min-width:1024px) and (max-width:1440px) {
+
+    .name {
+        font-size: 21px;
+        color: white;
+        font-weight: 600;
+        cursor: default;
+        top: 40%;
+        left: 0%;
+        text-decoration: none;
         position: absolute;
-        top: 33%;
-        left: 197px;
-        font-size: 12px;
     }
 
+    header>nav>ul {
+        position: absolute;
+        top: 37%;
+        left: 141px;
+        font-size: 10px;
+    }
 
+/*--------------------------homepage---------------------------*/
+    .imge30 {
+        transition: 3s;
+        position: absolute;
+        bottom: 33%;
+        left: 70%;
+        height: 225px;
+        width: 225px;
+    }
     .div1 h1 {
-        font-size: 34px;
+        font-size: 43px;
         color: white;
         left: 14%;
     }
+    .oneee {
+        top: 27%;
+        left: 16%;
+        position: absolute;
+        font-family: "Times New Roman";
+        letter-spacing: 2px;
+    }
+    .twooo {
+        top: 35%;
+        position: absolute;
+        left: 16%;
+        font-family: "Times New Roman";
+        letter-spacing: 2px;
+    }
     .threee {
-        font-size: 20px;
+        font-size: 26px;
         color: white;
         font-family: "Libre Baskerville, serif";
-        top: 40%;
+        top: 37%;
         left: 16%;
         position: absolute;
         letter-spacing: 0.5px;
     }
-/*----------------------------------------homepage---------------------------------*/
-    .imge30 {
-        transition: 3s;
+    .fb {
         position: absolute;
-        bottom: 27%;
-        left: 64%;
-        height: 250px;
-        width: 250px;
-    }
-    .git {
-        position: absolute;
-        top: 82%;
-        left: 54%;
+        left: 35%;
+        top: 70%;
     }
     .linkedin {
         position: absolute;
-        top: 82%;
-        left: 46%;
+        top: 70%;
+        left: 41%;
     }
-    .fb {
+    .git {
         position: absolute;
-        left: 38%;
-        top: 82%;
+        top: 70%;
+        left: 47%;
     }
-/*-------------------------------about me--------------------------    */
+/*--------------------------------------aboutme----------------------------*/
     .me {
         position: absolute;
         left: 5%;
         top: 23%;
-        height: 325px;
+        height: 375px;
+    }
+    .about {
+        position: absolute;
+        color: white;
+        font-size: 42px;
+        font-family: "Times New Roman";
+        left: 39%;
+        top: 8%;
     }
     .details2 {
         position: absolute;
-        top: 20%;
+        top: 21%;
         /* color: white; */
         font-family: Libre Baskerville, sans-serif;
-        font-size: 19px;
+        font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: 5vh;
@@ -4982,705 +5049,20 @@ arti20 {
     }
     .details1 {
         position: absolute;
-        top: 56%;
+        top: 52%;
         left: 40%;
         font-family: Libre Baskerville, sans-serif;
-        font-size: 16px;
+        font-size: 17px;
     }
-/*------------------contact me--------------------------------*/
-    .a1 {
-        position: absolute;
-        bottom: 70%;
-        left: 23%;
-        color: #D31A38;
-        font-size: 15px;
-        text-decoration: none;
-    }
-    .a2 {
-        position: absolute;
-        bottom: 52%;
-        left: 23%;
-        color: #D31A38;
-        font-size: 16px;
-        text-decoration: none;
-    }
-    .a3 {
-        position: absolute;
-        bottom: 36%;
-        left: 23%;
-        color: #D31A38;
-        font-size: 15px;
-        text-decoration: none;
-    }
-    .a4 {
-        position: absolute;
-        bottom: 21%;
-        left: 23%;
-        color: #D31A38;
-        font-size: 15px;
-        text-decoration: none;
-    }
-
-/*-------------------------skills--------------------------------*/
-    .ui {
-        position: absolute;
-        height: 225px;
-        width: 275px;
-        background-color: #242124;
-        left: 18%;
-        top: 15%;
+/*-----------------------contactme----------------------------*/
+    .h2 {
         color: white;
-        transition-duration: 3s;
-        transition-property: all;
-        transition: 3s;
-        border-radius: 15px;
-    }
-    .web {
         position: absolute;
-        height: 225px;
-        width: 275px;
-        background-color: #242124;
-        left: 54%;
-        top: 15%;
-        color: white;
-        transition-duration: 3s;
-        transition-property: all;
-        transition: 3s;
-        border-radius: 15px;
+        font-size: 42px;
+        right: 5%;
+        top: 0;
     }
-    .design2 {
-        position: absolute;
-        left: 33%;
-        height: 100px;
-        width: 100px;
-    }
-    .leter1 {
-        position: absolute;
-        left: 37%;
-        top: 40%;
-        font-size: 16px;
-    }
-    .ppp2 {
-        position: absolute;
-        font-size: 11px;
-        color: white;
-        font-family: "Lucida Sans";
-        left: 11%;
-        top: 58%;
-    }
-    .design1 {
-        height: 100px;
-        position: absolute;
-        left: 32%;
-        width: 100px;
-    }
-    .leter {
-        position: absolute;
-        font-size: 16px;
-        font-family: "Times New Roman";
-        left: 32%;
-        top: 40%;
-        color: white;
-    }
-    .ppp {
-        position: absolute;
-        font-size: 11px;
-        color: white;
-        font-family: "Lucida Sans";
-        left: 11%;
-        top: 58%;
-    }
-    .js {
-        position: relative;
-        transition: 3s;
-        /* right: 10%; */
-        top: 42px;
-        width: 90px;
-        height: 90px;
-        left: -44%;
-    }
-    .java {
-        position: relative;
-        transition: 3s;
-        top: 37px;
-        left: -33%;
-        width: 90px;
-        height: 90px;
-    }
-    .figma {
-        position: relative;
-        transition: 3s;
-        top: 47px;
-        right: 73px;
-        width: 90px;
-        height: 90px;
-    }
-    .php {
-        position: relative;
-        right: 10%;
-        transition: 3s;
-        top: 39px;
-        height: 90px;
-        width: 90px;
-    }
-    .intellj {
-        position: relative;
-        transition: 3s;
-        top: 40px;
-        width: 90px;
-        /* right: 35px; */
-        height: 90px;
-        left: -3%;
-    }
-    .mysql {
-        position: relative;
-        right: 20px;
-        transition: 3s;
-        top: 9px;
-        left: 26px;
-        height: 75px;
-        width: 75px;
-    }
-    .scnebuilder {
-        position: relative;
-        transition: 3s;
-        top: 29px;
-        left: 30%;
-        width: 90px;
-        height: 90px;
-    }
-/*------------------------------------------gallery-------------------------------*/
-    .collage {
-        /* border-style: solid; */
-        border: 4px solid #D31A38;
-        transition: 3s;
-        top: 15%;
-        left: 5%;
-        position: absolute;
-        height: 340px;
-    }
-/*--------------------------------education--------------------------------------*/
-    .circle {
-        position: absolute;
-        height: 14px;
-        width: 14px;
-        background-color: #D31A38;
-        border-radius: 50%;
-        left: 75px;
-        bottom: 77%;
-    }
-    .circle1 {
-        position: absolute;
-        height: 14px;
-        width: 14px;
-        background-color: #D31A38;
-        border-radius: 50%;
-        left: 74px;
-        bottom: 45%;
-    }
-    .circle2 {
-        position: absolute;
-        height: 14px;
-        width: 14px;
-        background-color: #D31A38;
-        border-radius: 50%;
-        left: 75px;
-        bottom: 15%;
-    }
-    .school {
-        background-color: white;
-        width: 345px;
-        height: 85px;
-        /* font-size: 3px; */
-        right: 0;
-        bottom: 0;
-        top: 19%;
-        left: 10%;
-        /* margin: auto; */
-        position: relative;
-        border: 2px solid #eaeaea;
-        cursor: pointer;
-        transition: all 0.4s;
-        border-radius: 10px;
-        display: inline-block;
-    }
-    .ol {
-        background-color: white;
-        width: 345px;
-        height: 85px;
-        font-size: 16px;
-        bottom: 0;
-        top: 52%;
-        left: -24%;
-        /* margin: auto; */
-        position: relative;
-        border: 2px solid #eaeaea;
-        cursor: pointer;
-        transition: all 0.4s;
-        border-radius: 10px;
-        display: inline-block;
-    }
-    .al {
-        background-color: white;
-        width: 345px;
-        height: 85px;
-        font-size: 16px;
-        right: 0;
-        bottom: 0;
-        top: 64%;
-        left: 11%;
-        border-radius: 10px;
-        /* margin: auto; */
-        position: relative;
-        border: 2px solid #eaeaea;
-        cursor: pointer;
-        transition: all 0.4s;
-        display: inline-block;
-    }
-    .circle3 {
-        position: absolute;
-        height: 14px;
-        width: 14px;
-        background-color: #D31A38;
-        border-radius: 50%;
-        left: 548px;
-        bottom: 68%;
-        top: 38%;
-    }
-    .circle4 {
-        position: absolute;
-        height: 14px;
-        width: 14px;
-        background-color: #D31A38;
-        border-radius: 50%;
-        left: 548px;
-        top: 73%;
-    }
-    .nibm {
-        background-color: white;
-        width: 345px;
-        height: 80px;
-        font-size: 16px;
-        right: 46%;
-        /* bottom: -2%; */
-        top: 22%;
-        left: 23%;
-        border-radius: 10px;
-        /* margin: auto; */
-        position: relative;
-        border: 2px solid #eaeaea;
-        cursor: pointer;
-        display: inline-block;
-        transition: all 0.4s;
-    }
-    .ijse {
-        background-color: white;
-        width: 345px;
-        height: 85px;
-        font-size: 16px;
-        right: 0;
-        top: 37%;
-        left: 58%;
-        /* bottom: -10%; */
-        border-radius: 10px;
-        /* margin: auto; */
-        position: relative;
-        border: 2px solid #eaeaea;
-        cursor: pointer;
-        transition: all 0.4s;
-        display: inline-block;
-    }
-/*----------------------------------------assnignment--------------------------------*/
-    .ass {
-        color: #D31A38;
-        /* text-decoration: underline #D31A38; */
-        font-family: "Times New Roman";
-        font-size: 30px;
-        position: absolute;
-        bottom: 81%;
-        right: 75%;
-    }
-    .assignment01 {
-        width: 210px;
-        height: 210px;
-        background-color: #373030;
-        border-radius: 15%;
-        position: absolute;
-        right: 70%;
-        bottom: 37%;
-        transition-duration: 3s;
-        transition-property: all;
-        transition: 3s;
-    }
-    .assignment02 {
-        width: 210px;
-        height: 210px;
-        background-color: #373030;
-        border-radius: 15%;
-        position: absolute;
-        bottom: 37%;
-        left: 39%;
-        transition-duration: 3s;
-        transition-property: all;
-        transition: 3s;
-    }
-    .assignment03 {
-        width: 210px;
-        height: 210px;
-        background-color: #373030;
-        border-radius: 15%;
-        position: relative;
-        /* bottom: 35%; */
-        top: 30%;
-        left: 68%;
-        /* transition-duration: 3s; */
-        /* transition-property: all; */
-        transition: 3s;
-        display: inline-block;
-    }
-    .txt {
-        position: relative;
-        top: 60%;
-        left: 13%;
-        font-size: 20px;
-        transition-duration: 0.3s;
-        transition-property: all;
-    }
-
-
-    .txt4 {
-        position: absolute;
-        left: 14%;
-        top: 60%;
-        transition-duration: 3s;
-        transition-property: all;
-        font-size: 20px;
-    }
-    .img7 {
-        position: absolute;
-        left: 35%;
-        top: 22%;
-    }
-    .arti1 {
-        position: relative;
-        top: 51%;
-        color: white;
-        font-family: "Lucida Sans";
-        font-size: 14px;
-        left: 21%;
-        width: 615px;
-    }
-    .butn1 {
-        position: absolute;
-        background: white;
-        color: black;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 9px;
-        /* letter-spacing: 2px; */
-        font-weight: 300;
-        padding: 0 18px;
-        transition: 0.5s;
-        left: 81%;
-        top: 74%;
-        border-radius: 8px;
-    }
-/*------------------------project-----------------------------*/
-    .project {
-        height: 120vh;
-        width: 100%;
-        background-size: 100vw 100vh;
-        background: #242124;
-        position: relative;
-        font-size: 0;
-    }
-    .pro {
-        color: #D31A38;
-        /* text-decoration: underline #D31A38; */
-        font-family: "Times New Roman";
-        font-size: 30px;
-        position: absolute;
-        bottom: 84%;
-        right: 74%;
-    }
-    .project-box {
-        position: relative;
-        border-radius: 2rem;
-        box-shadow: 0 0 1rem #D31A38;
-        overflow: hidden;
-        display: flex;
-        top: 64%;
-        left: 12%;
-    }
-    .project-container .project-box {
-        position: relative;
-        border-radius: 2rem;
-        box-shadow: 0 0 1rem #D31A38;
-        overflow: hidden;
-        display: flex;
-        top: 65%;
-        left: 12%;
-    }
-    .btn2 {
-        position: absolute;
-        background: white;
-        color: black;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-size: 10px;
-        /* letter-spacing: 2px; */
-        font-weight: 300;
-        padding: 0 18px;
-        transition: 0.5s;
-        left: 79%;
-        top: 76%;
-        border-radius: 8px;
-    }
-    .arti2 {
-        top: 86%;
-        position: absolute;
-        color: white;
-        font-family: "Lucida Sans";
-        font-size: 15px;
-        /* bottom: 90%; */
-        left: 25%;
-        top: 88%;
-    }
-
-/*----------------------------------------certificate--------------------------------*/
-    .certificate h3 {
-        color: #D31A38;
-        /* text-decoration: underline #D31A38; */
-        font-family: "Times New Roman";
-        font-size: 30px;
-        position: absolute;
-        bottom: 83%;
-        right: 9%;
-    }
-    .certificate1 {
-        position: relative;
-        width: 200px;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #373030;
-        left: 70%;
-        /* bottom: 11%; */
-        top: 27%;
-        border-radius: 10%;
-        overflow: hidden;
-        border: 2px solid gray;
-        display: inline-block;
-    }
-    .certificate2 {
-        position: relative;
-        width: 200px;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #373030;
-        left: 20%;
-        /* bottom: -25%; */
-        top: 27%;
-        border-radius: 10%;
-        overflow: hidden;
-        border: 2px solid gray;
-        display: inline-block;
-    }
-    .certificate3 {
-        position: relative;
-        width: 200px;
-        height: 200px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #373030;
-        left: -31%;
-        bottom: -27%;
-        border-radius: 10%;
-        overflow: hidden;
-        border: 2px solid gray;
-        display: inline-block;
-    }
-    .c1 {
-        position: absolute;
-        left: 76%;
-        bottom: 49%;
-        box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
-        transition: 1s;
-        display: block;
-        height: 75px;
-        width: 75px;
-    }
-    .c2 {
-        height: 75px;
-        width: 75px;
-        left: 47%;
-        bottom: 49%;
-    }
-    .c3 {
-        position: absolute;
-        /* right: 35%; */
-        top: 38%;
-        left: 158px;
-        /* bottom: 14%; */
-        box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
-        transition: 1s;
-        display: block;
-        height: 75px;
-        width: 75px;
-    }
-    .arti9 {
-        font-family: "Lucida Sans";
-        color: white;
-        top: 78%;
-        left: 22%;
-        /* right: 41%; */
-        position: absolute;
-        font-size: 14px;
-    }
-    .pic11 {
-        width: 475px;
-        height: 250px;
-        border: 4px solid #D31A38;
-        position: absolute;
-        border-radius: 15px;
-        left: 41%;
-        top: 99px;
-        transition-duration: 6s;
-        transition-property: all;
-    }
-    .arti21 {
-        color: white;
-        font-size: 13px;
-        font-family: "Lucida Sans";
-        position: absolute;
-        top: 86%;
-        left: 43%;
-    }
-
-
-
 }
-
-/*!*-------------------------------------1024-1440*!*/
-/*@media all and (min-width:1024px) and (max-width:1440px) {*/
-
-
-/*    .name {*/
-/*        font-size: 21px;*/
-/*        color: white;*/
-/*        font-weight: 600;*/
-/*        cursor: default;*/
-/*        top: 40%;*/
-/*        left: 0%;*/
-/*        text-decoration: none;*/
-/*        position: absolute;*/
-/*    }*/
-
-/*    header>nav>ul {*/
-/*        position: absolute;*/
-/*        top: 26%;*/
-/*        left: 462px;*/
-/*        font-size: 20px;*/
-/*    }*/
-
-/*!*--------------------------homepage---------------------------*!*/
-/*    .imge30 {*/
-/*        transition: 3s;*/
-/*        position: absolute;*/
-/*        bottom: 33%;*/
-/*        left: 64%;*/
-/*        height: 300px;*/
-/*        width: 300px;*/
-/*    }*/
-/*    .div1 h1 {*/
-/*        font-size: 43px;*/
-/*        color: white;*/
-/*        left: 14%;*/
-/*    }*/
-/*    .oneee {*/
-/*        top: 27%;*/
-/*        left: 16%;*/
-/*        position: absolute;*/
-/*        font-family: "Times New Roman";*/
-/*        letter-spacing: 2px;*/
-/*    }*/
-/*    .twooo {*/
-/*        top: 35%;*/
-/*        position: absolute;*/
-/*        left: 16%;*/
-/*        font-family: "Times New Roman";*/
-/*        letter-spacing: 2px;*/
-/*    }*/
-/*    .threee {*/
-/*        font-size: 26px;*/
-/*        color: white;*/
-/*        font-family: "Libre Baskerville, serif";*/
-/*        top: 37%;*/
-/*        left: 16%;*/
-/*        position: absolute;*/
-/*        letter-spacing: 0.5px;*/
-/*    }*/
-/*    .fb {*/
-/*        position: absolute;*/
-/*        left: 35%;*/
-/*        top: 70%;*/
-/*    }*/
-/*    .linkedin {*/
-/*        position: absolute;*/
-/*        top: 70%;*/
-/*        left: 40%;*/
-/*    }*/
-/*    .git {*/
-/*        position: absolute;*/
-/*        top: 70%;*/
-/*        left: 45%;*/
-/*    }*/
-/*!*--------------------------------------aboutme----------------------------*!*/
-/*    .me {*/
-/*        position: absolute;*/
-/*        left: 5%;*/
-/*        top: 23%;*/
-/*        height: 418px;*/
-/*    }*/
-/*    .about {*/
-/*        position: absolute;*/
-/*        color: white;*/
-/*        font-size: 42px;*/
-/*        font-family: "Times New Roman";*/
-/*        left: 39%;*/
-/*        top: 8%;*/
-/*    }*/
-/*    .details2 {*/
-/*        position: absolute;*/
-/*        top: 18%;*/
-/*        !* color: white; *!*/
-/*        font-family: Libre Baskerville, sans-serif;*/
-/*        font-size: 23px;*/
-/*        font-style: normal;*/
-/*        font-weight: 400;*/
-/*        line-height: 5vh;*/
-/*        color: white;*/
-/*        left: 40%;*/
-/*    }*/
-/*    .details1 {*/
-/*        position: absolute;*/
-/*        top: 52%;*/
-/*        left: 40%;*/
-/*        font-family: Libre Baskerville, sans-serif;*/
-/*        font-size: 20px;*/
-/*    }*/
-/*!*-----------------------contactme----------------------------*!*/
-/*    .h2 {*/
-/*        color: white;*/
-/*        position: absolute;*/
-/*        font-size: 42px;*/
-/*        right: 5%;*/
-/*        top: 0;*/
-/*    }*/
-/*}*/
+/*-------------------------------------skills--------------------*/
 
 

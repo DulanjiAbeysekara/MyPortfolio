@@ -140,8 +140,6 @@ btnSave.click(function(){
 
 });
 
-
-
 function getAll(){
 
     $('#tblBody').empty();
