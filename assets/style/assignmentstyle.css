@@ -126,18 +126,18 @@ th,td {
 }
 
 /*-----------------------------------------------------------------*/
-#animation{
+#animation {
     position: absolute;
-    left:70vh;
-    top:48%;
+    left: 4vh;
+    top: 52%;
 }
 
-.text3{
-    color:#D31A38;
-    font-size:26px;
+.text3 {
+    color: #D31A38;
+    font-size: 24px;
     position: absolute;
-    top:195vh;
-    left:90vh;
+    top: 146vh;
+    left: 4vh;
     font-family: "Times New Roman";
 }
 
@@ -250,3 +250,738 @@ th,td {
     position: relative;
     left:8%;
 }
+
+
+/*-----------------------------------------------------------------------------------*/
+@media all and (max-width: 320px) {
+
+    body{
+        height:300vh;
+    }
+
+
+    .text {
+        font-size: 22px;
+        color: #ffffff;
+        position: absolute;
+        left: 27%;
+        text-decoration: underline;
+    }
+    .text1 {
+        color: #D31A38;
+        font-size: 18px;
+        position: absolute;
+        top: 6vh;
+        left: 5vh;
+        font-family: "Times New Roman";
+    }
+    table {
+        width: 245px;
+        position: absolute;
+        left: 4vh;
+        top: 14vh;
+    }
+    th {
+        color: #D31A38;
+        font-size: 14px;
+        text-align: center;
+    }
+    .image1 {
+        left: 7vh;
+        position: relative;
+        height: 30px;
+    }
+    #name1 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name2 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name3 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name4 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name5 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+
+    /*-------------------------------------*/
+    .text2 {
+        color: #D31A38;
+        font-size: 18px;
+        position: absolute;
+        top: 80vh;
+        left: 4vh;
+        font-family: "Times New Roman";
+    }
+    #transition {
+        position: absolute;
+        left: 4vh;
+        top: 30%;
+    }
+    #name6 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name7 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name8 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name9 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+/*-------------------------------------------------*/
+    .text3 {
+        color: #D31A38;
+        font-size: 18px;
+        position: absolute;
+        top: 136vh;
+        left: 4vh;
+        font-family: "Times New Roman";
+    }
+
+    #animation {
+        position: absolute;
+        left: 4vh;
+        top: 48%;
+    }
+    #name10 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name11 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name12 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name13 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+/*--------------------------------------------------------*/
+    .cssf {
+        color: #D31A38;
+        font-size: 18px;
+        position: absolute;
+        left: 4vh;
+        top: 63%;
+        font-family: "Times New Roman";
+    }
+    #freamwork {
+        position: absolute;
+        left: 4vh;
+        top: 66%;
+    }
+    #name30 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name31 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name32 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 3%;
+    }
+/* -----------------------------------------------------*/
+    .jsc {
+        color: #D31A38;
+        font-size: 18px;
+        position: absolute;
+        left: 5vh;
+        top: 78%;
+        font-family: "Times New Roman";
+    }
+    #js {
+        position: absolute;
+        left: 5vh;
+        top: 81%;
+    }
+    #name20 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name21 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name22 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name23 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name24 {
+        font-size: 14px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+}
+
+/*-------------------------------------325-375-----------------------------------------------*/
+@media all and (min-width:325px) and (max-width: 375px) {
+    /*th {*/
+    /*    color: #D31A38;*/
+    /*    font-size: 18px;*/
+    /*    text-align: center;*/
+    /*}*/
+    .text {
+        font-size: 25px;
+        color: #ffffff;
+        position: absolute;
+        left: 15%;
+        text-decoration: underline;
+    }
+    .text1 {
+        color: #D31A38;
+        font-size: 20px;
+        position: absolute;
+        top: 12vh;
+        left: 6vh;
+        font-family: "Times New Roman";
+    }
+    th {
+        color: #D31A38;
+        font-size: 20px;
+        text-align: center;
+    }
+    table {
+        width: 266px;
+        position: absolute;
+        left: 6vh;
+        top: 22vh;
+    }
+    .image1 {
+        left: 13vh;
+        position: relative;
+        height: 35px;
+    }
+    #name1 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name2 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name3 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name4 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name5 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+/*   -----------------------------------------------*/
+    .text2 {
+        color: #D31A38;
+        font-size: 20px;
+        position: absolute;
+        top: 100vh;
+        left: 6vh;
+        font-family: "Times New Roman";
+    }
+    #transition {
+        position: absolute;
+        left: 6vh;
+        top: 26%;
+    }
+    .text1 {
+        color: #D31A38;
+        font-size: 20px;
+        position: absolute;
+        top: 12vh;
+        left: 6vh;
+        font-family: "Times New Roman";
+    }
+    #name6 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name7 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name8 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name8 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+/*------------------------------------------------*/
+    .text3 {
+        color: #D31A38;
+        font-size: 20px;
+        position: absolute;
+        top: 167vh;
+        left: 6vh;
+        font-family: "Times New Roman";
+    }
+    #animation {
+        position: absolute;
+        left: 6vh;
+        top: 42%;
+    }
+    #name10 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name11 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name12 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name13 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    /*------------------------------------*/
+    .cssf {
+        color: #D31A38;
+        font-size: 20px;
+        position: absolute;
+        left: 8vh;
+        top: 55%;
+        font-family: "Times New Roman";
+    }
+    #freamwork {
+        position: absolute;
+        left: 6vh;
+        top: 57%;
+    }
+    #name30 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name31 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name32 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+/*-----------------------------------------*/
+    .jsc {
+        color: #D31A38;
+        font-size: 20px;
+        position: absolute;
+        left: 8vh;
+        top: 68%;
+        font-family: "Times New Roman";
+    }
+    #js {
+        position: absolute;
+        left: 7vh;
+        top: 70%;
+    }
+    #name20 {
+        font-size: 15px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name21 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name22 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 8%;
+    }
+    #name24 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 4%;
+    }
+    #name23 {
+        font-size: 17px;
+        color: #ffffff;
+        position: relative;
+        left: 6%;
+    }
+}
+/*-------------------------------------------------------------------------*/
+@media all and (min-width:375px) and (max-width: 425px) {
+    .text {
+        font-size: 28px;
+        color: #ffffff;
+        position: absolute;
+        left: 30%;
+        text-decoration: underline;
+    }
+
+    table {
+        width: 300px;
+        position: absolute;
+        left: 7vh;
+        top: 21vh;
+    }
+
+    .text1 {
+        color: #D31A38;
+        font-size: 24px;
+        position: absolute;
+        top: 10vh;
+        left: 9vh;
+        font-family: "Times New Roman";
+    }
+
+
+    /*------------------------------------------------------*/
+    .text2 {
+        color: #D31A38;
+        font-size: 24px;
+        position: absolute;
+        top: 96vh;
+        left: 7vh;
+        font-family: "Times New Roman";
+    }
+
+    #transition {
+        position: absolute;
+        left: 7vh;
+        top: 25%;
+    }
+
+    /*-------------------------------------------------*/
+    .text3 {
+        color: #D31A38;
+        font-size: 24px;
+        position: absolute;
+        top: 159vh;
+        left: 9vh;
+        font-family: "Times New Roman";
+    }
+
+    #animation {
+        position: absolute;
+        left: 7vh;
+        top: 40%;
+    }
+
+    /*-------------------------------------------------------*/
+    .cssf {
+        color: #D31A38;
+        font-size: 24px;
+        position: absolute;
+        left: 8vh;
+        top: 53%;
+        font-family: "Times New Roman";
+    }
+    #freamwork {
+        position: absolute;
+        left: 7vh;
+        top: 56%;
+    }
+    .jsc {
+        color: #D31A38;
+        font-size: 24px;
+        position: absolute;
+        left: 8vh;
+        top: 66%;
+        font-family: "Times New Roman";
+    }
+    #js {
+        position: absolute;
+        left: 7vh;
+        top: 69%;
+    }
+}
+    /*-------------------------------------------------------------------------*/
+    @media all and (min-width: 425px) and (max-width: 768px) {
+        .text {
+            font-size: 30px;
+            color: #ffffff;
+            position: absolute;
+            left: 36%;
+            text-decoration: underline;
+        }
+
+        .text1 {
+            color: #D31A38;
+            font-size: 26px;
+            position: absolute;
+            top: 15vh;
+            left: 18vh;
+            font-family: "Times New Roman";
+        }
+
+        table {
+            width: 300px;
+            position: absolute;
+            left: 12vh;
+            top: 26vh;
+        }
+
+        /*  ----------------------------------------------------------------------*/
+        .text2 {
+            color: #D31A38;
+            font-size: 26px;
+            position: absolute;
+            top: 135vh;
+            left: 14vh;
+            font-family: "Times New Roman";
+        }
+
+        #transition {
+            position: absolute;
+            left: 12vh;
+            top: 35%;
+        }
+
+        /*--------------------------------------------------------------*/
+        .text3 {
+            color: #D31A38;
+            font-size: 24px;
+            position: absolute;
+            top: 223vh;
+            left: 15vh;
+            font-family: "Times New Roman";
+        }
+
+        #animation {
+            position: absolute;
+            left: 12vh;
+            top: 55%;
+        }
+
+        .text3 {
+            color: #D31A38;
+            font-size: 24px;
+            position: absolute;
+            top: 223vh;
+            left: 15vh;
+            font-family: "Times New Roman";
+        }
+
+        /*  -------------------------------------------------------------*/
+        .cssf {
+            color: #D31A38;
+            font-size: 24px;
+            position: absolute;
+            left: 15vh;
+            top: 72.5%;
+            font-family: "Times New Roman";
+        }
+
+        #freamwork {
+            position: absolute;
+            left: 10vh;
+            top: 75%;
+            width: 325px;
+        }
+
+        .jsc {
+            color: #D31A38;
+            font-size: 24px;
+            position: absolute;
+            left: 14vh;
+            top: 89%;
+            font-family: "Times New Roman";
+        }
+
+        #js {
+            position: absolute;
+            left: 9vh;
+            top: 92%;
+            width: 325px;
+        }
+
+    }
+    /*----------------------------------------1024-1440-------------------------------------*/
+    @media all and (min-width: 1024px) and (max-width: 1440px) {
+
+        .text1 {
+            color: #D31A38;
+            font-size: 26px;
+            position: absolute;
+            top: 15vh;
+            left: 23vh;
+            font-family: "Times New Roman";
+        }
+
+        table {
+            width: 600px;
+            position: absolute;
+            left: 21vh;
+            top: 26vh;
+        }
+
+        .text2 {
+            color: #D31A38;
+            font-size: 26px;
+            position: absolute;
+            top: 135vh;
+            left: 22vh;
+            font-family: "Times New Roman";
+        }
+
+        #transition {
+            position: absolute;
+            left: 21vh;
+            top: 35%;
+        }
+
+        .text3 {
+            color: #D31A38;
+            font-size: 24px;
+            position: absolute;
+            top: 223vh;
+            left: 22vh;
+            font-family: "Times New Roman";
+        }
+
+        #animation {
+            position: absolute;
+            left: 21vh;
+            top: 55%;
+        }
+
+        .cssf {
+            color: #D31A38;
+            font-size: 24px;
+            position: absolute;
+            left: 22vh;
+            top: 73%;
+            font-family: "Times New Roman";
+        }
+
+        #freamwork {
+            position: absolute;
+            left: 21vh;
+            top: 75%;
+        }
+
+        .jsc {
+            color: #D31A38;
+            font-size: 24px;
+            position: absolute;
+            left: 23vh;
+            top: 89%;
+            font-family: "Times New Roman";
+        }
+
+        #js {
+            position: absolute;
+            left: 21vh;
+            top: 92%;
+        }
+    }

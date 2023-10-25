@@ -22,11 +22,11 @@ header {
 }
     /*background-color: black;*/
 /*}*/
-header>nav>ul{
+header>nav>ul {
     position: absolute;
-    top: 45%;
-    left: 480px;
-
+    top: 33%;
+    left: 464px;
+    font-size: 15px;
 }
 header>nav>ul>li {
     display: inline-block;
@@ -46,7 +46,7 @@ header>nav>ul>li>a:hover,header>nav>ul>li>a.home{
     color: #D31A38;
 }
 .name {
-    font-size: 18px;
+    font-size: 19px;
     color: white;
     font-weight: 600;
     cursor: default;
@@ -5564,5 +5564,123 @@ arti20 {
 
 
 }
+
+/*!*-------------------------------------1024-1440*!*/
+/*@media all and (min-width:1024px) and (max-width:1440px) {*/
+
+
+/*    .name {*/
+/*        font-size: 21px;*/
+/*        color: white;*/
+/*        font-weight: 600;*/
+/*        cursor: default;*/
+/*        top: 40%;*/
+/*        left: 0%;*/
+/*        text-decoration: none;*/
+/*        position: absolute;*/
+/*    }*/
+
+/*    header>nav>ul {*/
+/*        position: absolute;*/
+/*        top: 26%;*/
+/*        left: 462px;*/
+/*        font-size: 20px;*/
+/*    }*/
+
+/*!*--------------------------homepage---------------------------*!*/
+/*    .imge30 {*/
+/*        transition: 3s;*/
+/*        position: absolute;*/
+/*        bottom: 33%;*/
+/*        left: 64%;*/
+/*        height: 300px;*/
+/*        width: 300px;*/
+/*    }*/
+/*    .div1 h1 {*/
+/*        font-size: 43px;*/
+/*        color: white;*/
+/*        left: 14%;*/
+/*    }*/
+/*    .oneee {*/
+/*        top: 27%;*/
+/*        left: 16%;*/
+/*        position: absolute;*/
+/*        font-family: "Times New Roman";*/
+/*        letter-spacing: 2px;*/
+/*    }*/
+/*    .twooo {*/
+/*        top: 35%;*/
+/*        position: absolute;*/
+/*        left: 16%;*/
+/*        font-family: "Times New Roman";*/
+/*        letter-spacing: 2px;*/
+/*    }*/
+/*    .threee {*/
+/*        font-size: 26px;*/
+/*        color: white;*/
+/*        font-family: "Libre Baskerville, serif";*/
+/*        top: 37%;*/
+/*        left: 16%;*/
+/*        position: absolute;*/
+/*        letter-spacing: 0.5px;*/
+/*    }*/
+/*    .fb {*/
+/*        position: absolute;*/
+/*        left: 35%;*/
+/*        top: 70%;*/
+/*    }*/
+/*    .linkedin {*/
+/*        position: absolute;*/
+/*        top: 70%;*/
+/*        left: 40%;*/
+/*    }*/
+/*    .git {*/
+/*        position: absolute;*/
+/*        top: 70%;*/
+/*        left: 45%;*/
+/*    }*/
+/*!*--------------------------------------aboutme----------------------------*!*/
+/*    .me {*/
+/*        position: absolute;*/
+/*        left: 5%;*/
+/*        top: 23%;*/
+/*        height: 418px;*/
+/*    }*/
+/*    .about {*/
+/*        position: absolute;*/
+/*        color: white;*/
+/*        font-size: 42px;*/
+/*        font-family: "Times New Roman";*/
+/*        left: 39%;*/
+/*        top: 8%;*/
+/*    }*/
+/*    .details2 {*/
+/*        position: absolute;*/
+/*        top: 18%;*/
+/*        !* color: white; *!*/
+/*        font-family: Libre Baskerville, sans-serif;*/
+/*        font-size: 23px;*/
+/*        font-style: normal;*/
+/*        font-weight: 400;*/
+/*        line-height: 5vh;*/
+/*        color: white;*/
+/*        left: 40%;*/
+/*    }*/
+/*    .details1 {*/
+/*        position: absolute;*/
+/*        top: 52%;*/
+/*        left: 40%;*/
+/*        font-family: Libre Baskerville, sans-serif;*/
+/*        font-size: 20px;*/
+/*    }*/
+/*!*-----------------------contactme----------------------------*!*/
+/*    .h2 {*/
+/*        color: white;*/
+/*        position: absolute;*/
+/*        font-size: 42px;*/
+/*        right: 5%;*/
+/*        top: 0;*/
+/*    }*/
+/*}*/
 
 
