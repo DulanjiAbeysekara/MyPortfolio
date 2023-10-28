@@ -5,29 +5,29 @@
     <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="assets/bootstrap-5.3.2-dist/css/bootstrap.css">
-    <script src="../../../assets/Boostrap/js/bootstrap.js"></script>
-    <style>
-        body{
-            width: 100%;
-            height: 100vh;
+    <script src="../CAL/assets/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
+<!--    <style>-->
+<!--        body{-->
+<!--            width: 100%;-->
+<!--            height: 100vh;-->
 
-            background:lightcyan;
-        }
-        header:hover>nav>div:nth-child(2)>a{
-            color: #9eeaf9;
-        }
-    </style>
+<!--            background:lightcyan;-->
+<!--        }-->
+<!--        header:hover>nav>div:nth-child(2)>a{-->
+<!--            color: #9eeaf9;-->
+<!--        }-->
+<!--    </style>-->
 
 
 </head>
-<body>
+<body style="background: url(assets/img_1.png); ">
 
 <header>
-    <nav class="navbar navbar-expand-lg bg-success   ">
+    <nav class="navbar navbar-expand-lg bg-dark   ">
 
         <div class="container-fluid  border-0" >
             <a class="navbar-brand" href="#">
-                <img src="../../../Page/assets/img/letter-n.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">  <h4 style="color:white;">Cafe4U POS System</h4>
+                <img src="assets/img.png" alt="Logo" width="50" height="50" class="d-inline-block align-text-top">  <h4 style="color:white; top: 18%; position: absolute; left: 5%;">Super Market</h4>
             </a>
         </div>
         <div class="container-fluid  border-0">
@@ -45,7 +45,7 @@
                 </div>
                 <form class="d-flex  " role="search"    >
                     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
+                    <button class="btn btn-info" type="submit">Search</button>
                 </form>
             </div>
         </div>
@@ -74,31 +74,31 @@
 
                     <form>
 
-                        <h2 style="color: green" class="text-center m-4">Customer Registration</h2>
+                        <h2 style="color: white" class="text-center m-4">Customer Registration</h2>
 
                         <div class="col  mt-5">
 
                             <div>
                                 <div class="mb-3" id="cusID">
-                                    <label for="customerIdText" class="form-label">Customer ID</label>
+                                    <label for="customerIdText"  class="form-label text-white">Customer ID  :</label>
                                     <input type="text" class="form-control" id="customerIdText" placeholder="Customer ID">
                                 </div>
                                 <div class="mb-3" id="cusName">
-                                    <label for="customerNameText" class="form-label">Customer Name</label>
+                                    <label for="customerNameText" class="form-label text-white">Customer Name  :</label>
                                     <input type="text" class="form-control" id="customerNameText" placeholder="Customer Name">
                                 </div>
                                 <div class="mb-3" id="cusAddress">
-                                    <label for="customerAddressText" class="form-label">Customer Address</label>
+                                    <label for="customerAddressText" class="form-label text-white">Customer Address  :</label>
                                     <input type="text" class="form-control" id="customerAddressText" placeholder="Customer Address">
                                 </div>
                                 <div class="mb-3" id="cusTp">
-                                    <label for="customerSalaryText" class="form-label">Customer TP</label>
-                                    <input type="text" class="form-control" id="customerSalaryText" placeholder="Customer TP">
+                                    <label for="customerSalaryText" class="form-label text-white">Customer Salary  :</label>
+                                    <input type="text" class="form-control" id="customerSalaryText" placeholder="Customer Salary">
                                 </div>
-                                <button  id="savecustomer" type="button" class="mt-2 btn btn-outline-success ">SaveCustomer</button>
-                                <button id="deletecustomer" type="button" class="mt-2 btn btn-outline-danger ">DeleteCustomer</button>
-                                <button id="updatecustomer" type="button" class="mt-2 btn btn-outline-warning ">UpdateCustomer</button>
-                                <button id="getcustomer" type="button" class="mt-2 btn btn-outline-warning ">GetCustomer</button>
+                                <button  id="savecustomer" type="button" class="mt-2 btn btn-info  text-black ">SaveCustomer</button>
+                                <button id="deletecustomer" type="button" class="mt-2 btn btn-secondary  text-black ">DeleteCustomer</button>
+                                <button id="updatecustomer" type="button" class="mt-2 btn btn btn-danger text-black  ">UpdateCustomer</button>
+                                <button id="getcustomer" type="button" class="mt-2 btn btn-warning text-black">GetCustomer</button>
                             </div>
                         </div>
 
@@ -114,7 +114,7 @@
 
                 <div>
 
-                    <h2 style="color: Green" class="text-center m-3">Customer Details</h2>
+                    <h2 style="color: white" class="text-center m-3">Customer Details</h2>
 
                     <table class="table col-xxl-4">
                         <thead>
@@ -152,31 +152,31 @@
 
                     <form>
 
-                        <h2 style="color: green" class="text-center m-4">Items Registration</h2>
+                        <h2 style="color: white" class="text-center m-4">Items Registration</h2>
 
                         <div class="mb-3">
-                            <label for="itemCode" class="form-label" style="color: black">Item Code :</label>
+                            <label for="itemCode" class="form-label" style="color: white">Item Code  :</label>
                             <input id="itemCodeTxt" type="itemCode" class="form-control" id="itemCode" placeholder="Item Code">
                         </div>
 
                         <div class="mb-3">
-                            <label for="itemName" class="form-label" style="color: black">Item Name :</label>
+                            <label for="itemName" class="form-label" style="color: white">Item Name  :</label>
                             <input id="itemNameTxt" type="itemName" class="form-control" id="itemName" placeholder="Item Name">
                         </div>
 
                         <div class="mb-3">
-                            <label for="unitePrice" class="form-label" style="color: black">Item Price :</label>
+                            <label for="unitePrice" class="form-label" style="color: white">Item Price  :</label>
                             <input id="unitePriceTxt" type="unitePrice" class="form-control" id="unitePrice" placeholder="Item Price" >
                         </div>
 
                         <div class="mb-3">
-                            <label for="itemQty" class="form-label" style="color: black">Item Quantity :</label>
+                            <label for="itemQty" class="form-label" style="color: white">Item Quantity  :</label>
                             <input id="itemQtyTxt" type="itemQty" class="form-control" id="itemQty" placeholder="Item Quantity">
                         </div>
 
-                        <button type="button" class="mt-2 btn btn-outline-success " id="btnSaveItem">SaveItem</button>
-                        <button type="button" class="mt-2 btn btn-outline-danger " id="btnRemoveItem">DeleteItem</button>
-                        <button type="button" class="mt-2 btn btn-outline-warning " id="btnUpdateItem">UpdateItem</button>
+                        <button type="button" class="mt-2 btn btn-info  text-black  " id="btnSaveItem">Save Item</button>
+                        <button type="button" class="mt-2 btn btn-secondary  text-black " id="btnRemoveItem">Delete Item</button>
+                        <button type="button" class="mt-2 btn btn btn-danger text-black" id="btnUpdateItem">Update Item</button>
 
                     </form>
                 </div>
@@ -186,7 +186,7 @@
 
                 <div>
 
-                    <h2 style="color: Green" class="text-center m-3">Items Details</h2>
+                    <h2 style="color: white" class="text-center m-3">Items Details</h2>
 
                     <table class="table col-xxl-4" >
                         <thead>
@@ -219,7 +219,7 @@
         <section class="row">
 
             <section class="col-12 col-sm-3 col-md-3 col-lg-4 ">
-                <div class="card-header bg-success text-white text-center rounded-2">Invoice Details</div>
+                <div class="card-header bg-dark text-white text-center rounded-2">Invoice Details</div>
 
                 <h5 style="color: black" class="text-center m-3 mt-5 ">Invoice Details</h5>
 
@@ -227,14 +227,14 @@
                     <div class="row">
                         <div class="col-6 mt-2">
                             <div class="form-group">
-                                <label for="orderID">Order ID :</label>
+                                <label style="color: white;" for="orderID">Order ID :</label>
                                 <input class="form-control" id="orderIDTxtOrderPage" type="text" id="orderID">
                             </div>
                         </div>
 
                         <div class="col-6 mt-2">
                             <div class="form-group">
-                                <label for="date">Date:</label>
+                                <label style="color: white;" for="date">Date:</label>
                                 <input type="date"
                                        class="form-control bg-white border-black text-dark focus-ring-dark "
                                        id="dateTxtOrderPage" id="date">
@@ -245,7 +245,7 @@
                     </div>
                     <div class="row">
                         <div class="col-6 mt-2 ">
-                            <label class="form-label" style="color: black">Customer :</label>
+                            <label class="form-label" style="color: white">Customer :</label>
 
                             <select class="form-select text-dark "
                                     aria-label="Default select example" id="customerIdOrder">
@@ -253,7 +253,7 @@
                         </div>
                         <div class="col-6 mt-2">
                             <div class="form-group">
-                                <label for="customerId">Customer ID :</label>
+                                <label style="color: white;" for="customerId">Customer ID :</label>
                                 <input class="form-control" id="customerIdTxtOrderPage" type="text" id="customerId">
                             </div>
                         </div>
@@ -261,7 +261,7 @@
                     <div class="row">
                         <div class="col-6 mt-2">
                             <div class="form-group">
-                                <label>Customer_Name :</label>
+                                <label style="color: white;">Customer Name :</label>
                                 <input class="form-control" id="customerNameTxtOrderPage" type="text">
                             </div>
                         </div>
@@ -269,7 +269,7 @@
                         <div class="col-6 mt-2">
                             <div class="col-6 mt-2">
                                 <div class="form-group">
-                                    <label>Salary :</label>
+                                    <label style="color: white;">Salary :</label>
                                     <input class="form-control" id="customerSalaryTxtOrderPage" type="text">
                                 </div>
                             </div>
@@ -278,7 +278,7 @@
                     <div class="row">
                         <div class="col-12 mt-2">
                             <div class="form-group">
-                                <label>Addres :</label>
+                                <label style="color: white;">Addres :</label>
                                 <input class="form-control" id="customerAddressTxtOrderPage" type="text">
                             </div>
                         </div>
@@ -287,13 +287,13 @@
 
             </section>
             <section class="col-12 col-sm-3 col-md-3 col-lg-4 ">
-                <div class="card-header bg-success text-white text-center rounded-2">Item Select</div>
+                <div class="card-header bg-dark text-white text-center rounded-2">Item Select</div>
 
                 <h5 style="color: black" class="text-center m-3 mt-5 ">Item Select</h5>
 
                 <div class="row">
                     <div class="col-6 mt-2 ">
-                        <label>Item :</label>
+                        <label style="color: white;">Item :</label>
 
                         <select class="form-select text-dark "
                                 aria-label="Default select example" id="itemOrder">
@@ -302,7 +302,7 @@
 
                     <div class="form-floating col-6 mt-2">
                         <div class="form-group">
-                            <label>Item Code :</label>
+                            <label style="color: white;">Item Code :</label>
                             <input type="email" class="form-control" id="itemCodeTxtOrderPage" placeholder="Item_Code">
                         </div>
                     </div>
@@ -312,50 +312,50 @@
                 <div class="row">
                     <div class="form-floating col-6 mt-2">
                         <div class="form-group">
-                            <label>Item_Name :</label>
+                            <label style="color: white;">Item_Name :</label>
                             <input type="email" class="form-control" id="itemNameTxtOrderPage" placeholder="Item_Name">
                         </div>
                     </div>
 
                     <div class="form-floating col-3 mt-2">
                         <div class="form-group">
-                            <label>Price :</label>
+                            <label style="color: white;">Price :</label>
                             <input type="email" class="form-control" id="unitePriceTxtOrderPage" placeholder="Price">
                         </div>
                     </div>
 
                     <div class="form-floating col-3 mt-2">
                         <div class="form-group">
-                            <label>Qty :</label>
+                            <label style="color: white;">Qty :</label>
                             <input type="email" class="form-control" id="itemQtyTxtOrderPage" placeholder="Qty ">
                         </div>
                     </div>
 
                     <div class="form-floating col-12 mt-2">
                         <div class="form-group">
-                            <label> Order Quantity :</label>
+                            <label style="color: white;"> Order Quantity :</label>
                             <input type="email" class="form-control" id="itemOrderQtyOrderTxtOrderPage" placeholder="Order_Quantity">
                         </div>
                     </div>
-                    <button type="button" class="mt-2 btn btn-outline-success col-4 " id="btnAddItemOrder">Add_Items</button>
-                    <button type="button" class="mt-2 btn btn-outline-success col-4 " id="allOders">All Order</button>
+                    <button type="button" class="mt-2 btn btn-info col-4 " id="btnAddItemOrder">Add_Items</button>
+                    <button type="button" class="mt-2 btn btn-secondary col-4 " id="allOders">All Order</button>
 
                 </div>
             </section>
             <section class="col-12 col-sm-3 col-md-3 col-lg-4 ">
-                <div class="card-header bg-success text-white text-center rounded-2">Bill</div>
+                <div class="card-header bg-dark text-white text-center rounded-2">Bill</div>
 
                 <div class="row">
                     <div class="form-floating col-6 mt-2">
                         <div class="form-group">
-                            <label>Cash :</label>
+                            <label style="color: white;">Cash :</label>
                             <input type="text" class="form-control" id="cashTxtOrderPage" placeholder="Cash">
                         </div>
                     </div>
 
                     <div class="form-floating col-6 mt-2">
                         <div class="form-group">
-                            <label>Discount :</label>
+                            <label style="color: white;">Discount :</label>
                             <input type="email" class="form-control" id="discountTxtOrderPage" placeholder="Discount">
                         </div>
                     </div>
@@ -364,7 +364,7 @@
                 <div class="row">
                     <div class="form-floating col-12 mt-2">
                         <div class="form-group">
-                            <label>Balance :</label>
+                            <label style="color: white;">Balance :</label>
                             <input type="email" class="form-control" id="balanceTxtOrderPage" placeholder="Balance">
                         </div>
                     </div>
@@ -391,7 +391,7 @@
                         <span id="orderSubTotal" style="color: green">Rs/=</span>
                     </div>
                 </div>
-                <button type="button" class="mt-2 btn btn-outline-success col-4 " id="btnPlaceOrder">Purchase</button>
+                <button type="button" class="mt-2 btn btn-success col-4 " id="btnPlaceOrder">Purchase</button>
             </section>
         </section>
     </section>
@@ -414,7 +414,7 @@
 
 
 </main>
-<script src="controller/Home_Controller.js.js"></script>
+<script src="controller/Home_Controller.js"></script>
 <script>
 
 
@@ -440,124 +440,9 @@
 <script src="controller/PlaceOrder_controller.js"></script>
 <script src="model/Order_Model.js"></script>
 
-<script>
 
 
-    //    let customerArray = [{
-    //        name: kamal,
-    //        address: galle,
-    //        tp: 0714523869,
-    //        id: C001
-    //    }];
-    //
-    //
-    //    $('#savecustomer').click(function () {
-    //        var customer= {
-    //            id: $('#txtID').val(),
-    //            name: $('#txtName').val(),
-    //            address: $('#txtAddress').val(),
-    //            salary: $('#txtTP').val()
-    //        }
-    //
-    //        let row= `<tr>
-    //                <td>${customer.id}</td>
-    //                <td>${customer.name}</td>
-    //                <td>${customer.address}</td>
-    //                <td>${customer.salary}</td>
-    //            </tr>`;
-    //
-    //        $("#cusTable").append(row)
-    //    });
-
-
-
-    //refactor save with jQuery
-    // $("#savecustomer").click(function () {
-    //
-    //
-    //     let cus_ID = $("#txtID").val();
-    //     let cus_Name = $("#txtName").val();
-    //     let cus_Address = $("#txtAddress").val();
-    //     let cus_Salary = $("#txtTP").val();
-    //
-    //     var customer = {
-    //         id: cus_ID,
-    //         name: cus_Name,
-    //         address: cus_Address,
-    //         salary: cus_Salary
-    //     }
-    //
-    //     //add customer to object to the array
-    //     customers.push(customer);
-    //     getAllCustomers();
-    //     console.log(customers);
-    // });
-    //
-    //
-    // //refactor get_all with jQuery
-    //
-    //
-    // function getAllCustomers(){
-    //     //remove all the child elements of tbody before adding the table rows
-    //     $("#tbody").empty();
-    //     for (const customer of customers) {
-    //
-    //         let row= `<tr>
-    //             <td>${customer.id}</td>
-    //             <td>${customer.name}</td>
-    //             <td>${customer.address}</td>
-    //             <td>${customer.salary}</td>
-    //         </tr>`;
-    //
-    //         $("#cusTable").append(row)
-    //
-    //         bindEvents();
-    //
-    //         $(#cusTable tr).dblclick(function (){
-    //             $(this).closest("tr").remove();      // Finds the closest row <t
-    //         });
-    //     }
-    //
-    // }
-    //
-    //
-    // //////////////////////////////////////////////////////////////////////////////////
-    //
-    //
-    // $(#cusTable tr).dblclick(function (){
-    //     $(this).closest("tr").remove();      // Finds the closest row <t
-    // });
-    //
-    //
-    // function bindEvents(){
-    //     $('#cusTable tr').click(function () {
-    //         console.log(this);//tr -> this will return tr html element
-    //         console.log($(this));//jquery ob //if we want to access jQuery method we have to convert it to a jquery object
-    //         console.log($(this).text()); // now here it will return all the text of tr
-    //
-    //         let id = $(this).children(':nth-child(1)').text();
-    //         let name = $(this).children(':nth-child(2)').text();
-    //         let address = $(this).children(':nth-child(3)').text();
-    //         let salary = $(this).children(':nth-child(4)').text();
-    //
-    //         setTextFieldValues(id,name,address,salary);
-    //     });
-    // }
-    // //check this out.?
-    //
-    //
-    // function setTextFieldValues(id, name, address, salary) {
-    //     $("#txtID").val(id);
-    //     $("#txtName").val(name);
-    //     $("#txtAddress").val(address);
-    //     $("#txtTP").val(salary);
-    // }
-
-
-</script>
-
-
-<script src="../../../assets/Boostrap/css/bootstrap.css"></script>
-<script src="../../../assets/Boostrap/js/bootstrap.js"></script>
+<script src="../CAL/assets/bootstrap-5.3.2-dist/css/bootstrap.css"></script>
+<script src="../CAL/assets/bootstrap-5.3.2-dist/js/bootstrap.js"></script>
 </body>
 </html>

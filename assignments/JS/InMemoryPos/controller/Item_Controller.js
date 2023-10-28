@@ -143,7 +143,7 @@ function itemGetAll(){
         var unitePrice = itemDetails[i].unitePrice;
         var qty = itemDetails[i].qty;
 
-        let row = <tr><td>${itemCode}</td><td>${itemName}</td><td>${unitePrice }</td><td>${qty}</td></tr>
+        let row = `<tr><td>${itemCode}</td><td>${itemName}</td><td>${unitePrice }</td><td>${qty}</td></tr>`
 
         $('#itemTblBody').append(row);
 
@@ -249,3 +249,14 @@ function setItemTextFieldValues(itemCode, itemName, unitePrice, qty) {
     $("#unitePriceTxt").val(unitePrice);
     $("#itemQtyTxt").val(qty);
 }
+
+
+
+
+
+
+
+
+
+
+

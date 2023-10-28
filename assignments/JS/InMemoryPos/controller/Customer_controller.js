@@ -153,7 +153,7 @@ function getAll(){
         var address = CustomerDetails[i].caddress;
         var salary = CustomerDetails[i].csalary;
 
-        let row = <tr><td>${id}</td><td>${name}</td><td>${address}</td><td>${salary}</td></tr>
+        let row = `<tr><td>${id}</td><td>${name}</td><td>${address}</td><td>${salary}</td></tr>`
 
         $('#tblBody').append(row);
 
