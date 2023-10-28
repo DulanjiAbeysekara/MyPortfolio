@@ -2011,7 +2011,8 @@ arti20 {
     }
     .pic10 {
         width: 100px;
-        height: 100px
+        height: 100px;
+        display: none;
     }
     .picture2 {
         height: 75px;
