@@ -6,34 +6,33 @@
     <meta content="width=device-width initial-scale=1" name="viewport">
     <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="assests/pos.css">
-    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="8.0.1_normalize.css">
 
 
 
 </head>
-<body>
+<body style="background: url(assests/img2.jpg); ">
 
 <header >
-    <nav class="navbar navbar-expand-lg  bg-primary-subtle"  >
+    <nav class="navbar navbar-expand-lg  bg-dark"  >
         <div class="container-fluid"  >
-            <a class="navbar-brand" href="#">THOGAKADE</a>
+            <a class="navbar-brand text-white "  href="#">THOGAKADE</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active"   id="home" href="#">Home</a>
+                        <a class="nav-link active text-white "   id="home" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active"  id="custeR" aria-current="page" href="#">Customer</a>
+                        <a class="nav-link active text-white "  id="custeR" aria-current="page" href="#">Customer</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active" id="items" href="#">Item</a>
+                        <a class="nav-link active text-white " id="items" href="#">Item</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active" id="placeOders" href="#">Order_Details</a>
+                        <a class="nav-link active text-white " id="placeOders" href="#">Order_Details</a>
                     </li>
 
                 </ul>
@@ -42,30 +41,81 @@
     </nav>
 </header>
 
+<!---------------------home page----------------------------------->
+<!--<main class="container-fluid " id="dashboardContent">-->
+<!--    <div class="jumbotron pt-md-5">-->
+<!--        <div id="home-tiles">-->
+<!--            <div class="row ">-->
+<!--                <div class="col-lg-6 col-xl-3 mb-2">-->
+<!--                    <div class="card">-->
+<!--                        <div class="card-header bg-danger font-weight-bolder">Customers</div>-->
+<!--                        <div class="card-body">-->
+<!--                            <div class="dash-tile-icon"><i class="fas fa-users"></i></div>-->
+<!--                            <div class="dash-tile-text text-right text-black-50"><h2>93</h2></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-6 col-xl-3 mb-2">-->
+<!--                    <div class="card">-->
+<!--                        <div class="card-header bg-danger font-weight-bolder">Items</div>-->
+<!--                        <div class="card-body">-->
+<!--                            <div class="dash-tile-icon"><i class="fas fa-cubes"></i></div>-->
+<!--                            <div class="dash-tile-text text-right text-black-50"><h2>101</h2></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-6 col-xl-3 mb-2">-->
+<!--                    <div class="card">-->
+<!--                        <div class="card-header bg-danger font-weight-bolder">My Orders</div>-->
+<!--                        <div class="card-body">-->
+<!--                            <div class="dash-tile-icon"><i class="fas fa-shopping-cart"></i></div>-->
+<!--                            <div class="dash-tile-text text-right text-black-50"><h2>999</h2></div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="col-lg-6 col-xl-3 mb-2">-->
+<!--                    <div class="card">-->
+<!--                        <div class="card-header bg-danger font-weight-bolder">Settings</div>-->
+<!--                        <div class="card-body">-->
+<!--                            <div class="dash-tile-icon" style=""><i class="fas fa-cogs"></i></div>-->
+<!--                            <div class="dash-tile-text text-right text-black-50">-->
+<!--                                <h2>-->
+<!--                                    <button class="btn btn-danger">new</button>-->
+<!--                                </h2>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--</main>-->
+
 <!--------------------------------------------------------------->
 
-<main class="container-fluid"  id="customerN">
+<main class="container-fluid" id="customerN">
     <section class="row">
         <div class="col-12 col-lg-4">
-            <h1 class="topic">Customer Registration</h1>
+            <h1 class="topic text-white">Customer Registration</h1>
 
             <div class="form-group position-absolute" style="top: 28%;">
-                <label for="customerIdText" style="position: absolute; bottom: 90%; left:5%; color: #126180; ">Customer ID  :</label>
+                <label for="customerIdText" style="position: absolute; bottom: 90%; left:5%; color: #ffffff; ">Customer ID  :</label>
                 <input class="form-control" style="width: 350px;" id="customerIdText" required type="text">
                 <span class="control-error" id="lblcusid"></span>
             </div>
             <div class="form-group position-absolute" style="top:40%;">
-                <label for="customerNameText" style="position: absolute; bottom: 90%; left:5%; color: #126180; ">Customer Name  :</label>
+                <label for="customerNameText" style="position: absolute; bottom: 90%; left:5%; color: #ffff; ">Customer Name  :</label>
                 <input class="form-control" style="width: 350px;" id="customerNameText" type="text">
                 <span class="control-error" id="lblcusname"></span>
             </div>
             <div class="form-group position-absolute" style="top:52%;">
-                <label for="customerAddressText" style="color: #126180; position:absolute; bottom:90%; left:5%;">Customer Address  :</label>
+                <label for="customerAddressText" style="color: #ffff; position:absolute; bottom:90%; left:5%;">Customer Address  :</label>
                 <input class="form-control " style="width: 350px;" id="customerAddressText" type="text">
                 <span class="control-error" id="lblcusaddress"></span>
             </div>
             <div class="form-group position-absolute" style="top: 65%;">
-                <label for="customerSalaryText" style="color: #126180; bottom: 95%;  left:5%; position: absolute;"> Contact Number : </label>
+                <label for="customerSalaryText" style="color: #ffff; bottom: 95%;  left:5%; position: absolute;"> Salary : </label>
                 <input class="form-control" style="width: 350px;" id="customerSalaryText" type="text">
                 <span class="control-error" id="lblcussalary"></span>
             </div>
@@ -99,31 +149,32 @@
     </section>
 </main>
 
+
 <!-----------------------item------------------------------------->
 
 
 <main class="container-fluid" id="itemN">
     <section class="row">
         <div class="col-12 col-lg-4">
-            <h1 class="topic">Item</h1>
+            <h1 class="topic text-white">Item</h1>
 
             <div class="form-group position-absolute" style="top: 28%;">
-                <label for="itemIdText" style="position: absolute; bottom: 90%; left:5%; color: #126180; ">Item ID  :</label>
+                <label for="itemIdText" style="position: absolute; bottom: 90%; left:5%; color: #ffff; ">Item ID  :</label>
                 <input class="form-control" style="width: 350px;" id="itemIdText" required type="text">
                 <span class="control-error" id="lblitemid"></span>
             </div>
             <div class="form-group position-absolute" style="top:40%;">
-                <label for="itemNameText" style="position: absolute; bottom: 90%; left:5%; color: #126180; ">Item Name  :</label>
+                <label for="itemNameText" style="position: absolute; bottom: 90%; left:5%; color: #ffff; ">Item Name  :</label>
                 <input class="form-control" style="width: 350px;" id="itemNameText" type="text">
                 <span class="control-error" id="lblitemname"></span>
             </div>
             <div class="form-group position-absolute" style="top:52%;">
-                <label for="itemQtyText" style="color: #126180; position:absolute; bottom:90%; left:5%;">Item Qty  :</label>
+                <label for="itemQtyText" style="color: #ffff; position:absolute; bottom:90%; left:5%;">Item Qty  :</label>
                 <input class="form-control " style="width: 350px;" id="itemQtyText" type="text">
                 <span class="control-error" id="lblitemqty"></span>
             </div>
             <div class="form-group position-absolute" style="top: 65%;">
-                <label for="itemPriceText" style="color: #126180; bottom: 95%;  left:5%; position: absolute;">Item Price : </label>
+                <label for="itemPriceText" style="color: #ffffff; bottom: 95%;  left:5%; position: absolute;">Item Price : </label>
                 <input class="form-control" style="width: 350px;" id="itemPriceText" type="text">
                 <span class="control-error" id="lblitemprice"></span>
             </div>
@@ -160,7 +211,8 @@
 <!------------------------------------order details------------------------------------->
 
 
-<section class="container-fluid mt-5"  id="plceOderN">
+<!--<img src="../../../download .jpg" height="183" width="275"/>-->
+<section class="container-fluid mt-5" id="plceOderN">
     <section class="row">
 
         <section class="col-12 col-sm-3 col-md-3 col-lg-4 ">
@@ -282,8 +334,8 @@
                         <input type="email" class="form-control" id="itemOrderQtyOrderTxtOrderPage" placeholder="Order_Quantity">
                     </div>
                 </div>
-                <button type="button" class="btn btn-info  position-absolut " style="width: 200px; top:75%;" id="btnAddItemOrder">Add_Items</button>
-                <button type="button" class="btn btn btn-danger position-absolute" style="width: 200px; top:66%; left: 50%;" id="allOders">All Order</button>
+                <button type="button" class="btn btn-info  position-absolut " style=" position:absolute; width: 200px; top:75%; left: 35%;" id="btnAddItemOrder">Add_Items</button>
+                <button type="button" class="btn btn btn-danger position-absolute" style=" position:absolute; width: 200px; top:75%; left: 50%;" id="allOders">All Order</button>
 
             </div>
         </section>
@@ -406,6 +458,6 @@
 <script src="controller/validation/itemValidation.js"></script>
 <script src="controller/Order_Details_Controller.js"></script>
 <script src="controller/Home_Page_Controller.js"></script>
-
+<!--<script src="../../Jquery/prettify.js"></script>-->
 </body>
 </html>

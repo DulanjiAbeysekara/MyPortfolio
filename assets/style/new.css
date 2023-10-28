@@ -4370,7 +4370,7 @@ arti20 {
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 77px;
+        left: 55px;
         bottom: 79%;
     }
     .circle1 {
@@ -4379,8 +4379,8 @@ arti20 {
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 76px;
-        bottom: 47%;
+        left: 55px;
+        bottom: 53%;
     }
     .circle2 {
         position: absolute;
@@ -4388,8 +4388,8 @@ arti20 {
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 76px;
-        bottom: 13%;
+        left: 55px;
+        bottom: 27%;
     }
     .school {
         background-color: white;
@@ -4414,8 +4414,8 @@ arti20 {
         height: 85px;
         font-size: 16px;
         bottom: 0;
-        top: 52%;
-        left: -14%;
+        top: 47%;
+        left: -23%;
         /* margin: auto; */
         position: relative;
         border: 2px solid #eaeaea;
@@ -4432,8 +4432,8 @@ arti20 {
         font-size: 16px;
         right: 0;
         bottom: 0;
-        top: 82%;
-        left: -395px;
+        top: 406px;
+        left: 83px;
         border-radius: 10px;
         /* margin: auto; */
         position: relative;
@@ -4457,7 +4457,7 @@ arti20 {
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 549px;
+        left: 54.5%;
         bottom: 70%;
         top: 35%;
     }
@@ -4469,7 +4469,7 @@ arti20 {
         right: -3%;
         /* bottom: -2%; */
         top: 19%;
-        left: 58%;
+        left: 25%;
         border-radius: 10px;
         /* margin: auto; */
         position: relative;
@@ -4484,8 +4484,8 @@ arti20 {
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 548px;
-        top: 64%;
+        left: 54.5%;
+        top: 60%;
     }
     .ijse {
         background-color: white;
@@ -4493,8 +4493,8 @@ arti20 {
         height: 85px;
         font-size: 16px;
         right: 0;
-        top: 48%;
-        left: 32%;
+        top: 35%;
+        left: 59%;
         /* bottom: -10%; */
         border-radius: 10px;
         /* margin: auto; */
@@ -4624,7 +4624,7 @@ arti20 {
         border-radius: 15%;
         position: absolute;
         bottom: 45%;
-        left: 40%;
+        left: 37%;
         /* transition-duration: 3s; */
         /* transition-property: all; */
         /* transition: 3s; */
@@ -4736,9 +4736,11 @@ arti20 {
         box-shadow: 0 0 1rem #D31A38;
         overflow: hidden;
         display: flex;
-        top: 50%;
+        top: 114%;
         left: 12%;
     }
+
+
     .arti2 {
         top: 86%;
         position: absolute;
@@ -4798,7 +4800,7 @@ arti20 {
         justify-content: center;
         align-items: center;
         background-color: #373030;
-        left: 70%;
+        left: 68%;
         bottom: 39%;
         top: 22%;
         border-radius: 10%;
@@ -4824,7 +4826,7 @@ arti20 {
         justify-content: center;
         align-items: center;
         background-color: #373030;
-        left: 22%;
+        left: 14%;
         /* bottom: -25%; */
         top: 22%;
         border-radius: 10%;
@@ -4846,7 +4848,7 @@ arti20 {
         justify-content: center;
         align-items: center;
         background-color: #373030;
-        left: -26%;
+        left: -42%;
         bottom: -22%;
         border-radius: 10%;
         overflow: hidden;
@@ -4857,7 +4859,7 @@ arti20 {
         position: absolute;
         /* right: 35%; */
         top: 30%;
-        left: 159px;
+        left: 109px;
         bottom: 70%;
         box-shadow: 0 0 5px 1px rgba(0, 0, 0, .1);
         transition: 1s;
@@ -4908,7 +4910,7 @@ arti20 {
         border: 4px solid #D31A38;
         position: absolute;
         border-radius: 15px;
-        left: 45%;
+        left: 12%;
         top: 117px;
         transition-duration: 6s;
         transition-property: all;
@@ -4933,7 +4935,7 @@ arti20 {
         font-family: "Lucida Sans";
         position: absolute;
         top: 81%;
-        left: 44%;
+        left: 9%;
     }
     .arti20 {
         color: white;

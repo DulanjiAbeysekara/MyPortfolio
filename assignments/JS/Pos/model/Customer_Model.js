@@ -1,5 +1,3 @@
-
-
 var customer = {
     cid : "",
     cname : "",
