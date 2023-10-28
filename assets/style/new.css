@@ -4199,7 +4199,7 @@ arti20 {
         height: 200px;
         width: 250px;
         background-color: #242124;
-        left: 14%;
+        left: 18%;
         top: 15%;
         color: white;
         transition-duration: 3s;
@@ -4212,7 +4212,7 @@ arti20 {
         height: 200px;
         width: 250px;
         background-color: #242124;
-        left: 51%;
+        left: 56%;
         top: 15%;
         color: white;
         transition-duration: 3s;
@@ -4357,7 +4357,7 @@ arti20 {
     /*}*/
     .line1 {
         position: absolute;
-        height: 372px;
+        height: 323px;
         width: 2px;
         background-color: gray;
         /* bottom: 8%; */
@@ -4370,7 +4370,7 @@ arti20 {
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 55px;
+        left: 76px;
         bottom: 79%;
     }
     .circle1 {
@@ -4379,7 +4379,7 @@ arti20 {
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 55px;
+        left: 76px;
         bottom: 53%;
     }
     .circle2 {
@@ -4388,8 +4388,8 @@ arti20 {
         width: 12px;
         background-color: #D31A38;
         border-radius: 50%;
-        left: 55px;
-        bottom: 27%;
+        left: 76px;
+        bottom: 22%;
     }
     .school {
         background-color: white;
@@ -4415,7 +4415,7 @@ arti20 {
         font-size: 16px;
         bottom: 0;
         top: 47%;
-        left: -23%;
+        left: -14%;
         /* margin: auto; */
         position: relative;
         border: 2px solid #eaeaea;
@@ -4433,7 +4433,7 @@ arti20 {
         right: 0;
         bottom: 0;
         top: 406px;
-        left: 83px;
+        left: -398px;
         border-radius: 10px;
         /* margin: auto; */
         position: relative;
@@ -4444,7 +4444,7 @@ arti20 {
     }
     .line {
         position: absolute;
-        height: 390px;
+        height: 323px;
         width: 2px;
         background-color: gray;
         /* bottom: 8%; */
@@ -4469,7 +4469,7 @@ arti20 {
         right: -3%;
         /* bottom: -2%; */
         top: 19%;
-        left: 25%;
+        left: 58%;
         border-radius: 10px;
         /* margin: auto; */
         position: relative;
@@ -4493,8 +4493,8 @@ arti20 {
         height: 85px;
         font-size: 16px;
         right: 0;
-        top: 35%;
-        left: 59%;
+        top: 42%;
+        left: 32%;
         /* bottom: -10%; */
         border-radius: 10px;
         /* margin: auto; */
@@ -4609,12 +4609,12 @@ arti20 {
         position: absolute;
         right: 70%;
         bottom: 45%;
-        /* transition-duration: 3s; */
-        /* transition-property: all; */
-        /* transition: 3s; */
+         transition-duration: 3s;
+         transition-property: all;
+         transition: 3s;
     }
     .assignment01:hover{
-        display: none;
+        /*display: none;*/
     }
 
     .assignment02 {
@@ -4624,13 +4624,13 @@ arti20 {
         border-radius: 15%;
         position: absolute;
         bottom: 45%;
-        left: 37%;
-        /* transition-duration: 3s; */
-        /* transition-property: all; */
-        /* transition: 3s; */
+        left: 41%;
+         transition-duration: 3s;
+         transition-property: all;
+         transition: 3s;
     }
     .assignment02:hover{
-        display: none;
+        /*display: none;*/
     }
     .assignment03 {
         width: 190px;
@@ -4639,15 +4639,15 @@ arti20 {
         border-radius: 15%;
         position: relative;
         /* bottom: 35%; */
-        top: 26%;
-        left: 69%;
-        /* transition-duration: 3s; */
-        /* transition-property: all; */
-        /* transition: 3s; */
+        top: 27%;
+        left: 70%;
+         transition-duration: 3s;
+         transition-property: all;
+         transition: 3s;
         display: inline-block;
     }
     .assignment03:hover{
-        display: none;
+        /*display: none;*/
     }
 
     .arti1 {
@@ -4736,10 +4736,9 @@ arti20 {
         box-shadow: 0 0 1rem #D31A38;
         overflow: hidden;
         display: flex;
-        top: 114%;
+        top: 52%;
         left: 12%;
     }
-
 
     .arti2 {
         top: 86%;
@@ -4762,8 +4761,8 @@ arti20 {
         font-weight: 300;
         padding: 0 18px;
         transition: 0.5s;
-        left: 76%;
-        top: 69%;
+        left: 80%;
+        top: 72%;
         border-radius: 8px;
     }
     .project-container {
@@ -4810,7 +4809,7 @@ arti20 {
     }
     .c1 {
         position: absolute;
-        left: 75%;
+        left: 74%;
         bottom: 57%;
         box-shadow: 0 0 5px 1px rgba(0,0,0,.1);
         transition: 1s;
@@ -4826,7 +4825,7 @@ arti20 {
         justify-content: center;
         align-items: center;
         background-color: #373030;
-        left: 14%;
+        left: 22%;
         /* bottom: -25%; */
         top: 22%;
         border-radius: 10%;
@@ -4848,7 +4847,7 @@ arti20 {
         justify-content: center;
         align-items: center;
         background-color: #373030;
-        left: -42%;
+        left: -24%;
         bottom: -22%;
         border-radius: 10%;
         overflow: hidden;
@@ -4859,7 +4858,7 @@ arti20 {
         position: absolute;
         /* right: 35%; */
         top: 30%;
-        left: 109px;
+        left: 179px;
         bottom: 70%;
         box-shadow: 0 0 5px 1px rgba(0, 0, 0, .1);
         transition: 1s;
@@ -4910,8 +4909,8 @@ arti20 {
         border: 4px solid #D31A38;
         position: absolute;
         border-radius: 15px;
-        left: 12%;
-        top: 117px;
+        left: 44%;
+        top: 129px;
         transition-duration: 6s;
         transition-property: all;
     }
@@ -4934,8 +4933,8 @@ arti20 {
         font-size: 13px;
         font-family: "Lucida Sans";
         position: absolute;
-        top: 81%;
-        left: 9%;
+        top: 87%;
+        left: 44%;
     }
     .arti20 {
         color: white;
@@ -4943,8 +4942,8 @@ arti20 {
         font-family: "Lucida Sans";
         position: absolute;
         top: 98%;
-        top: 426px;
-        right: 69%;
+        top: 433px;
+        right: 61%;
     }
 
 
