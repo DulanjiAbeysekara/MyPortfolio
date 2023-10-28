@@ -77,11 +77,6 @@ $("#customerSalaryText").keydown(function (e){
 
 
 
-
-
-
-
-
 function save(){
 
     if(regexId.test($("#customerIdText").val()) && regexName.test($("#customerNameText").val()) && regexAddress.test($("#customerAddress").val()) && regexSalary.test($("#customerSalaryText").val())){
@@ -139,8 +134,6 @@ btnSave.click(function(){
     getAll();
 
 });
-
-
 
 function getAll(){
 

@@ -14,11 +14,35 @@
     <link rel="stylesheet" href="assets/style/new.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assignments/CSS/css_framework/8.0.1_normalize.css">
+
     <style>
 
+        #loader {
+            width: 100vw;
+            height: 100vh;
+            border: 1px solid white;
+            background: white;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 100000;
+        }
 
-
-
+        #loader > div {
+            width: 100px;
+            height: 100px;
+            background: url("assets/image/Spinner-1s-200px.gif");
+            background-size: cover;
+            background-position: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            margin: auto;
+        }
     </style>
 
 
@@ -400,7 +424,9 @@
 
 </main>
 
-
+<section class="mouse">
+    <div class="custom-cursor"></div>
+</section>
     
 </body>
 
